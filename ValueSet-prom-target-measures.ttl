@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "PROM Target Measure Scores"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-01-25T16:46:38+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-01-29T15:48:46+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International / Patient Care"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 International / Patient Care" ] ;

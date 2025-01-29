@@ -66,8 +66,8 @@
       "uses" : {
       },
       "ValueSet-goal-attainment-scaling-score.html" : "Goal Attainment Scaling (GAS) Score",
-      "ValueSet-prom-target-measures.html" : "PROM Target Measure Scores",
-      "ValueSet-gas-score-answers.html" : "Follow-Up GAS Score Answers"
+      "ValueSet-gas-score-answers.html" : "Follow-Up GAS Score Answers",
+      "ValueSet-prom-target-measures.html" : "PROM Target Measure Scores"
     },
     {
       "url" : "http://snomed.info/sct",

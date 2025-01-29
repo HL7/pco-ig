@@ -10,8 +10,8 @@
       "systems" : ["http://loinc.org"],
       "uses" : {
       },
-      "StructureDefinition-pco-goal-attainment-scaling.html" : "Goal Attainment Scaling Extension",
-      "StructureDefinition-pco-gas-score-observation.html" : "Goal Attainment Scaling (GAS) score observation"
+      "StructureDefinition-pco-gas-score-observation.html" : "Goal Attainment Scaling (GAS) score observation",
+      "StructureDefinition-pco-goal-attainment-scaling.html" : "Goal Attainment Scaling Extension"
     },
     {
       "url" : "http://hl7.org/fhir/us/pco/ValueSet/goal-attainment-scaling-score",
@@ -73,10 +73,10 @@
       "systems" : ["http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts"],
       "uses" : {
       },
-      "StructureDefinition-pco-what-matters-assessment.html" : "What Matters Assessment",
+      "StructureDefinition-pco-what-matters-priority.html" : "What Matters Priority",
       "StructureDefinition-pco-care-plan.html" : "Person-Centered Care Plan",
       "StructureDefinition-pco-goal-profile.html" : "Person-Centered Goal",
-      "StructureDefinition-pco-what-matters-priority.html" : "What Matters Priority"
+      "StructureDefinition-pco-what-matters-assessment.html" : "What Matters Assessment"
     },
     {
       "url" : "http://hl7.org/fhir/us/pco/ValueSet/pco-goal-barrier-types-example-vs",
@@ -112,8 +112,8 @@
       "systems" : ["http://loinc.org"],
       "uses" : {
       },
-      "StructureDefinition-pco-prom-score-observation.html" : "Patient-Reported Outcome Measure (PROM) score observation",
-      "StructureDefinition-pco-prom-goal-profile.html" : "Person-Centered PROM Goal"
+      "StructureDefinition-pco-prom-goal-profile.html" : "Person-Centered PROM Goal",
+      "StructureDefinition-pco-prom-score-observation.html" : "Patient-Reported Outcome Measure (PROM) score observation"
     },
     {
       "url" : "http://hl7.org/fhir/us/pco/ValueSet/readiness-assessment-codes",
@@ -141,8 +141,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-pco-what-matters-assessment.html" : "What Matters Assessment",
-      "StructureDefinition-pco-what-matters-priority.html" : "What Matters Priority"
+      "StructureDefinition-pco-what-matters-priority.html" : "What Matters Priority",
+      "StructureDefinition-pco-what-matters-assessment.html" : "What Matters Assessment"
     }
   ]
 }
