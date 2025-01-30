@@ -59,7 +59,7 @@ Title: "Readiness Assessment panel"
 Description: "Readiness assessment with two members"
 Usage: #example
 * status = #final 
-* code = ReadinessConcepts#readiness-assessent "Readiness assessment"
+* code = ReadinessConcepts#readiness-assessment "Readiness assessment"
 * focus = Reference(pcoGoalWalkDogExample)
 * subject = Reference(pcoPatientJones)
 * performer = Reference(pcoPatientJones)
