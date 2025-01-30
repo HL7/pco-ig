@@ -2,7 +2,7 @@
   "resourceType": "Observation",
   "id": "C1435E11-9747-4533-93DA-2183536DD4BC",
   "meta": {
-    "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation" ]
+    "profile": [ "http://hl7.org/fhir/us/pco/StructureDefinition/pco-readiness-assessment" ]
   },
   "status": "final",
   "category": [ {
@@ -14,11 +14,10 @@
   } ],
   "code": {
     "coding": [ {
-      "system": "http://mtnlotus.com/fhir/mlw/CodeSystem/goal-readiness",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts",
       "code": "confidence",
-      "display": "Confidence (How)"
-    } ],
-    "text": "Confidence (How)"
+      "display": "Confidence to change"
+    } ]
   },
   "subject": {
     "reference": "Patient/3D4E56EA-2506-47D4-9753-2E6384A547F1",
@@ -28,10 +27,12 @@
     "reference": "Goal/0E089CD9-5B4A-43B3-8900-E17D81AC0763",
     "display": "Resistance training 3x per week"
   } ],
-  "effectiveDateTime": "2024-10-01T09:49:10.299582958-07:00",
+  "effectiveDateTime": "2024-10-01T09:49:10-07:00",
   "performer": [ {
     "reference": "Patient/3D4E56EA-2506-47D4-9753-2E6384A547F1",
     "display": "Camila Lopez"
   } ],
-  "valueInteger": 6
+  "valueQuantity": {
+    "value": 6
+  }
 }

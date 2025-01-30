@@ -13,7 +13,7 @@
     } ]
   }, {
     "coding": [ {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/wellbeing-concepts",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts",
       "code": "what-matters",
       "display": "What Matters"
     } ]
@@ -25,7 +25,7 @@
     "reference": "Patient/3D4E56EA-2506-47D4-9753-2E6384A547F1",
     "display": "Camila Lopez"
   },
-  "effectiveDateTime": "2024-07-11T15:48:33.562185049-07:00",
+  "effectiveDateTime": "2024-07-11T15:48:33-07:00",
   "performer": [ {
     "reference": "Patient/3D4E56EA-2506-47D4-9753-2E6384A547F1",
     "display": "Camila Lopez"

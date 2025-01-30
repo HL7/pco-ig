@@ -24,13 +24,13 @@
     "repeat": {
       "boundsPeriod": {
         "start": "2024-10-01T00:00:00-07:00",
-        "end": "2024-10-15T23:59:59-07:00"
+        "end": "2025-01-20T18:41:02-07:00"
       },
       "frequency": 3,
       "periodUnit": "wk"
     }
   },
-  "authoredOn": "2024-10-01T09:49:15.534083008-07:00",
+  "authoredOn": "2024-10-01T09:49:15-07:00",
   "requester": {
     "reference": "Patient/3D4E56EA-2506-47D4-9753-2E6384A547F1",
     "display": "Camila Lopez"

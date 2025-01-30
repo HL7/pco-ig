@@ -1,8 +1,8 @@
 {
   "resourceType": "Observation",
-  "id": "77E52BAD-FCC6-411A-BBA4-812D4EE5C657",
+  "id": "D1B6DC74-2AB7-4925-9D60-2AF47EACC7BA",
   "meta": {
-    "profile": [ "http://hl7.org/fhir/us/pco/StructureDefinition/pco-readiness-assessment" ]
+    "profile": [ "http://hl7.org/fhir/us/pco/StructureDefinition/pco-what-matters-priority" ]
   },
   "status": "final",
   "category": [ {
@@ -11,28 +11,28 @@
       "code": "survey",
       "display": "Survey"
     } ]
+  }, {
+    "coding": [ {
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts",
+      "code": "what-matters",
+      "display": "What Matters"
+    } ]
   } ],
   "code": {
     "coding": [ {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts",
-      "code": "importance",
-      "display": "Importance of change"
+      "system": "http://mtnlotus.com/fhir/mlw/CodeSystem/wellbeing-concepts",
+      "code": "body",
+      "display": "Healthy Body"
     } ]
   },
   "subject": {
     "reference": "Patient/3D4E56EA-2506-47D4-9753-2E6384A547F1",
     "display": "Camila Lopez"
   },
-  "focus": [ {
-    "reference": "Goal/0E089CD9-5B4A-43B3-8900-E17D81AC0763",
-    "display": "Resistance training 3x per week"
-  } ],
-  "effectiveDateTime": "2024-10-01T09:49:10-07:00",
+  "effectiveDateTime": "2024-10-01T09:47:53-07:00",
   "performer": [ {
     "reference": "Patient/3D4E56EA-2506-47D4-9753-2E6384A547F1",
     "display": "Camila Lopez"
   } ],
-  "valueQuantity": {
-    "value": 10
-  }
+  "valueBoolean": true
 }

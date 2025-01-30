@@ -15,9 +15,9 @@
   },
   "category": [ {
     "coding": [ {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/wellbeing-concepts",
-      "code": "what-matters",
-      "display": "What Matters"
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts",
+      "code": "person-centered",
+      "display": "Person-Centered"
     } ]
   }, {
     "coding": [ {

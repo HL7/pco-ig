@@ -27,7 +27,7 @@
     "reference": "Goal/DEB35CAD-D5B4-4E29-8A03-23958A04FA94",
     "display": "Walk my dog 5 times per week in the park"
   } ],
-  "effectiveDateTime": "2024-07-12T12:42:35.773637056-07:00",
+  "effectiveDateTime": "2024-07-12T12:42:35-07:00",
   "performer": [ {
     "reference": "Patient/3D4E56EA-2506-47D4-9753-2E6384A547F1",
     "display": "Camila Lopez"

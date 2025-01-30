@@ -2,7 +2,7 @@
   "resourceType": "Observation",
   "id": "0CC1F4BA-BF7A-49CD-91EA-47CCFB190823",
   "meta": {
-    "profile": [ "http://hl7.org/fhir/us/pco/StructureDefinition/pco-what-matters-priority" ]
+    "profile": [ "http://hl7.org/fhir/us/pco/StructureDefinition/pco-what-matters-assessment" ]
   },
   "status": "final",
   "category": [ {
@@ -13,7 +13,7 @@
     } ]
   }, {
     "coding": [ {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/wellbeing-concepts",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts",
       "code": "what-matters",
       "display": "What Matters"
     } ]
@@ -29,10 +29,31 @@
     "reference": "Patient/3D4E56EA-2506-47D4-9753-2E6384A547F1",
     "display": "Camila Lopez"
   },
-  "effectiveDateTime": "2024-10-01T09:47:53.590994954-07:00",
+  "effectiveDateTime": "2024-10-01T09:47:53-07:00",
   "performer": [ {
     "reference": "Patient/3D4E56EA-2506-47D4-9753-2E6384A547F1",
     "display": "Camila Lopez"
   } ],
-  "valueBoolean": true
+  "derivedFrom": [ {
+    "display": "My Lotus Lifestyle"
+  } ],
+  "component": [ {
+    "code": {
+      "coding": [ {
+        "system": "http://hl7.org/fhir/us/pco/CodeSystem/wellbeing-concepts",
+        "code": "now-rating",
+        "display": "Now Rating"
+      } ]
+    },
+    "valueInteger": 4
+  }, {
+    "code": {
+      "coding": [ {
+        "system": "http://hl7.org/fhir/us/pco/CodeSystem/wellbeing-concepts",
+        "code": "future-rating",
+        "display": "Future Rating"
+      } ]
+    },
+    "valueInteger": 8
+  } ]
 }

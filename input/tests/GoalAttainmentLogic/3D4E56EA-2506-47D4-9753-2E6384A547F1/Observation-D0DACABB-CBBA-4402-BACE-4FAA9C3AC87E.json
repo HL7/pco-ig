@@ -1,8 +1,8 @@
 {
   "resourceType": "Observation",
-  "id": "63F4B077-B025-46B6-AAA7-B9F35E8A953C",
+  "id": "D0DACABB-CBBA-4402-BACE-4FAA9C3AC87E",
   "meta": {
-    "profile": [ "http://hl7.org/fhir/us/pco/StructureDefinition/pco-what-matters-assessment" ]
+    "profile": [ "http://hl7.org/fhir/us/pco/StructureDefinition/pco-what-matters-priority" ]
   },
   "status": "final",
   "category": [ {
@@ -19,28 +19,16 @@
     } ]
   } ],
   "code": {
-    "text": "Access to Services & Supports"
+    "text": "Physical Function"
   },
   "subject": {
     "reference": "Patient/3D4E56EA-2506-47D4-9753-2E6384A547F1",
     "display": "Camila Lopez"
   },
-  "effectiveDateTime": "2024-07-11T15:49:24-07:00",
+  "effectiveDateTime": "2024-05-17T20:34:25-07:00",
   "performer": [ {
     "reference": "Patient/3D4E56EA-2506-47D4-9753-2E6384A547F1",
     "display": "Camila Lopez"
   } ],
-  "derivedFrom": [ {
-    "display": "NCQA Health Outcomes"
-  } ],
-  "component": [ {
-    "code": {
-      "coding": [ {
-        "system": "http://hl7.org/fhir/us/pco/CodeSystem/wellbeing-concepts",
-        "code": "future-rating",
-        "display": "Future Rating"
-      } ]
-    },
-    "valueInteger": 8
-  } ]
+  "valueBoolean": true
 }
