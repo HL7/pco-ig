@@ -28,7 +28,7 @@ Description: "Code system to types of readiness for change."
 * ^experimental = false
 * ^status = #active
 * insert PCOCodeSystemPublisher
-* #readiness-assessent "Readiness assessment"
+* #readiness-assessment "Readiness assessment"
     "Used as a panel code for readiness scales"
 * #importance "Importance of change"
 * #confidence "Confidence to change"
