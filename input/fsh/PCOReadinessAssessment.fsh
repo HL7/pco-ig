@@ -12,7 +12,7 @@ Description: "Assessment of a person's readiness for change including importance
 
 * value[x] only CodeableConcept
 * valueCodeableConcept from NumericRatingScaleFrom0-10 (required)
-  * ^short = "A scale value ranging from 1 to 10"
+  * ^short = "A scale value ranging from 0 to 10"
 * hasMember 0..* MS
 * hasMember only Reference(PCOReadinessAssessmentProfile)
   * ^short = "Reference to panel members"
