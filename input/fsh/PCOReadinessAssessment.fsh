@@ -10,9 +10,9 @@ Description: "Assessment of a person's readiness for change including importance
 * focus only Reference(Goal or Observation)
   * ^short = "The goal or observation that is assessed"
 
-* value[x] 0..1 MS
-* value[x] only Quantity
-  * ^short = "A scale value, e.g. ranging from 1 to 10"
+* value[x] only CodeableConcept
+* valueCodeableConcept from NumericRatingScaleFrom0-10 (required)
+  * ^short = "A scale value ranging from 1 to 10"
 * hasMember 0..* MS
 * hasMember only Reference(PCOReadinessAssessmentProfile)
   * ^short = "Reference to panel members"
@@ -29,7 +29,7 @@ Description: "Code system to types of readiness for change."
 * ^status = #active
 * insert PCOCodeSystemPublisher
 * #readiness-assessment "Readiness assessment"
-    "Used as a panel code for readiness scales"
+    "Panel code for readiness scales"
 * #importance "Importance of change"
 * #confidence "Confidence to change"
 

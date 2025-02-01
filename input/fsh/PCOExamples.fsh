@@ -78,7 +78,7 @@ Usage: #example
 * subject = Reference(pcoPatientJones)
 * performer = Reference(pcoPatientJones)
 * effectiveDateTime = "2024-04-10T15:05:00Z"
-* valueQuantity.value = 8
+* valueCodeableConcept = $LNC#LA10140-4 "8"
 * derivedFrom = Reference(pcoReadinessAssessmentPanel)
 
 Instance: pcoReadinessAssessmentConfidence
@@ -92,5 +92,5 @@ Usage: #example
 * subject = Reference(pcoPatientJones)
 * performer = Reference(pcoPatientJones)
 * effectiveDateTime = "2024-04-10T15:05:00Z"
-* valueQuantity.value = 3
+* valueCodeableConcept = $LNC#LA6114-8 "3"
 * derivedFrom = Reference(pcoReadinessAssessmentPanel)
