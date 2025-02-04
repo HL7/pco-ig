@@ -1,8 +1,8 @@
 
-CodeSystem: WellBeingConcepts
-Id: wellbeing-concepts
-Title: "Well-Being Concepts"
-Description: "Code system to identify resource codes and category codes for Well-Being."
+CodeSystem: WhatMattersConcepts
+Id: what-matters-concepts
+Title: "What Matters Concepts"
+Description: "Code system to identify observation codes for What Matters."
 * ^caseSensitive = true
 * ^experimental = false
 * ^status = #active
@@ -16,10 +16,10 @@ Description: "Code system to identify resource codes and category codes for Well
 * #future-changes "Future Changes"
     "What changes could you make to help you get there?"
 
-CodeSystem: VAWholeHealthExample
-Id: va-whole-health-example
+CodeSystem: VAWholeHealth
+Id: va-whole-health
 Title: "VA Whole Health Concepts"
-Description: "Code system to identify \"What Matters\" concepts from the VA Whole Health approach and Circle of Health."
+Description: "Code system to identify concepts from the VA Whole Health approach and Circle of Health."
 * ^caseSensitive = true
 * ^experimental = false
 * ^status = #active
@@ -49,13 +49,22 @@ Title: "Well-Being Domains Example"
 Description: "Example value set containing well-being domains from the VA Circle of Health."
 * ^experimental = false
 // Cannot use "include codes" because cqframework -EnsureExecutableValueSet does not support this expansion
-// * include codes from system VAWholeHealthExample
-* VAWholeHealthExample#body "Moving the Body"
-* VAWholeHealthExample#mind "Power of the Mind"
-* VAWholeHealthExample#nourishment "Food & Drink"
-* VAWholeHealthExample#recharge "Recharge"
-* VAWholeHealthExample#surroundings "Surroundings"
-* VAWholeHealthExample#personal-development "Personal Development"
-* VAWholeHealthExample#spirit-and-soul "Spirit & Soul"
-* VAWholeHealthExample#relationships "Family, Friends & Co-Workers"
-* VAWholeHealthExample#professional-care "Professional Care"
+// * include codes from system VAWholeHealth
+* VAWholeHealth#body "Moving the Body"
+* VAWholeHealth#mind "Power of the Mind"
+* VAWholeHealth#nourishment "Food & Drink"
+* VAWholeHealth#recharge "Recharge"
+* VAWholeHealth#surroundings "Surroundings"
+* VAWholeHealth#personal-development "Personal Development"
+* VAWholeHealth#spirit-and-soul "Spirit & Soul"
+* VAWholeHealth#relationships "Family, Friends & Co-Workers"
+* VAWholeHealth#professional-care "Professional Care"
+
+ValueSet: WhatMattersCodesExample
+Id: what-matters-codes-example
+Title: "What Matters Codes Example"
+Description: "Example value set containing codes for What Matters observations."
+* ^experimental = false
+* $SCT#363702006 "Has focus"
+* include codes from system WhatMattersConcepts
+* include codes from system VAWholeHealth

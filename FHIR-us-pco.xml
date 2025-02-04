@@ -10,12 +10,6 @@
 <artifact id="MedicationRequest/pcoAntiInflammatoryMedication" key="MedicationRequest-pcoAntiInflammatoryMedication" name="Care Plan: Anti-Inflammatory Medication"/>
 <artifact id="ServiceRequest/pcoPhysicalTherapyReferral" key="ServiceRequest-pcoPhysicalTherapyReferral" name="Care Plan: Clinical action step a patient"/>
 <artifact id="ServiceRequest/pcoWalkOutsideActionStep" key="ServiceRequest-pcoWalkOutsideActionStep" name="Care Plan: Personal action step"/>
-<artifact id="Observation/pcoCareTradeOffHelpfulExercising" key="Observation-pcoCareTradeOffHelpfulExercising" name="Care Trade-Off: Exercising"/>
-<artifact id="Observation/pcoCareTradeOffBurdensomeWaterPill" key="Observation-pcoCareTradeOffBurdensomeWaterPill" name="Care Trade-Off: Water pill"/>
-<artifact id="StructureDefinition/pco-care-tradeoff" key="StructureDefinition-pco-care-tradeoff" name="Care Trade-off Assessment"/>
-<artifact id="CodeSystem/pco-care-tradeoff-choice-codes" key="CodeSystem-pco-care-tradeoff-choice-codes" name="Care Trade-off Choice Codes"/>
-<artifact id="ValueSet/pco-care-tradeoff-choices-vs" key="ValueSet-pco-care-tradeoff-choices-vs" name="Care Trade-off Choices"/>
-<artifact id="ValueSet/pco-care-tradeoff-types-example-vs" key="ValueSet-pco-care-tradeoff-types-example-vs" name="Care Trade-off Types Example"/>
 <artifact id="Library/FHIRHelpers" key="Library-FHIRHelpers" name="FHIRHelpers"/>
 <artifact id="ValueSet/gas-score-answers" key="ValueSet-gas-score-answers" name="Follow-Up GAS Score Answers"/>
 <artifact id="Observation/pcoPROMScoreAnxietyExample" key="Observation-pcoPROMScoreAnxietyExample" name="GAD-7 PROM Follow-up Score"/>
@@ -64,15 +58,21 @@
 <artifact id="Observation/pcoReadinessAssessmentPanel" key="Observation-pcoReadinessAssessmentPanel" name="Readiness Assessment panel"/>
 <artifact id="Observation/pcoReadinessAssessmentConfidence" key="Observation-pcoReadinessAssessmentConfidence" name="Readiness Assessment: Confidence"/>
 <artifact id="Observation/pcoReadinessAssessmentImportance" key="Observation-pcoReadinessAssessmentImportance" name="Readiness Assessment: Importance"/>
-<artifact id="CodeSystem/va-whole-health-example" key="CodeSystem-va-whole-health-example" name="VA Whole Health Concepts"/>
-<artifact id="CodeSystem/wellbeing-concepts" key="CodeSystem-wellbeing-concepts" name="Well-Being Concepts"/>
+<artifact id="CodeSystem/va-whole-health" key="CodeSystem-va-whole-health" name="VA Whole Health Concepts"/>
 <artifact id="ValueSet/wellbeing-domains-example" key="ValueSet-wellbeing-domains-example" name="Well-Being Domains Example"/>
 <artifact id="StructureDefinition/pco-what-matters-assessment" key="StructureDefinition-pco-what-matters-assessment" name="What Matters Assessment"/>
-<artifact id="StructureDefinition/pco-what-matters-priority" key="StructureDefinition-pco-what-matters-priority" name="What Matters Priority"/>
-<artifact id="Observation/pcoWhatMattersPriorityExample" key="Observation-pcoWhatMattersPriorityExample" name="What Matters Priority: Moving the Body"/>
+<artifact id="ValueSet/what-matters-codes-example" key="ValueSet-what-matters-codes-example" name="What Matters Codes Example"/>
+<artifact id="CodeSystem/what-matters-concepts" key="CodeSystem-what-matters-concepts" name="What Matters Concepts"/>
+<artifact id="Observation/pcoWhatMattersFocusAreaExample" key="Observation-pcoWhatMattersFocusAreaExample" name="What Matters Focus: Moving the Body"/>
 <artifact id="Observation/pcoWhatMattersStatementExample" key="Observation-pcoWhatMattersStatementExample" name="What Matters Statement: Family &amp; Friends"/>
 <artifact id="Observation/pcoWhatMattersRelationshipsExample" key="Observation-pcoWhatMattersRelationshipsExample" name="What Matters: Family &amp; Friends"/>
+<artifact id="Observation/pcoWhatMattersRelationshipsExampleFutureRating" key="Observation-pcoWhatMattersRelationshipsExampleFutureRating" name="What Matters: Family &amp; Friends, Future Rating"/>
+<artifact id="Observation/pcoWhatMattersRelationshipsExampleNowRating" key="Observation-pcoWhatMattersRelationshipsExampleNowRating" name="What Matters: Family &amp; Friends, Now Rating"/>
 <artifact id="Observation/pcoWhatMattersBodyExample" key="Observation-pcoWhatMattersBodyExample" name="What Matters: Moving the Body"/>
+<artifact id="Observation/pcoWhatMattersRelationshipsExampleFutureChanges" key="Observation-pcoWhatMattersRelationshipsExampleFutureChanges" name="What Matters: Moving the Body, Future Changes"/>
+<artifact id="Observation/pcoWhatMattersBodyExampleFutureRating" key="Observation-pcoWhatMattersBodyExampleFutureRating" name="What Matters: Moving the Body, Future Rating"/>
+<artifact id="Observation/pcoWhatMattersBodyExampleNowRating" key="Observation-pcoWhatMattersBodyExampleNowRating" name="What Matters: Moving the Body, Now Rating"/>
+<artifact id="Observation/pcoWhatMattersBodyExampleNowReasons" key="Observation-pcoWhatMattersBodyExampleNowReasons" name="What Matters: Moving the Body, Now Reasons"/>
 <artifact id="Library/WhatMattersLogic" key="Library-WhatMattersLogic" name="WhatMattersLogic"/>
 <artifact id="Device/cqf-tooling" key="Device-cqf-tooling" name="cqf-tooling"/>
 <page key="NA" name="(NA)"/>

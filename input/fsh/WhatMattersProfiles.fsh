@@ -1,26 +1,23 @@
 
-Profile: WhatMattersPriority
-Parent: USCoreObservationScreeningAssessmentProfile
-Id: pco-what-matters-priority
-Title: "What Matters Priority"
-Description: "Assessment observation for one element of a person's well-being, with a boolean value indicating whether this is a current priority."
-* insert PCOCategory
-* code from WellBeingDomainValueSet (preferred)
-* value[x] 1..1 MS
-* value[x] only boolean
-  * ^short = "Indicates if this well-being domain is a current priority"
-
-// TODO: Add WhatMattersAssessment constraint that either valueString or component SHALL be present.
-
 Profile: WhatMattersAssessment
 Parent: USCoreObservationScreeningAssessmentProfile
 Id: pco-what-matters-assessment
 Title: "What Matters Assessment"
-Description: "Assessment observation for one element of a person's well-being, with a free-text description, coded value, or component values rating where a person is now and where they would like to be in the future."
+Description: "Assessment observation for What Matters to a person. May be a panel assessment with member observations."
+* insert PCOCategory
+* code from WhatMattersCodesExample (preferred)
+
+/*
+
+Profile: WhatMattersAssessmentComponents
+Parent: USCoreObservationScreeningAssessmentProfile
+Id: pco-what-matters-assessment-components
+Title: "What Matters Assessment with Components"
+Description: "DEPRECATED: Assessment observation for one element of a person's well-being, with a free-text description, coded value, or component values rating where a person is now and where they would like to be in the future."
 * insert PCOCategory
 * code from WellBeingDomainValueSet (preferred)
 * value[x] 0..1 MS
-* value[x] only string or CodeableConcept
+* value[x] only boolean or string or CodeableConcept
   * ^short = "Free-text or coded assessment of this well-being domain"
 * component
   * ^slicing.discriminator.type = #value
@@ -58,3 +55,5 @@ RuleSet: RatingValueString
 * value[x] 1..1 MS
 * value[x] only string
   * ^short = "Reasons for your rating"
+
+*/

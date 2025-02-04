@@ -66,16 +66,3 @@ Description: "Example value set containing types of goal barriers."
 * $SCT#224960004 "Feeling tired"
 * $SCT#15188001 "Difficulty hearing"
 * $SCT#165232002 "Urinary incontinence"
-
-ValueSet: CareTradeOffTypesExample
-Id: pco-care-tradeoff-types-example-vs
-Title: "Care Trade-off Types Example"
-Description: "Example value set containing types of care trade-off."
-* ^experimental = false
-* insert SNOMEDCopyrightNotice
-* $SCT#422979000 "Medication regimen behavior finding"
-* $SCT#256235009 "Exercise"
-* $SCT#449360002 "On special diet"
-* $SCT#387713003 "Surgical procedure"
-* $SCT#52052004 "Rehabilitation treatments and procedures"
-* $SCT#105389006 "Personal care assistance at home"

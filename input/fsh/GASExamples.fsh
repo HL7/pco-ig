@@ -70,6 +70,7 @@ Usage: #example
 * effectiveDateTime = "2024-04-10T15:05:00Z"
 * valueString = "Diabetic diet restrictions"
 
+/*
 Instance: pcoCareTradeOffBurdensomeWaterPill
 InstanceOf: PCOCareTradeOffProfile
 Title: "Care Trade-Off: Water pill"
@@ -98,6 +99,8 @@ Usage: #example
 * effectiveDateTime = "2024-04-10T15:05:00Z"
 * valueCodeableConcept = $SCT#256235009 "Exercise"
 
+*/
+
 // The most important item from What Matters
 //      - Use a List to rank order the What Matters observations
 //      - The list only needs to contain the one, not all WhatMatters rank-ordered, although all could be included.
@@ -117,7 +120,7 @@ Usage: #example
 * date = "2024-04-10T15:05:00Z"
 * entry[0].item = Reference(pcoWhatMattersRelationshipsExample)
 * entry[1].item = Reference(pcoBarrierUrinaryIncontinence)
-* entry[2].item = Reference(pcoCareTradeOffBurdensomeWaterPill)
+// * entry[2].item = Reference(pcoCareTradeOffBurdensomeWaterPill)
 
 Instance: pcoGASScoreBaselineExample
 InstanceOf: PCOGoalAttainmentScoreObservation

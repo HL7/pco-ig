@@ -38,7 +38,7 @@ Description: "Person-centered goal focused on an individual's well-being. A Pers
 * addresses ^slicing.discriminator.path = "resolve()"
 * addresses ^slicing.rules = #open
 * addresses contains SupportedAddresses 0..* MS
-* addresses[SupportedAddresses] only Reference(WhatMattersAssessment or WhatMattersPriority)
+* addresses[SupportedAddresses] only Reference(WhatMattersAssessment)
   * ^short = "What Matters Assessment or Priority"
   * ^requirements = "When a goal addresses What Matters observations, Goal.addresses should reference instances that comply with the PCO What Matters Assessment of Priority profiles. However, references to other instance types are also possible."
 
