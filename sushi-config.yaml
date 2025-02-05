@@ -37,9 +37,10 @@ menu:
   Home: index.html
   Table of Contents: toc.html
   Guidance:
-    Formal Specification: formal_specification.html
-    Use Cases: use_cases.html
     User Stories: user_stories.html
+    Goal Attainment Scaling: goal-attainment-scaling.html
+    Related FHIR IGs: Related-FHIR-IG.html
+    Formal Specification: formal_specification.html
     Underlying Technologies: underlying_technologies.html
   Conformance:
     Profiles: artifacts.html#structures-resource-profiles

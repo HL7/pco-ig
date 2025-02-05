@@ -7,8 +7,8 @@ The What Matters Assessment Observation inherits from the [US Core Observation S
 **Example Usage Scenarios:**
 
 The following are example usage scenarios for this Profile:
-* Query for observations representing a patient's assessment of What Matters. These observations may be extracted from a QuestionnaireResponse that inludes panel(s) of question/answer responses about what matters most, or observations created from a dedicated assessment applications without use of a Questionnaire.
-* Record or update observations related to a patient's assessment of What Matters.
+* Record or update observations related to a person's assessment of What Matters. These observations may be extracted from a QuestionnaireResponse that inludes panel(s) of question/answer responses about what matters most, or observations created from a dedicated assessment application without use of a Questionnaire.
+* Query for observations representing a patient's assessment of What Matters.
 
 ### Mandatory and Must Support Data Elements
 

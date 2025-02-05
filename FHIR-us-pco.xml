@@ -65,10 +65,10 @@
 <artifact id="CodeSystem/what-matters-concepts" key="CodeSystem-what-matters-concepts" name="What Matters Concepts"/>
 <artifact id="Observation/pcoWhatMattersFocusAreaExample" key="Observation-pcoWhatMattersFocusAreaExample" name="What Matters Focus: Moving the Body"/>
 <artifact id="Observation/pcoWhatMattersStatementExample" key="Observation-pcoWhatMattersStatementExample" name="What Matters Statement: Family &amp; Friends"/>
-<artifact id="Observation/pcoWhatMattersRelationshipsExample" key="Observation-pcoWhatMattersRelationshipsExample" name="What Matters: Family &amp; Friends"/>
+<artifact id="Observation/pcoWhatMattersRelationshipsExample" key="Observation-pcoWhatMattersRelationshipsExample" name="What Matters: Family &amp; Friends (Panel)"/>
 <artifact id="Observation/pcoWhatMattersRelationshipsExampleFutureRating" key="Observation-pcoWhatMattersRelationshipsExampleFutureRating" name="What Matters: Family &amp; Friends, Future Rating"/>
 <artifact id="Observation/pcoWhatMattersRelationshipsExampleNowRating" key="Observation-pcoWhatMattersRelationshipsExampleNowRating" name="What Matters: Family &amp; Friends, Now Rating"/>
-<artifact id="Observation/pcoWhatMattersBodyExample" key="Observation-pcoWhatMattersBodyExample" name="What Matters: Moving the Body"/>
+<artifact id="Observation/pcoWhatMattersBodyExample" key="Observation-pcoWhatMattersBodyExample" name="What Matters: Moving the Body (Panel)"/>
 <artifact id="Observation/pcoWhatMattersRelationshipsExampleFutureChanges" key="Observation-pcoWhatMattersRelationshipsExampleFutureChanges" name="What Matters: Moving the Body, Future Changes"/>
 <artifact id="Observation/pcoWhatMattersBodyExampleFutureRating" key="Observation-pcoWhatMattersBodyExampleFutureRating" name="What Matters: Moving the Body, Future Rating"/>
 <artifact id="Observation/pcoWhatMattersBodyExampleNowRating" key="Observation-pcoWhatMattersBodyExampleNowRating" name="What Matters: Moving the Body, Now Rating"/>
@@ -83,12 +83,11 @@
 <page key="formal_specification" name="Formal Specification"/>
 <page key="gas-examples" name="Gas Examples"/>
 <page key="gas-examples-one-table" name="Gas Examples One Table"/>
+<page key="goal-attainment-scaling" name="Goal Attainment Scaling"/>
 <page key="index" name="Home"/>
+<page key="Related-FHIR-IG" name="Related FHIR IG"/>
 <page key="toc" name="Table of Contents"/>
 <page key="underlying_technologies" name="Underlying Technologies"/>
 <page key="use_cases" name="Use Cases"/>
 <page key="user_stories" name="User Stories"/>
-<page key="wellbeing-domains" name="Wellbeing Domains"/>
-<page key="what_matters_ppc" name="What Matters Ppc"/>
-<page key="what_matters_va" name="What Matters Va"/>
 </specification>

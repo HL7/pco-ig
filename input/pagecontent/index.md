@@ -1,4 +1,4 @@
-The Person-Centered Outcomes (PCO) HL7® FHIR® Implementation Guide (IG) supports the exchange of information related to a person's goal-directed care guided by a person-centered outcomes approach, which includes the identification and tracking of health outcome goals that matter most to patients using either Goal Attainment Scaling (GAS) or patient-reported outcome measures (PROM).
+The Person-Centered Outcomes (PCO) HL7® FHIR® Implementation Guide (IG) supports the exchange of information related to a person's goal-directed care guided by a person-centered outcomes approach, which includes the identification and tracking of health outcome goals that matter most to patients using either [Goal Attainment Scaling (GAS)](gas-overview.html) or patient-reported outcome measures (PROM).
 
 The PCO IG includes profiles for interoperable GAS Goals, support for GAS Goal editing tools, and PCO measures. GAS in healthcare, measures the extent to which individuals achieve specific goals or objectives. It allows for the quantification and evaluation of progress toward individualized goals, particularly in areas where traditional outcome measures may be insufficient. GAS involves collaboratively setting goals with the individual and assigning numerical scales to each goal to represent different levels of achievement. This approach provides a more nuanced and tailored way to assess progress and outcomes, taking into account the unique circumstances and aspirations of the individual. 
 
@@ -12,19 +12,33 @@ Goal-directed care in healthcare centers on setting and achieving specific, pers
 
 The need for the PCO IG was identified as a natural next step from the scope of the [MCC eCare Plan FHIR IG STU1](http://hl7.org/fhir/us/mcc/ImplementationGuide/hl7.fhir.us.mcc) which provided high-level guidance for Goals and measuring outcomes. As goal-directed care is growing in use and being incorporated into payment programs, the need for data standards around implementation and reporting are necessary. This IG supports implementers, researchers, and evaluators of goal-directed care planning to improve health outcomes.
 
+### Person-Centered Outcomes Process Flow
+
+<p><img width="100%" src="./PCO_GAS_Flow Diagram.png" alt="PCO GAS Flow Diagram"/></p>
+
+#### PCO IG FHIR Profiles aligned with the process flow:
+* [What Matters Assesssment](StructureDefinition-pco-what-matters-assessment.html)
+* [Person-Centered Goal](StructureDefinition-pco-goal-profile.html) (inherited definition for all PCO goals)
+  * [GAS Goal](StructureDefinition-pco-gas-goal-profile.html)
+  * [PROM Goal](StructureDefinition-pco-prom-goal-profile.html)
+* Goal Assessment
+  * [Readiness](StructureDefinition-pco-readiness-assessment.html)
+  * [Barriers](StructureDefinition-pco-goal-barrier.html)
+* [Person-Centered Care Plan](StructureDefinition-pco-care-plan.html)
+* Outcome observations
+  * [Goal Attainment Scaling (GAS) score observation](StructureDefinition-pco-gas-score-observation.html)
+  * [Patient-Reported Outcome Measure (PROM) score observation](StructureDefinition-pco-prom-score-observation.html)
+
+#### Terminology support:
+* [Goal Domains](ValueSet-pco-goal-domains-example-vs.html)
+* Goal Attainment Scaling (GAS)
+  * [GAS Score type](ValueSet-goal-attainment-scaling-score.html)
+  * [Follow-up GAS Score Answers](ValueSet-gas-score-answers.html)
+* [PROM Target Measure Scores](ValueSet-prom-target-measures.html)
+
 ### Relationship with other FHIR IGs
 
-The PCO IG is complementary in scope to the following related care planning IGs:
-
-[MCC eCare Plan IG](http://hl7.org/fhir/us/mcc/ImplementationGuide/hl7.fhir.us.mcc): The scope of the PCO IG is distinct from MCC IG in that it goes into more detail on the use of FHIR resources to support Goal Outcomes and Progress.
-
-[eLTSS FHIR IG](http://hl7.org/fhir/us/eltss/ImplementationGuide/hl7.fhir.us.eltss): The eLTSS IG focuses on being able to package eLTSS data in a CarePlan. PCO IG will go into further detail on setting Goal targets using PROM or GAS measures. 
-
-[PACIO Personal Functioning and Engagement (PFE) IG](https://build.fhir.org/ig/HL7/fhir-pacio-pfe/): The PFE IG defines how to exchange data related to an individual’s functioning and engagement in daily life, primarily in the context of post-acute and long-term care. The PCO IG focuses on defining the use of Observation profiles in the context of goal-directed care planning.
-
-[SDOH CC IG](https://hl7.org/fhir/us/sdoh-clinicalcare/STU2.2/): The SDOH CC IG focuses on representing goals to address an identified social risk or need. The PCO IG will be complementary to this since a goal that matters most to a person may fall in an SDOH domain and PCO goals can make use of Gravity terminologies and profile relationships described by the SDOH CC IG, and PCO IG profiles can be applied to enhance progress tracking for SDOH social need goals by using Goal Attainment Scaling.
-
-[US Behavioral Health Profiles Implementation Guide](https://build.fhir.org/ig/HL7/us-behavioral-health-profiles/): This IG is designed to facilitate behavioral health integration with other healthcare services, support better clinical decision-making, and improve patient outcomes. The PCO IG will be complementary to this IG because a behavioral health goal can make use of PCO IG profiles and Goal Attainment Scaling (GAS) Goal extensions to enhance progress tracking and quality measures.
+The PCO IG is complementary and may be used in combination with other HL7 FHIR Implementation Guides (IGs). See [Related FHIR IGs](related-fhir-ig.html) for a brief summary about this PCO IG is related to the scope and usage of other HL7 FHIR IGs.
 
 ### Conformance vs Example Content
 
