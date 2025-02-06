@@ -16,7 +16,7 @@ The need for the PCO IG was identified as a natural next step from the scope of 
 
 <p><img width="100%" src="./PCO_GAS_Flow Diagram.png" alt="PCO GAS Flow Diagram"/></p>
 
-#### PCO IG FHIR Profiles aligned with the process flow:
+#### PCO IG FHIR Profiles aligned with the process flow
 * [What Matters Assesssment](StructureDefinition-pco-what-matters-assessment.html)
 * [Person-Centered Goal](StructureDefinition-pco-goal-profile.html) (inherited definition for all PCO goals)
   * [GAS Goal](StructureDefinition-pco-gas-goal-profile.html)
@@ -29,7 +29,7 @@ The need for the PCO IG was identified as a natural next step from the scope of 
   * [Goal Attainment Scaling (GAS) score observation](StructureDefinition-pco-gas-score-observation.html)
   * [Patient-Reported Outcome Measure (PROM) score observation](StructureDefinition-pco-prom-score-observation.html)
 
-#### Terminology support:
+#### Terminology support
 * [Goal Domains](ValueSet-pco-goal-domains-example-vs.html)
 * Goal Attainment Scaling (GAS)
   * [GAS Score type](ValueSet-goal-attainment-scaling-score.html)
