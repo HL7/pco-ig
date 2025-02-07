@@ -11,13 +11,10 @@ Description: "Person-centered goal with a Patient-Reported Outcome Measure (PROM
     * ^short = "Target value for the PROM score"
 
 Profile: PCOPatientReportedOutcomeScore
-Parent: USCoreSimpleObservationProfile
+Parent: USCoreObservationScreeningAssessmentProfile
 Id: pco-prom-score-observation
 Title: "Patient-Reported Outcome Measure (PROM) score observation"
 Description: "This observation records how a patient's progress score is rated using a PROM assessment."
-// Satisfies US Core required binding for category
-* category[us-core] 1..1 MS
-* category[us-core] = OBSCAT#survey
 * effectiveDateTime 1..1 MS
   * ^short = "When the score was assessed"
 * code from PROMTargetMeasures (extensible)

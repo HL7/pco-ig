@@ -8,7 +8,8 @@
     },
     "url": "http://hl7.org/fhir/us/pco/Questionnaire/44249-1",
     "name": "PHQ_quick_depression_assessment_panel",
-    "title": "PHQ-9 quick depression assessment panel",
+    "title": "PHQ-9 Depression Assessment",
+    "description": "Depression assessment 9-item panel",
     "status": "draft",
     "subjectType": [
         "Patient"

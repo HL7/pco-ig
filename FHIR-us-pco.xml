@@ -14,7 +14,7 @@
 <artifact id="ValueSet/gas-score-answers" key="ValueSet-gas-score-answers" name="Follow-Up GAS Score Answers"/>
 <artifact id="Observation/pcoPROMScoreAnxietyExample" key="Observation-pcoPROMScoreAnxietyExample" name="GAD-7 PROM Follow-up Score"/>
 <artifact id="Observation/pcoGASScoreBaselineExample" key="Observation-pcoGASScoreBaselineExample" name="GAS Baseline Score"/>
-<artifact id="Questionnaire/69737-5" key="Questionnaire-69737-5" name="Generalized anxiety disorder 7 item"/>
+<artifact id="Questionnaire/69737-5" key="Questionnaire-69737-5" name="Generalized Anxiety Disorder (GAD-7)"/>
 <artifact id="ValueSet/goal-attainment-scaling-score" key="ValueSet-goal-attainment-scaling-score" name="Goal Attainment Scaling (GAS) Score"/>
 <artifact id="StructureDefinition/pco-gas-score-observation" key="StructureDefinition-pco-gas-score-observation" name="Goal Attainment Scaling (GAS) score observation"/>
 <artifact id="StructureDefinition/pco-goal-attainment-scaling" key="StructureDefinition-pco-goal-attainment-scaling" name="Goal Attainment Scaling Extension"/>
@@ -33,7 +33,7 @@
 <artifact id="ValueSet/pco-goal-domains-example-vs" key="ValueSet-pco-goal-domains-example-vs" name="PCO Goal Domain Categories Example"/>
 <artifact id="CodeSystem/pco-goal-domains" key="CodeSystem-pco-goal-domains" name="PCO Goal Domains"/>
 <artifact id="Library/PCOCommon" key="Library-PCOCommon" name="PCOCommon"/>
-<artifact id="Questionnaire/44249-1" key="Questionnaire-44249-1" name="PHQ-9 quick depression assessment panel"/>
+<artifact id="Questionnaire/44249-1" key="Questionnaire-44249-1" name="PHQ-9 Depression Assessment"/>
 <artifact id="ValueSet/prom-target-measures" key="ValueSet-prom-target-measures" name="PROM Target Measure Scores"/>
 <artifact id="Patient/pcoPatientLopez" key="Patient-pcoPatientLopez" name="Patient Camila Lopez"/>
 <artifact id="Patient/pcoPatientJones" key="Patient-pcoPatientJones" name="Patient Dorothy Jones"/>
@@ -48,6 +48,7 @@
 <artifact id="Measure/GoalIdentificationMeasure" key="Measure-GoalIdentificationMeasure" name="Person-Centered Goal Identification"/>
 <artifact id="CodeSystem/pco-concepts" key="CodeSystem-pco-concepts" name="Person-Centered Outcome Concepts"/>
 <artifact id="StructureDefinition/pco-prom-goal-profile" key="StructureDefinition-pco-prom-goal-profile" name="Person-Centered PROM Goal"/>
+<artifact id="Questionnaire/health-inventory-example" key="Questionnaire-health-inventory-example" name="Personal Health Inventory"/>
 <artifact id="List/pcoPrioritiesList" key="List-pcoPrioritiesList" name="Personal Priorities List"/>
 <artifact id="StructureDefinition/pco-personal-priorities-organizer" key="StructureDefinition-pco-personal-priorities-organizer" name="Personal Priorities Organizer"/>
 <artifact id="Observation/pcoGASScorePractitionerFollowupExample" key="Observation-pcoGASScorePractitionerFollowupExample" name="Practitioner GAS Follow-up Score"/>

@@ -8,7 +8,8 @@
   },
   "url": "http://hl7.org/fhir/us/pco/Questionnaire/69737-5",
   "name": "Generalized_anxiety_disorder_item",
-  "title": "Generalized anxiety disorder 7 item",
+  "title": "Generalized Anxiety Disorder (GAD-7)",
+  "description": "Generalized anxiety disorder 7-item assessment",
   "status": "draft",
   "subjectType": [
     "Patient"

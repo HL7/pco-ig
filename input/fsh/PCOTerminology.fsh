@@ -10,9 +10,13 @@ RuleSet: SNOMEDCopyrightNotice
 
 // LOINC ValueSets
 
+Alias: NumericRatingScaleFrom0-5 = http://loinc.org/vs/LL4460-3
+
 Alias: NumericRatingScaleFrom0-10 = http://loinc.org/vs/LL2335-9
 
 Alias: TrueFalseUnknownValueSet = http://loinc.org/vs/LL3865-4
+
+Alias: YesNoUnknownValueSet = http://loinc.org/vs/LL3044-6
 
 CodeSystem: PCOConcepts
 Id: pco-concepts

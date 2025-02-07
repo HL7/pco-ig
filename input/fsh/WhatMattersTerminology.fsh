@@ -24,6 +24,7 @@ Description: "Code system to identify concepts from the VA Whole Health approach
 * ^experimental = false
 * ^status = #active
 * insert PCOCodeSystemPublisher
+* #health-inventory "Personal Health Inventory"
 * #body "Moving the Body"
     "Our physical, mental, and emotional health are impacted by the amount and kind of movement we do. Moving the body can take many forms such as dancing, walking, gardening, yoga, and exercise."
 * #mind "Power of the Mind"
