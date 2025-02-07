@@ -1,232 +1,725 @@
 {
-  "resourceType" : "Questionnaire",
-  "id" : "health-inventory-example",
-  "meta" : {
-    "profile" : ["http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"]
+  "resourceType": "Questionnaire",
+  "id": "health-inventory-example",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
+    ]
   },
-  "url" : "http://hl7.org/fhir/us/pco/Questionnaire/health-inventory-example",
-  "version" : "0.1.0",
-  "name" : "PersonalHealthInventory",
-  "title" : "Personal Health Inventory",
-  "description" : "An Questionnaire for a person's assessment of what matters most in their health and well-being.",
-  "status" : "active",
-  "experimental" : true,
-  "date" : "2025-02-05",
-  "publisher" : "HL7 International / Patient Care",
-  "contact" : [{
-    "name": "HL7 International / Patient Care",
-    "telecom": [ {
-      "system": "url",
-      "value": "http://www.hl7.org/Special/committees/patientcare"
-    } ]
-  }],
-  "useContext" : [{
-    "code" : {
-      "system" : "http://terminology.hl7.org/CodeSystem/usage-context-type",
-      "code" : "focus"
-    },
-    "valueCodeableConcept" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts",
-        "code" : "what-matters",
-        "display": "What Matters"
-      }]
+  "url": "http://hl7.org/fhir/us/pco/Questionnaire/health-inventory-example",
+  "version": "0.1.0",
+  "name": "PersonalHealthInventory",
+  "title": "Personal Health Inventory",
+  "description": "An Questionnaire for a person's assessment of what matters most in their health and well-being.",
+  "status": "active",
+  "experimental": true,
+  "date": "2025-02-05",
+  "publisher": "HL7 International / Patient Care",
+  "contact": [
+    {
+      "name": "HL7 International / Patient Care",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientcare"
+        }
+      ]
     }
-  }],
-  "jurisdiction" : [{
-    "coding" : [{
-      "system" : "urn:iso:std:iso:3166",
-      "code" : "US"
-    }]
-  }],
-  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
-  "code" : [{
-    "system" : "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
-    "code" : "health-inventory",
-    "display" : "Personal Health Inventory"
-  }],
-  "item" : [{
-    "linkId" : "/health-inventory",
-    "text" : "Personal Health Inventory",
-    "type" : "group",
-    "required" : false,
-    "item" : [
-      {
-        "linkId" : "/what-matters-description",
-        "code" : [{
-          "system" : "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts",
-          "code" : "what-matters",
-          "display": "What Matters"
-        }],
-        "text" : "What matters most to you in your life right now?  Write a few words to capture your thoughts:",
-        "type" : "text",
-        "required" : false
+  ],
+  "useContext": [
+    {
+      "code": {
+        "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+        "code": "focus"
       },
-      {
-      "linkId" : "/body",
-      "code" : [{
-        "system" : "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
-        "code" : "body",
-        "display" : "Moving the Body"
-      }],
-      "text" : "Moving the Body",
-      "type" : "group",
-      "required" : false,
-      "item" : [
-        {
-          "linkId" : "/body/display",
-          "type" : "display",
-          "text" : "Our physical, mental, and emotional health are impacted by the amount and kind of movement we do."
-        },
-        {
-          "linkId" : "/body/now-rating",
-          "code" : [{
-            "system" : "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
-            "code" : "now-rating",
-            "display" : "Now Rating"
-          }],
-          "text" : "Where are you now, between 1 (low) and 5 (high)?",
-          "type" : "choice",
-          "required" : false,
-          "answerValueSet": "http://loinc.org/vs/LL4460-3"
-        },
-        {
-          "linkId" : "/body/future-rating",
-          "code" : [{
-            "system" : "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
-            "code" : "future-rating",
-            "display" : "Future Rating"
-          }],
-          "text" : "Where would you like to be, between 1 (low) and 5 (high)?",
-          "type" : "choice",
-          "required" : false,
-          "answerValueSet": "http://loinc.org/vs/LL4460-3"
-        }
-      ]
-    },
-
-    {
-      "linkId" : "/mind",
-      "code" : [{
-        "system" : "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
-        "code" : "mind",
-        "display" : "Power of the Mind"
-      }],
-      "text" : "Power of the Mind",
-      "type" : "group",
-      "required" : false,
-      "item" : [
-        {
-          "linkId" : "/mind/display",
-          "type" : "display",
-          "text" : "Our bodies and minds need rest in order to optimize our health. Recharging also involves activities that replenish your mental and physical energy."
-        },
-        {
-          "linkId" : "/mind/now-rating",
-          "code" : [{
-            "system" : "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
-            "code" : "now-rating",
-            "display" : "Now Rating"
-          }],
-          "text" : "Where are you now, between 1 (low) and 5 (high)?",
-          "type" : "choice",
-          "required" : false,
-          "answerValueSet": "http://loinc.org/vs/LL4460-3"
-        },
-        {
-          "linkId" : "/mind/future-rating",
-          "code" : [{
-            "system" : "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
-            "code" : "future-rating",
-            "display" : "Future Rating"
-          }],
-          "text" : "Where would you like to be, between 1 (low) and 5 (high)?",
-          "type" : "choice",
-          "required" : false,
-          "answerValueSet": "http://loinc.org/vs/LL4460-3"
-        }
-      ]
-    },
-    
-    {
-      "linkId" : "/nourishment",
-      "code" : [{
-        "system" : "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
-        "code" : "nourishment",
-        "display" : "Food & Drinky"
-      }],
-      "text" : "Food & Drink",
-      "type" : "group",
-      "required" : false,
-      "item" : [
-        {
-          "linkId" : "/nourishment/display",
-          "type" : "display",
-          "text" : "What we eat, and drink can have a huge effect on how we experience life, both physically and mentally."
-        },
-        {
-          "linkId": "/nourishment/now-rating",
-          "code": [{
-              "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
-              "code": "now-rating",
-              "display": "Now Rating"
-          }],
-          "text" : "Where are you now, between 1 (low) and 5 (high)?",
-          "type" : "choice",
-          "required" : false,
-          "answerValueSet": "http://loinc.org/vs/LL4460-3"
-        },
-        {
-          "linkId" : "/nourishment/future-rating",
-          "code" : [{
-            "system" : "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
-            "code" : "future-rating",
-            "display" : "Future Rating"
-          }],
-          "text" : "Where would you like to be, between 1 (low) and 5 (high)?",
-          "type" : "choice",
-          "required" : false,
-          "answerValueSet": "http://loinc.org/vs/LL4460-3"
-        }
-      ]
-    },
-    
-    {
-      "linkId" : "/reflections",
-      "text" : "Reflections",
-      "type" : "group",
-      "required" : false,
-      "item" : [
-        {
-          "linkId" : "/reflections/1",
-          "code" : [{
-            "system" : "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts",
-            "code" : "what-matters",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts",
+            "code": "what-matters",
             "display": "What Matters"
-          }],
-          "text" : "Now that you have thought about what matters to you in all of these areas, what would your life look like if you had the health you want? What kind of activities would you be doing? Or how might you feel different? What area might you focus on?",
-          "type" : "text",
-          "required" : false
-        },
+          }
+        ]
+      }
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
         {
-          "linkId" : "/reflections/2",
-          "code" : [{
-            "system" : "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts",
-            "code" : "what-matters",
-            "display": "What Matters"
-          }],
-          "text" : "What might get in the way? How might you start?",
-          "type" : "text",
-          "required" : false
-        },
-        {
-          "linkId" : "/reflections/3",
-          "type" : "display",
-          "text" : "After completing the Personal Health Inventory, talk to a friend, a family member, your health coach, a peer, or someone on your health care team about areas you would like to explore further."
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
         }
       ]
     }
-    
+  ],
+  "copyright": "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "code": [
+    {
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+      "code": "health-inventory",
+      "display": "Personal Health Inventory"
+    }
+  ],
+  "item": [
+    {
+      "linkId": "/health-inventory",
+      "text": "Personal Health Inventory",
+      "type": "group",
+      "required": false,
+      "item": [
+        {
+          "linkId": "/what-matters-description",
+          "code": [
+            {
+              "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts",
+              "code": "what-matters",
+              "display": "What Matters"
+            }
+          ],
+          "text": "What matters most to you in your life right now?  Write a few words to capture your thoughts:",
+          "type": "text",
+          "required": false
+        },
+        {
+          "linkId": "/instructions",
+          "type": "display",
+          "text": "For each of the following areas, consider \"Where you are\" and \"Where you want to be.\" Select a number between 1 (low) and 5 (high) that best represents where you are and where you want to be. You do not need to be a \"5\" in any of the areas now, nor even wish to be a \"5\" in the future."
+        },
+        {
+          "linkId": "/body",
+          "code": [
+            {
+              "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+              "code": "body",
+              "display": "Moving the Body"
+            }
+          ],
+          "text": "Moving the Body",
+          "type": "group",
+          "required": false,
+          "item": [
+            {
+              "linkId": "/body/display",
+              "type": "display",
+              "text": "Our physical, mental, and emotional health are impacted by the amount and kind of movement we do."
+            },
+            {
+              "linkId": "/body/now-rating",
+              "code": [
+                {
+                  "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
+                  "code": "now-rating",
+                  "display": "Now Rating"
+                }
+              ],
+              "text": "Where are you now?",
+              "type": "integer",
+              "required": false,
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+                  "valueInteger": 1
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+                  "valueInteger": 5
+                }
+              ]
+            },
+            {
+              "linkId": "/body/future-rating",
+              "code": [
+                {
+                  "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
+                  "code": "future-rating",
+                  "display": "Future Rating"
+                }
+              ],
+              "text": "Where would you like to be?",
+              "type": "integer",
+              "required": false,
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+                  "valueInteger": 1
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+                  "valueInteger": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "/mind",
+          "code": [
+            {
+              "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+              "code": "mind",
+              "display": "Power of the Mind"
+            }
+          ],
+          "text": "Power of the Mind",
+          "type": "group",
+          "required": false,
+          "item": [
+            {
+              "linkId": "/mind/display",
+              "type": "display",
+              "text": "Our bodies and minds need rest in order to optimize our health. Recharging also involves activities that replenish your mental and physical energy."
+            },
+            {
+              "linkId": "/mind/now-rating",
+              "code": [
+                {
+                  "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
+                  "code": "now-rating",
+                  "display": "Now Rating"
+                }
+              ],
+              "text": "Where are you now?",
+              "type": "integer",
+              "required": false,
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+                  "valueInteger": 1
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+                  "valueInteger": 5
+                }
+              ]
+            },
+            {
+              "linkId": "/mind/future-rating",
+              "code": [
+                {
+                  "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
+                  "code": "future-rating",
+                  "display": "Future Rating"
+                }
+              ],
+              "text": "Where would you like to be?",
+              "type": "integer",
+              "required": false,
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+                  "valueInteger": 1
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+                  "valueInteger": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "/nourishment",
+          "code": [
+            {
+              "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+              "code": "nourishment",
+              "display": "Food & Drink"
+            }
+          ],
+          "text": "Food & Drink",
+          "type": "group",
+          "required": false,
+          "item": [
+            {
+              "linkId": "/nourishment/display",
+              "type": "display",
+              "text": "What we eat, and drink can have a huge effect on how we experience life, both physically and mentally."
+            },
+            {
+              "linkId": "/nourishment/now-rating",
+              "code": [
+                {
+                  "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
+                  "code": "now-rating",
+                  "display": "Now Rating"
+                }
+              ],
+              "text": "Where are you now?",
+              "type": "integer",
+              "required": false,
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+                  "valueInteger": 1
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+                  "valueInteger": 5
+                }
+              ]
+            },
+            {
+              "linkId": "/nourishment/future-rating",
+              "code": [
+                {
+                  "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
+                  "code": "future-rating",
+                  "display": "Future Rating"
+                }
+              ],
+              "text": "Where would you like to be?",
+              "type": "integer",
+              "required": false,
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+                  "valueInteger": 1
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+                  "valueInteger": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "/recharge",
+          "code": [
+            {
+              "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+              "code": "recharge",
+              "display": "Recharge"
+            }
+          ],
+          "text": "Recharge",
+          "type": "group",
+          "required": false,
+          "item": [
+            {
+              "linkId": "/recharge/display",
+              "type": "display",
+              "text": "Our bodies and minds must rest and recharge in order to optimize our health. Getting a good night's rest, as well as recharging our mental and physical energy throughout the day, are vital to well-being. Taking short breaks or doing something you enjoy or feels good for moments throughout the day are examples of ways to refresh."
+            },
+            {
+              "linkId": "/recharge/now-rating",
+              "code": [
+                {
+                  "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
+                  "code": "now-rating",
+                  "display": "Now Rating"
+                }
+              ],
+              "text": "Where are you now?",
+              "type": "integer",
+              "required": false,
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+                  "valueInteger": 1
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+                  "valueInteger": 5
+                }
+              ]
+            },
+            {
+              "linkId": "/recharge/future-rating",
+              "code": [
+                {
+                  "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
+                  "code": "future-rating",
+                  "display": "Future Rating"
+                }
+              ],
+              "text": "Where would you like to be?",
+              "type": "integer",
+              "required": false,
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+                  "valueInteger": 1
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+                  "valueInteger": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "/surroundings",
+          "code": [
+            {
+              "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+              "code": "surroundings",
+              "display": "Surroundings"
+            }
+          ],
+          "text": "Surroundings",
+          "type": "group",
+          "required": false,
+          "item": [
+            {
+              "linkId": "/surroundings/display",
+              "type": "display",
+              "text": "Our surroundings, both at work and where we live, indoors and out, can affect our health and outlook on life. Changes within our control such as organizing, decluttering, adding a plant or artwork can improve mood and health."
+            },
+            {
+              "linkId": "/surroundings/now-rating",
+              "code": [
+                {
+                  "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
+                  "code": "now-rating",
+                  "display": "Now Rating"
+                }
+              ],
+              "text": "Where are you now?",
+              "type": "integer",
+              "required": false,
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+                  "valueInteger": 1
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+                  "valueInteger": 5
+                }
+              ]
+            },
+            {
+              "linkId": "/surroundings/future-rating",
+              "code": [
+                {
+                  "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
+                  "code": "future-rating",
+                  "display": "Future Rating"
+                }
+              ],
+              "text": "Where would you like to be?",
+              "type": "integer",
+              "required": false,
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+                  "valueInteger": 1
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+                  "valueInteger": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "/personal-development",
+          "code": [
+            {
+              "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+              "code": "personal-development",
+              "display": "Personal Development"
+            }
+          ],
+          "text": "Personal Development",
+          "type": "group",
+          "required": false,
+          "item": [
+            {
+              "linkId": "/personal-development/display",
+              "type": "display",
+              "text": "Our health is impacted by how we choose to spend our time. Aligning our work and personal activities with what really matters to us, or what brings us joy, can have a big effect on our health and outlook on life."
+            },
+            {
+              "linkId": "/personal-development/now-rating",
+              "code": [
+                {
+                  "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
+                  "code": "now-rating",
+                  "display": "Now Rating"
+                }
+              ],
+              "text": "Where are you now?",
+              "type": "integer",
+              "required": false,
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+                  "valueInteger": 1
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+                  "valueInteger": 5
+                }
+              ]
+            },
+            {
+              "linkId": "/personal-development/future-rating",
+              "code": [
+                {
+                  "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
+                  "code": "future-rating",
+                  "display": "Future Rating"
+                }
+              ],
+              "text": "Where would you like to be?",
+              "type": "integer",
+              "required": false,
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+                  "valueInteger": 1
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+                  "valueInteger": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "/spirit-and-soul",
+          "code": [
+            {
+              "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+              "code": "spirit-and-soul",
+              "display": "Spirit & Soul"
+            }
+          ],
+          "text": "Spirit & Soul",
+          "type": "group",
+          "required": false,
+          "item": [
+            {
+              "linkId": "/spirit-and-soul/display",
+              "type": "display",
+              "text": "Connecting with something greater than ourselves may provide a sense of meaning and purpose, peace, or comfort. Connecting and aligning spiritually is very individual and may take the form of religious affiliation, connection to nature, or engaging in things like music or art."
+            },
+            {
+              "linkId": "/spirit-and-soul/now-rating",
+              "code": [
+                {
+                  "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
+                  "code": "now-rating",
+                  "display": "Now Rating"
+                }
+              ],
+              "text": "Where are you now?",
+              "type": "integer",
+              "required": false,
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+                  "valueInteger": 1
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+                  "valueInteger": 5
+                }
+              ]
+            },
+            {
+              "linkId": "/spirit-and-soul/future-rating",
+              "code": [
+                {
+                  "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
+                  "code": "future-rating",
+                  "display": "Future Rating"
+                }
+              ],
+              "text": "Where would you like to be?",
+              "type": "integer",
+              "required": false,
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+                  "valueInteger": 1
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+                  "valueInteger": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "/relationships",
+          "code": [
+            {
+              "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+              "code": "relationships",
+              "display": "Family, Friends & Co-Workers"
+            }
+          ],
+          "text": "Family, Friends & Co-Workers",
+          "type": "group",
+          "required": false,
+          "item": [
+            {
+              "linkId": "/relationships/display",
+              "type": "display",
+              "text": "Our relationships, including those with pets, have as significant an effect on our physical and emotional health as any other factor associated with well-being. Spending more time in relationships that \"fuel\" us and less in relationships that \"drain\" us is one potential option. Improving our relationship skills or creating new relationships through community activities are other options to consider."
+            },
+            {
+              "linkId": "/relationships/now-rating",
+              "code": [
+                {
+                  "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
+                  "code": "now-rating",
+                  "display": "Now Rating"
+                }
+              ],
+              "text": "Where are you now?",
+              "type": "integer",
+              "required": false,
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+                  "valueInteger": 1
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+                  "valueInteger": 5
+                }
+              ]
+            },
+            {
+              "linkId": "/relationships/future-rating",
+              "code": [
+                {
+                  "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
+                  "code": "future-rating",
+                  "display": "Future Rating"
+                }
+              ],
+              "text": "Where would you like to be?",
+              "type": "integer",
+              "required": false,
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+                  "valueInteger": 1
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+                  "valueInteger": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "/professional-care",
+          "code": [
+            {
+              "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+              "code": "professional-care",
+              "display": "Professional Care"
+            }
+          ],
+          "text": "Professional Care",
+          "type": "group",
+          "required": false,
+          "item": [
+            {
+              "linkId": "/professional-care/display",
+              "type": "display",
+              "text": "Staying up to date on prevention and understanding your health concerns, care options, treatment plan, and their role in your health."
+            },
+            {
+              "linkId": "/professional-care/now-rating",
+              "code": [
+                {
+                  "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
+                  "code": "now-rating",
+                  "display": "Now Rating"
+                }
+              ],
+              "text": "Where are you now?",
+              "type": "integer",
+              "required": false,
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+                  "valueInteger": 1
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+                  "valueInteger": 5
+                }
+              ]
+            },
+            {
+              "linkId": "/professional-care/future-rating",
+              "code": [
+                {
+                  "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts",
+                  "code": "future-rating",
+                  "display": "Future Rating"
+                }
+              ],
+              "text": "Where would you like to be?",
+              "type": "integer",
+              "required": false,
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+                  "valueInteger": 1
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+                  "valueInteger": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "/reflections",
+          "text": "Reflections",
+          "type": "group",
+          "required": false,
+          "item": [
+            {
+              "linkId": "/reflections/1",
+              "code": [
+                {
+                  "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts",
+                  "code": "what-matters",
+                  "display": "What Matters"
+                }
+              ],
+              "text": "Now that you have thought about what matters to you in all of these areas, what would your life look like if you had the health you want? What kind of activities would you be doing? Or how might you feel different? What area might you focus on?",
+              "type": "text",
+              "required": false
+            },
+            {
+              "linkId": "/reflections/2",
+              "code": [
+                {
+                  "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts",
+                  "code": "what-matters",
+                  "display": "What Matters"
+                }
+              ],
+              "text": "What might get in the way? How might you start?",
+              "type": "text",
+              "required": false
+            },
+            {
+              "linkId": "/reflections/3",
+              "type": "display",
+              "text": "After completing the Personal Health Inventory, talk to a friend, a family member, your health coach, a peer, or someone on your health care team about areas you would like to explore further."
+            }
+          ]
+        }
+      ]
+    }
   ]
-  }]
 }
