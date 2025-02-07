@@ -14,7 +14,21 @@ The need for the PCO IG was identified as a natural next step from the scope of 
 
 ### Person-Centered Outcomes Process Flow
 
-<p><img width="100%" src="./PCO_GAS_Flow Diagram.png" alt="PCO GAS Flow Diagram"/></p>
+<table style="table-layout: fixed ; width:100%">
+    <tbody style="width: 50% ; padding: 20px">
+        <tr>
+            <td colspan="2"><img width="100%" src="./PCO_GAS_Flow Diagram.png" alt="PCO GAS Flow Diagram"/></td>
+        </tr>
+        <tr>
+            <td><img width="100%" src="./Create_Care_Plan.png" alt="Create Care Plan"/></td>
+            <td><img width="100%" src="./Track_PCO_Goal.png" alt="Track PCO Goal"/></td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- <p><img width="100%" src="./PCO_GAS_Flow Diagram.png" alt="PCO GAS Flow Diagram"/></p>
+<p><img width="50%" src="./Create_Care_Plan.png" alt="Create Care Plan"/></p>
+<p><img width="50%" src="./Track_PCO_Goal.png" alt="Track PCO Goal"/></p> -->
 
 #### PCO IG FHIR Profiles aligned with the process flow
 * [What Matters Assesssment](StructureDefinition-pco-what-matters-assessment.html)
@@ -38,7 +52,7 @@ The need for the PCO IG was identified as a natural next step from the scope of 
 
 ### Relationship with other FHIR IGs
 
-The PCO IG is complementary and may be used in combination with other HL7 FHIR Implementation Guides (IGs). See [Related FHIR IGs](related-fhir-ig.html) for a brief summary about this PCO IG is related to the scope and usage of other HL7 FHIR IGs.
+The PCO IG is complementary and may be used in combination with other HL7 FHIR Implementation Guides (IGs) that support other aspects of person-centered, goal-directed care planning. See [Related FHIR IGs](related-fhir-ig.html) for a brief summary about how this PCO IG is related to the scope and usage of other HL7 FHIR IGs.
 
 ### Conformance vs Example Content
 
