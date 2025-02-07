@@ -1,4 +1,4 @@
-The Person-Centered Outcomes (PCO) HL7® FHIR® Implementation Guide (IG) supports the exchange of information related to a person's goal-directed care guided by a person-centered outcomes approach, which includes the identification and tracking of health outcome goals that matter most to patients using either [Goal Attainment Scaling (GAS)](gas-overview.html) or patient-reported outcome measures (PROM).
+The Person-Centered Outcomes (PCO) HL7® FHIR® Implementation Guide (IG) supports the exchange of information related to a person's goal-directed care guided by a person-centered outcomes approach, which includes the identification and tracking of health outcome goals that matter most to patients using either [Goal Attainment Scaling (GAS)](goal-attainment-scaling.html) or patient-reported outcome measures (PROM).
 
 The PCO IG includes profiles for interoperable GAS Goals, support for GAS Goal editing tools, and PCO measures. GAS in healthcare, measures the extent to which individuals achieve specific goals or objectives. It allows for the quantification and evaluation of progress toward individualized goals, particularly in areas where traditional outcome measures may be insufficient. GAS involves collaboratively setting goals with the individual and assigning numerical scales to each goal to represent different levels of achievement. This approach provides a more nuanced and tailored way to assess progress and outcomes, taking into account the unique circumstances and aspirations of the individual. 
 
@@ -26,10 +26,6 @@ The need for the PCO IG was identified as a natural next step from the scope of 
     </tbody>
 </table>
 
-<!-- <p><img width="100%" src="./PCO_GAS_Flow Diagram.png" alt="PCO GAS Flow Diagram"/></p>
-<p><img width="50%" src="./Create_Care_Plan.png" alt="Create Care Plan"/></p>
-<p><img width="50%" src="./Track_PCO_Goal.png" alt="Track PCO Goal"/></p> -->
-
 #### PCO IG FHIR Profiles aligned with the process flow
 * [What Matters Assesssment](StructureDefinition-pco-what-matters-assessment.html)
 * [Person-Centered Goal](StructureDefinition-pco-goal-profile.html) (inherited definition for all PCO goals)
@@ -52,7 +48,7 @@ The need for the PCO IG was identified as a natural next step from the scope of 
 
 ### Relationship with other FHIR IGs
 
-The PCO IG is complementary and may be used in combination with other HL7 FHIR Implementation Guides (IGs) that support other aspects of person-centered, goal-directed care planning. See [Related FHIR IGs](related-fhir-ig.html) for a brief summary about how this PCO IG is related to the scope and usage of other HL7 FHIR IGs.
+The PCO IG is complementary and may be used in combination with other HL7 FHIR Implementation Guides (IGs) that support other aspects of person-centered, goal-directed care planning. See [Related FHIR IGs](related-fhir-igs.html) for a brief summary about how this PCO IG is related to the scope and usage of other HL7 FHIR IGs.
 
 ### Conformance vs Example Content
 
@@ -64,9 +60,8 @@ The PCO IG is complementary and may be used in combination with other HL7 FHIR I
 This IG is divided into several sections that are listed at the top of each page in the menu bar.
 - [Home](index.html): The home page provides the introduction and background information to set context for the use of the HL7® FHIR Person-Centered Outcomes IG.
 - Guidance: These pages provide overall guidance in using the profiles and transactions defined in this guide.
-    - [Formal Specification](formal_specification.html): Information about conformance to the IG, including Must Support requirements.
-    - [Use Cases](use_cases.html): Detailed scenarios in which the Person-Centered Outcomes IG could be used.
     - [User Stories](user_stories.html): Brief scenarios from the perspective of individuals using applications based on this IG.
+    - [Formal Specification](formal_specification.html): Information about conformance to the IG, including Must Support requirements.
     - [Underlying Technologies](underlying_technologies.html): Information about the terminologies, notations, and design principles, specific to FHIR, that this specification uses.
 - Conformance: These sections provide detailed descriptions and formal definitions for FHIR artifacts defined in this IG that define conformance criteria.
     <!-- - [Capability Statement](CapabilityStatement-pco-cap.html): This artifact defines the specific capabilities that different types of systems are expected to have in order to comply with this IG. Systems conforming to this IG are expected to declare conformance with this capability statement. -->

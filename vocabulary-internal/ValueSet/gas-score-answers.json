@@ -22,19 +22,19 @@
     "include": [ {
       "system": "http://loinc.org",
       "concept": [ {
-        "code": "LA6113-0",
+        "code": "LA34479-8",
         "display": "Much better than expected"
       }, {
-        "code": "LA6112-2",
+        "code": "LA34480-6",
         "display": "Better than expected"
       }, {
-        "code": "LA6111-4",
+        "code": "LA34481-4",
         "display": "Expected outcome"
       }, {
-        "code": "gas-less-than-expected",
+        "code": "LA34483-0",
         "display": "Less than expected"
       }, {
-        "code": "gas-much-less-than-expected",
+        "code": "LA34484-8",
         "display": "Much less than expected"
       } ]
     } ]
@@ -47,23 +47,23 @@
     } ],
     "contains": [ {
       "system": "http://loinc.org",
-      "code": "LA6113-0",
+      "code": "LA34479-8",
       "display": "Much better than expected"
     }, {
       "system": "http://loinc.org",
-      "code": "LA6112-2",
+      "code": "LA34480-6",
       "display": "Better than expected"
     }, {
       "system": "http://loinc.org",
-      "code": "LA6111-4",
+      "code": "LA34481-4",
       "display": "Expected outcome"
     }, {
       "system": "http://loinc.org",
-      "code": "gas-less-than-expected",
+      "code": "LA34483-0",
       "display": "Less than expected"
     }, {
       "system": "http://loinc.org",
-      "code": "gas-much-less-than-expected",
+      "code": "LA34484-8",
       "display": "Much less than expected"
     } ]
   }

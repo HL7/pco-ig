@@ -15,7 +15,7 @@
   "code": {
     "coding": [ {
       "system": "http://loinc.org",
-      "code": "68491",
+      "code": "107334-5",
       "display": "Patient follow-up goal attainment scaling score"
     } ]
   },
@@ -35,7 +35,7 @@
   "valueCodeableConcept": {
     "coding": [ {
       "system": "http://loinc.org",
-      "code": "LA6112-2",
+      "code": "LA34480-6",
       "display": "Better than expected"
     } ],
     "text": "Better than expected"

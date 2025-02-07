@@ -80,15 +80,11 @@
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>
 <page key="downloads" name="Downloads"/>
-<page key="feedback" name="Feedback"/>
 <page key="formal_specification" name="Formal Specification"/>
-<page key="gas-examples" name="Gas Examples"/>
-<page key="gas-examples-one-table" name="Gas Examples One Table"/>
-<page key="goal-attainment-scaling" name="Goal Attainment Scaling"/>
+<page key="goal-attainment-scaling" name="Goal Attainment Scaling (GAS)"/>
 <page key="index" name="Home"/>
-<page key="Related-FHIR-IG" name="Related FHIR IG"/>
+<page key="related-fhir-igs" name="Related FHIR IGs"/>
 <page key="toc" name="Table of Contents"/>
 <page key="underlying_technologies" name="Underlying Technologies"/>
-<page key="use_cases" name="Use Cases"/>
 <page key="user_stories" name="User Stories"/>
 </specification>

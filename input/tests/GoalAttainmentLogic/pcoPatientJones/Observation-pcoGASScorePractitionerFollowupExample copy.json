@@ -33,7 +33,7 @@
   "valueCodeableConcept": {
     "coding": [
       {
-        "code": "LA6111-4",
+        "code": "LA34481-4",
         "system": "http://loinc.org",
         "display": "0"
       }
@@ -48,7 +48,7 @@
   "code": {
     "coding": [
       {
-        "code": "68490",
+        "code": "107333-7",
         "system": "http://loinc.org",
         "display": "Practitioner follow-up goal attainment scaling score"
       }

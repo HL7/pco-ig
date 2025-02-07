@@ -53,7 +53,7 @@ Usage: #example
 * subject = Reference(pcoPatientJones)
 * performer = Reference(pcoPatientJones)
 * effectiveDateTime = "2024-03-27T15:10:00Z"
-* valueCodeableConcept = $LNC#LA6113-0 "2 or more"
+* valueCodeableConcept = $LNC#LA34479-8 "2 or more"
 * derivedFrom = Reference(pcoWhatMattersBodyExample)
 
 Instance: pcoWhatMattersBodyExampleNowReasons

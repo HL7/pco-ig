@@ -23,7 +23,7 @@ Description: "Person-centered goal with goal attainment scaling."
 * extension contains
     PCOGoalAttainmentScaling named gas-scaling 0..5 MS
 * target 0..1 MS
-  * measure = $LNC#68489 "Goal attainment scale"
+  * measure = $LNC#107332-9 "Goal attainment scale"
 
 Profile: PCOGoalAttainmentScoreObservation
 Parent: USCoreSimpleObservationProfile

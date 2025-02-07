@@ -14,7 +14,7 @@
   "valueCodeableConcept": {
     "coding": [
       {
-        "code": "LA6112-2",
+        "code": "LA34480-6",
         "system": "http://loinc.org",
         "display": "1"
       }
@@ -39,7 +39,7 @@
   "code": {
     "coding": [
       {
-        "code": "68491",
+        "code": "107334-5",
         "system": "http://loinc.org",
         "display": "Patient follow-up goal attainment scaling score"
       }

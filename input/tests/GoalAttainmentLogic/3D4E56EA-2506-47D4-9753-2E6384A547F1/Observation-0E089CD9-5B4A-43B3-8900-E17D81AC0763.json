@@ -15,7 +15,7 @@
   "code": {
     "coding": [ {
       "system": "http://loinc.org",
-      "code": "68489",
+      "code": "107332-9",
       "display": "Goal attainment scale"
     } ]
   },
@@ -35,7 +35,7 @@
   "valueCodeableConcept": {
     "coding": [ {
       "system": "http://loinc.org",
-      "code": "gas-less-than-expected",
+      "code": "LA34483-0",
       "display": "Less than expected"
     } ],
     "text": "Less than expected"

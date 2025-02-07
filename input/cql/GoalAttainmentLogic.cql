@@ -12,10 +12,10 @@ valueset "Goal Attainment Scaling (GAS) Score": 'http://hl7.org/fhir/us/pco/Valu
 valueset "Follow-Up GAS Score Answers": 'http://hl7.org/fhir/us/pco/ValueSet/gas-score-answers'
 valueset "PROM Target Measures": 'http://hl7.org/fhir/us/pco/ValueSet/prom-target-measures'
 
-code "Goal attainment scale": '68489' from "LOINC" display 'Goal attainment scale'
-code "Practitioner follow-up goal attainment scaling score": '68490' from "LOINC" display 'Practitioner follow-up goal attainment scaling score'
-code "Patient follow-up goal attainment scaling score": '68491' from "LOINC" display 'Patient follow-up goal attainment scaling score'
-code "Caregiver follow-up goal attainment scaling score": '68492' from "LOINC" display 'Caregiver follow-up goal attainment scaling score'
+code "Goal attainment scale": '107332-9' from "LOINC" display 'Goal attainment scale'
+code "Practitioner follow-up goal attainment scaling score": '107333-7' from "LOINC" display 'Practitioner follow-up goal attainment scaling score'
+code "Patient follow-up goal attainment scaling score": '107334-5' from "LOINC" display 'Patient follow-up goal attainment scaling score'
+code "Caregiver follow-up goal attainment scaling score": '107331-1' from "LOINC" display 'Caregiver follow-up goal attainment scaling score'
 
 parameter "Measurement Period" Interval<DateTime>
     default Interval[@2024-01-01T00:00:00.000Z, @2024-12-31T23:59:59.999Z]

@@ -22,16 +22,16 @@
     "include": [ {
       "system": "http://loinc.org",
       "concept": [ {
-        "code": "68489",
+        "code": "107332-9",
         "display": "Goal attainment scale"
       }, {
-        "code": "68490",
+        "code": "107333-7",
         "display": "Practitioner follow-up goal attainment scaling score"
       }, {
-        "code": "68491",
+        "code": "107334-5",
         "display": "Patient follow-up goal attainment scaling score"
       }, {
-        "code": "68492",
+        "code": "107331-1",
         "display": "Caregiver follow-up goal attainment scaling score"
       } ]
     } ]
@@ -44,19 +44,19 @@
     } ],
     "contains": [ {
       "system": "http://loinc.org",
-      "code": "68489",
+      "code": "107332-9",
       "display": "Goal attainment scale"
     }, {
       "system": "http://loinc.org",
-      "code": "68490",
+      "code": "107333-7",
       "display": "Practitioner follow-up goal attainment scaling score"
     }, {
       "system": "http://loinc.org",
-      "code": "68491",
+      "code": "107334-5",
       "display": "Patient follow-up goal attainment scaling score"
     }, {
       "system": "http://loinc.org",
-      "code": "68492",
+      "code": "107331-1",
       "display": "Caregiver follow-up goal attainment scaling score"
     } ]
   }

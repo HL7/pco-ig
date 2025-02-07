@@ -36,7 +36,7 @@
         {
           "url": "level",
           "valueCoding": {
-            "code": "LA6113-0",
+            "code": "LA34479-8",
             "system": "http://loinc.org",
             "display": "Much better than expected"
           }
@@ -53,7 +53,7 @@
         {
           "url": "level",
           "valueCoding": {
-            "code": "LA6112-2",
+            "code": "LA34480-6",
             "system": "http://loinc.org",
             "display": "Better than expected"
           }
@@ -70,7 +70,7 @@
         {
           "url": "level",
           "valueCoding": {
-            "code": "LA6111-4",
+            "code": "LA34481-4",
             "system": "http://loinc.org",
             "display": "Expected outcome"
           }
@@ -87,7 +87,7 @@
         {
           "url": "level",
           "valueCoding": {
-            "code": "gas-less-than-expected",
+            "code": "LA34483-0",
             "system": "http://loinc.org",
             "display": "Less than expected"
           }
@@ -104,7 +104,7 @@
         {
           "url": "level",
           "valueCoding": {
-            "code": "gas-much-less-than-expected",
+            "code": "LA34484-8",
             "system": "http://loinc.org",
             "display": "Much less than expected"
           }
