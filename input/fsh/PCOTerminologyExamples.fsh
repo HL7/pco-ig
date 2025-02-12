@@ -15,7 +15,7 @@ Description: "Goal domain codes used to identify the category for PCO resources.
 * #access-to-services "Access To Services"
     "Ability to access, afford, and utilize appropriate health and community resources. Includes access to transportation, stable food resources, and assistance with financial concerns."
 * #caregiver-needs "Caregiver Needs"
-    ""
+    "Supporing the needs of a person's caregiver"
 * #end-of-life "End Of Life"
     "Planning for end-of-life care and desires to reduce burden on family or others."
 * #independence "Independence"
@@ -31,9 +31,9 @@ Description: "Goal domain codes used to identify the category for PCO resources.
 * #physical-function "Physical Function"
     "Ability to manage physical functioning, physical symptoms or conditions, and improve or maintain ability to participate in physical activities."
 * #social-functioning "Social Functioning"
-    ""
+    "Ability to engage in social activities."
 * #emotional-and-mental-health "Emotional And Mental Health"
-    ""
+    "Having a positive outlook on life."
 
 ValueSet: PCOGoalDomainsExample
 Id: pco-goal-domains-example-vs

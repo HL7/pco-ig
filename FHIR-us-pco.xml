@@ -75,7 +75,6 @@
 <artifact id="Observation/pcoWhatMattersBodyExampleNowRating" key="Observation-pcoWhatMattersBodyExampleNowRating" name="What Matters: Moving the Body, Now Rating"/>
 <artifact id="Observation/pcoWhatMattersBodyExampleNowReasons" key="Observation-pcoWhatMattersBodyExampleNowReasons" name="What Matters: Moving the Body, Now Reasons"/>
 <artifact id="Library/WhatMattersLogic" key="Library-WhatMattersLogic" name="WhatMattersLogic"/>
-<artifact id="Device/cqf-tooling" key="Device-cqf-tooling" name="cqf-tooling"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>

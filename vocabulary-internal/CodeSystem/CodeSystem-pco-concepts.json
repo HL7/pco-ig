@@ -1,0 +1,38 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "PCOConcepts",
+  "id": "pco-concepts",
+  "title": "Person-Centered Outcome Concepts",
+  "description": "Code system to identify resource codes and category codes for Person-Centered Outcomes.",
+  "url": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts",
+  "concept": [
+    {
+      "code": "person-centered",
+      "display": "Person-Centered",
+      "definition": "General category for person-centered goals and observations"
+    },
+    {
+      "code": "what-matters",
+      "display": "What Matters",
+      "definition": "Identify each person's specific health outcome goals and priorities across settings of care."
+    },
+    {
+      "code": "well-being",
+      "display": "Well-Being",
+      "definition": "Indicator for a person's well-being."
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode": "pc"
+    }
+  ],
+  "caseSensitive": true,
+  "experimental": false,
+  "hierarchyMeaning": "is-a",
+  "publisher": "HL7 International / Patient Care",
+  "count": 3
+}

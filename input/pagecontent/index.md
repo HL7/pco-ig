@@ -63,10 +63,11 @@ This IG is divided into several sections that are listed at the top of each page
     - [User Stories](user_stories.html): Brief scenarios from the perspective of individuals using applications based on this IG.
     - [Formal Specification](formal_specification.html): Information about conformance to the IG, including Must Support requirements.
     - [Underlying Technologies](underlying_technologies.html): Information about the terminologies, notations, and design principles, specific to FHIR, that this specification uses.
-- Conformance: These sections provide detailed descriptions and formal definitions for FHIR artifacts defined in this IG that define conformance criteria.
+- FHIR Artifacts: These sections provide detailed descriptions and formal definitions for FHIR artifacts defined in this IG that define conformance criteria.
     <!-- - [Capability Statement](CapabilityStatement-pco-cap.html): This artifact defines the specific capabilities that different types of systems are expected to have in order to comply with this IG. Systems conforming to this IG are expected to declare conformance with this capability statement. -->
-    - [Profiles](artifacts.html#structures-resource-profiles): This section lists the set of Profiles defined in this IG to exchange person-centered information. Each linked Profile page includes a narrative introduction and a formal definition.
-    - [Extensions](artifacts.html#structures-extension-definitions): This section lists the set of Extensions defined in and used by the Profiles in this IG . Each linked Extension page includes a formal definition.
+    - [Profiles](artifacts.html#other): This section lists the set of Profiles defined in this IG to exchange person-centered information. Each linked Profile page includes a narrative introduction and a formal definition.
+    <!-- - [Profiles](artifacts.html#structures-resource-profiles): This section lists the set of Profiles defined in this IG to exchange person-centered information. Each linked Profile page includes a narrative introduction and a formal definition. -->
+    <!-- - [Extensions](artifacts.html#structures-extension-definitions): This section lists the set of Extensions defined in and used by the Profiles in this IG . Each linked Extension page includes a formal definition. -->
     - [Value Sets](artifacts.html#terminology-value-sets): This section lists the value sets this IG defines.
     - [Code Systems](artifacts.html#terminology-code-systems): This section lists the code systems this IG defines.
 - Examples: These sections provide definitions for FHIR resources that are informative for IG implementers, but are not required for conformance testing with this IG.

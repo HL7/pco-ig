@@ -19,7 +19,7 @@
   "description": "Example value set containing well-being domains from the VA Circle of Health.",
   "compose": {
     "include": [ {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health-example",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
       "concept": [ {
         "code": "body",
         "display": "Moving the Body"
@@ -51,45 +51,45 @@
     } ]
   },
   "expansion": {
-    "timestamp": "2025-01-19T09:19:39-07:00",
+    "timestamp": "2025-02-12T07:22:40-07:00",
     "parameter": [ {
       "name": "naive",
       "valueBoolean": true
     } ],
     "contains": [ {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health-example",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
       "code": "body",
       "display": "Moving the Body"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health-example",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
       "code": "mind",
       "display": "Power of the Mind"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health-example",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
       "code": "nourishment",
       "display": "Food & Drink"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health-example",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
       "code": "recharge",
       "display": "Recharge"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health-example",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
       "code": "surroundings",
       "display": "Surroundings"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health-example",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
       "code": "personal-development",
       "display": "Personal Development"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health-example",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
       "code": "spirit-and-soul",
       "display": "Spirit & Soul"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health-example",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
       "code": "relationships",
       "display": "Family, Friends & Co-Workers"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health-example",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
       "code": "professional-care",
       "display": "Professional Care"
     } ]

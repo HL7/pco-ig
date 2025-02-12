@@ -31,7 +31,9 @@ Description: "Code system to types of readiness for change."
 * #readiness-assessment "Readiness assessment"
     "Panel code for readiness scales"
 * #importance "Importance of change"
+    "How important is it right now for you to make this change?"
 * #confidence "Confidence to change"
+    "How confident are you that you will be successful in making this change?"
 
 ValueSet: ReadinessAssessmentType
 Id: readiness-assessment-codes

@@ -56,11 +56,6 @@
     "valueReference": {
       "reference": "#options"
     }
-  }, {
-    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-softwaresystem",
-    "valueReference": {
-      "reference": "Device/cqf-tooling"
-    }
   } ],
   "url": "http://hl7.org/fhir/us/pco/Library/GoalIdentificationMeasure",
   "version": "0.1.0",
@@ -98,7 +93,7 @@
   }, {
     "type": "depends-on",
     "display": "Value set What Matters Categories",
-    "resource": "http://hl7.org/fhir/us/pco/ValueSet/well-being-categories"
+    "resource": "http://hl7.org/fhir/us/pco/ValueSet/pco-categories"
   }, {
     "type": "depends-on",
     "display": "Value set PCO Goal Domain Categories",

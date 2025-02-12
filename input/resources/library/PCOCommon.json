@@ -56,15 +56,11 @@
     "valueReference": {
       "reference": "#options"
     }
-  }, {
-    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-softwaresystem",
-    "valueReference": {
-      "reference": "Device/cqf-tooling"
-    }
   } ],
   "url": "http://hl7.org/fhir/us/pco/Library/PCOCommon",
   "version": "0.1.0",
   "name": "PCOCommon",
+  "description": "Shared CQL expressions for all Person-Centered Outcome libraries.",
   "type": {
     "coding": [ {
       "system": "http://terminology.hl7.org/CodeSystem/library-type",
