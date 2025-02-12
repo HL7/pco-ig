@@ -1,13 +1,17 @@
 {
   "resourceType": "Measure",
   "id": "GoalFollowUpMeasure",
-  "meta": {
-    "profile": [ "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-measure-cqfm", "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-measure-cqfm", "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/executable-measure-cqfm" ]
-  },
   "contained": [ {
     "resourceType": "Library",
     "id": "effective-data-requirements",
     "extension": [ {
+      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode",
+      "valueCoding": {
+        "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts",
+        "code": "what-matters",
+        "display": "What Matters"
+      }
+    }, {
       "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode",
       "valueCoding": {
         "system": "http://loinc.org",
@@ -51,10 +55,10 @@
         "valueString": "WhatMattersLogic"
       }, {
         "url": "name",
-        "valueString": "What Matters Observations"
+        "valueString": "Well-Being Observations"
       }, {
         "url": "statement",
-        "valueString": "define \"What Matters Observations\":\n  [Observation] obs\n    where obs.category in \"What Matters Categories\"\n      or obs.code in \"Well-Being Domains\""
+        "valueString": "define \"Well-Being Observations\":\n  [Observation] obs\n    where obs.category in \"Well-Being Categories\"\n      or obs.code in \"Well-Being Domains\""
       }, {
         "url": "displaySequence",
         "valueInteger": 2
@@ -69,7 +73,7 @@
         "valueString": "PCO Goals"
       }, {
         "url": "statement",
-        "valueString": "/* \n  A \"PCO Goal\" is any FHIR Goal that has a category in \"What Matters Category\" or \"PCO Domain Categories\"\n      or that addresses a What Matters observation\n  and has a start date.\n*/\ndefine \"PCO Goals\":\n  [Goal] goal\n    where (goal.category in WM.\"What Matters Categories\"\n        or goal.category in \"PCO Goal Domain Categories\"\n        or exists goal.whatMattersObservations())\n      and (goal.start as FHIR.date) is not null"
+        "valueString": "/* \n  A \"PCO Goal\" is any FHIR Goal that has a category in \"What Matters Category\" or \"PCO Domain Categories\"\n      or that addresses a What Matters observation\n  and has a start date.\n*/\ndefine \"PCO Goals\":\n  [Goal] goal\n    where (goal.category in WM.\"Well-Being Categories\"\n        or goal.category in \"PCO Goal Domain Categories\"\n        or exists goal.whatMattersObservations())\n      and (goal.start as FHIR.date) is not null"
       }, {
         "url": "displaySequence",
         "valueInteger": 3
@@ -249,7 +253,7 @@
         "valueString": "isWhatMatters"
       }, {
         "url": "statement",
-        "valueString": "define fluent function isWhatMatters(obs Observation):\n  \"What Matters Observations\" contains obs"
+        "valueString": "define fluent function isWhatMatters(obs Observation):\n  exists( \"Well-Being Observations\" obs\n    where exists(obs.category cat where cat = \"What Matters category\")\n  )"
       }, {
         "url": "displaySequence",
         "valueInteger": 15
@@ -461,12 +465,16 @@
       "resource": "http://hl7.org/fhir/us/pco/Library/PCOCommon|0.1.0"
     }, {
       "type": "depends-on",
+      "display": "Code system Well-Being Concepts",
+      "resource": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts"
+    }, {
+      "type": "depends-on",
       "display": "Code system LOINC",
       "resource": "http://loinc.org"
     }, {
       "type": "depends-on",
-      "display": "Value set What Matters Categories",
-      "resource": "http://hl7.org/fhir/us/pco/ValueSet/well-being-categories"
+      "display": "Value set Well-Being Categories",
+      "resource": "http://hl7.org/fhir/us/pco/ValueSet/pco-categories"
     }, {
       "type": "depends-on",
       "display": "Value set PCO Goal Domain Categories",
@@ -622,7 +630,7 @@
   "title": "Person-Centered Goal Follow-Up",
   "status": "active",
   "experimental": false,
-  "date": "2025-01-04T23:50:51+00:00",
+  "date": "2025-02-12T18:05:49+00:00",
   "publisher": "HL7 International / Patient Care",
   "contact": [ {
     "telecom": [ {

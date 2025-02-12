@@ -56,17 +56,22 @@
     "valueReference": {
       "reference": "#options"
     }
+  }, {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-softwaresystem",
+    "valueReference": {
+      "reference": "Device/cqf-tooling"
+    }
   } ],
   "url": "http://hl7.org/fhir/us/pco/Library/FHIRHelpers",
   "version": "4.4.000",
   "name": "FHIRHelpers",
-  "description": "FHIR helper expressions",
   "type": {
     "coding": [ {
       "system": "http://terminology.hl7.org/CodeSystem/library-type",
       "code": "logic-library"
     } ]
   },
+  "description": "FHIR helper expressions",
   "relatedArtifact": [ {
     "type": "depends-on",
     "display": "FHIR model information",

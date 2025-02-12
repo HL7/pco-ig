@@ -65,6 +65,7 @@
   "url": "http://hl7.org/fhir/us/pco/Library/GoalFollowUpMeasure",
   "version": "0.1.0",
   "name": "GoalFollowUpMeasure",
+  "description": "CQL logic for the Goal Follow-up Measure",
   "type": {
     "coding": [ {
       "system": "http://terminology.hl7.org/CodeSystem/library-type",
@@ -93,12 +94,16 @@
     "resource": "http://hl7.org/fhir/us/pco/Library/WhatMattersLogic|0.1.0"
   }, {
     "type": "depends-on",
+    "display": "Code system Well-Being Concepts",
+    "resource": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts"
+  }, {
+    "type": "depends-on",
     "display": "Code system LOINC",
     "resource": "http://loinc.org"
   }, {
     "type": "depends-on",
-    "display": "Value set What Matters Categories",
-    "resource": "http://hl7.org/fhir/us/pco/ValueSet/well-being-categories"
+    "display": "Value set Well-Being Categories",
+    "resource": "http://hl7.org/fhir/us/pco/ValueSet/pco-categories"
   }, {
     "type": "depends-on",
     "display": "Value set PCO Goal Domain Categories",

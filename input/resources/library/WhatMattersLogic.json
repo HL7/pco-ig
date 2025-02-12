@@ -56,17 +56,22 @@
     "valueReference": {
       "reference": "#options"
     }
+  }, {
+    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-softwaresystem",
+    "valueReference": {
+      "reference": "Device/cqf-tooling"
+    }
   } ],
   "url": "http://hl7.org/fhir/us/pco/Library/WhatMattersLogic",
   "version": "0.1.0",
   "name": "WhatMattersLogic",
-  "description": "CQL logic for What Matters concepts.",
   "type": {
     "coding": [ {
       "system": "http://terminology.hl7.org/CodeSystem/library-type",
       "code": "logic-library"
     } ]
   },
+  "description": "CQL logic for What Matters concepts.",
   "relatedArtifact": [ {
     "type": "depends-on",
     "display": "FHIR model information",
