@@ -1,5 +1,5 @@
 
-The Person-Centered Outcomes (PCO) IG is complementary and may be used in combination with several other HL7 FHIR Implementation Guides (IGs). The following HL7 FHIR IGs are listed with a brief summary about this PCO IG is related to their scope and usage.
+The Person-Centered Outcomes (PCO) IG is complementary and may be used in combination with several other HL7 FHIR Implementation Guides (IGs). The following HL7 FHIR IGs are listed with a brief summary about how this PCO FHIR IG is related to their scope and usage. Each of the following IGs includes a profile for FHIR Goal, often with a specific category code and other Goal element requirements. Other FHIR resource profiles are defined in these IGs that may be used along with PCO IG profiles for expanded use cases in comprehensive care planning.
 
 [US Core 6.1.0](https://hl7.org/fhir/us/core/STU6.1/index.html): All profiles in this version of the PCO FHIR IG are based on US Core 6.1.0 to align with current interoperability requirements in the United States.
 
