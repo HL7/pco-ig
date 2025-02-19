@@ -44,17 +44,16 @@ menu:
     Formal Specification: formal_specification.html
     Underlying Technologies: underlying_technologies.html
   FHIR Artifacts:
-    Profiles: artifacts.html#other
-    # Profiles: artifacts.html#structures-resource-profiles
-    # Extensions: artifacts.html#structures-extension-definitions
+    Profiles: artifacts.html#structures-resource-profiles
+    Extensions: artifacts.html#structures-extension-definitions
     Value Sets: artifacts.html#terminology-value-sets
     Code Systems: artifacts.html#terminology-code-systems
     # Other Artifacts: artifacts.html#other
   Examples:
+    Example Instances: artifacts.html#example-example-instances
+    Questionnaires: artifacts.html#structures-questionnaires
     Measures: artifacts.html#knowledge-artifacts-measure
     CQL Libraries: artifacts.html#knowledge-artifacts-libraries
-    Questionnaires: artifacts.html#structures-questionnaires
-    Example Instances: artifacts.html#example-example-instances
   Downloads: downloads.html
 
 pages:
