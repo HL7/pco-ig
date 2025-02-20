@@ -9,7 +9,7 @@ name: PCO
 title: Person-Centered Outcomes
 description: Person-Centered Outcomes (PCO) FHIR Implementation Guide
 status: draft # draft | active | retired | unknown
-version: 0.2.0
+version: 0.8.0
 fhirVersion: 4.0.1
 FSHOnly: false
 copyrightYear: 2024+
