@@ -31,7 +31,7 @@
 <artifact id="Library/GoalIdentificationMeasure" key="Library-GoalIdentificationMeasure" name="GoalIdentificationMeasure"/>
 <artifact id="Practitioner/pcoPractitionerGonzalez" key="Practitioner-pcoPractitionerGonzalez" name="Health &amp; Wellness Coach"/>
 <artifact id="ValueSet/pco-goal-domains-example-vs" key="ValueSet-pco-goal-domains-example-vs" name="PCO Goal Domain Categories Example"/>
-<artifact id="CodeSystem/pco-goal-domains" key="CodeSystem-pco-goal-domains" name="PCO Goal Domains"/>
+<artifact id="CodeSystem/pco-goal-domains-temporary" key="CodeSystem-pco-goal-domains-temporary" name="PCO Goal Domains"/>
 <artifact id="Library/PCOCommon" key="Library-PCOCommon" name="PCOCommon"/>
 <artifact id="Questionnaire/44249-1" key="Questionnaire-44249-1" name="PHQ-9 Depression Assessment"/>
 <artifact id="ValueSet/prom-target-measures" key="ValueSet-prom-target-measures" name="PROM Target Measure Scores"/>
@@ -46,7 +46,7 @@
 <artifact id="StructureDefinition/pco-goal-barrier" key="StructureDefinition-pco-goal-barrier" name="Person-Centered Goal Barrier"/>
 <artifact id="Measure/GoalFollowUpMeasure" key="Measure-GoalFollowUpMeasure" name="Person-Centered Goal Follow-Up"/>
 <artifact id="Measure/GoalIdentificationMeasure" key="Measure-GoalIdentificationMeasure" name="Person-Centered Goal Identification"/>
-<artifact id="CodeSystem/pco-concepts" key="CodeSystem-pco-concepts" name="Person-Centered Outcome Concepts"/>
+<artifact id="CodeSystem/pco-concepts-temporary" key="CodeSystem-pco-concepts-temporary" name="Person-Centered Outcome Concepts"/>
 <artifact id="StructureDefinition/pco-prom-goal-profile" key="StructureDefinition-pco-prom-goal-profile" name="Person-Centered PROM Goal"/>
 <artifact id="Questionnaire/health-inventory-example" key="Questionnaire-health-inventory-example" name="Personal Health Inventory"/>
 <artifact id="List/pcoPrioritiesList" key="List-pcoPrioritiesList" name="Personal Priorities List"/>
@@ -75,6 +75,7 @@
 <artifact id="Observation/pcoWhatMattersBodyExampleNowRating" key="Observation-pcoWhatMattersBodyExampleNowRating" name="What Matters: Moving the Body, Now Rating"/>
 <artifact id="Observation/pcoWhatMattersBodyExampleNowReasons" key="Observation-pcoWhatMattersBodyExampleNowReasons" name="What Matters: Moving the Body, Now Reasons"/>
 <artifact id="Library/WhatMattersLogic" key="Library-WhatMattersLogic" name="WhatMattersLogic"/>
+<artifact id="Device/cqf-tooling" key="Device-cqf-tooling" name="cqf-tooling"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>

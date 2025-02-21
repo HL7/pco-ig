@@ -5,7 +5,7 @@ Title: "What Matters Concepts"
 Description: "Code system to identify observation codes for What Matters."
 * ^caseSensitive = true
 * ^experimental = false
-* ^status = #active
+* ^status = #draft
 * insert PCOCodeSystemPublisher
 * #now-rating "Now Rating"
     "Where are you now?"
@@ -22,7 +22,7 @@ Title: "VA Whole Health Concepts"
 Description: "Code system to identify concepts from the VA Whole Health approach and Circle of Health."
 * ^caseSensitive = true
 * ^experimental = false
-* ^status = #active
+* ^status = #draft
 * insert PCOCodeSystemPublisher
 * #health-inventory "Personal Health Inventory"
     "Personal health inventory panel"

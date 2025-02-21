@@ -87,7 +87,7 @@
   }, {
     "type": "depends-on",
     "display": "Code system Well-Being Concepts",
-    "resource": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts"
+    "resource": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts-temporary"
   }, {
     "type": "depends-on",
     "display": "Value set Well-Being Categories",

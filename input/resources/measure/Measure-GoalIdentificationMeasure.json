@@ -7,7 +7,7 @@
     "extension": [ {
       "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode",
       "valueCoding": {
-        "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts",
+        "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts-temporary",
         "code": "what-matters",
         "display": "What Matters"
       }
@@ -466,7 +466,7 @@
     }, {
       "type": "depends-on",
       "display": "Code system Well-Being Concepts",
-      "resource": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts"
+      "resource": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts-temporary"
     }, {
       "type": "depends-on",
       "display": "Code system LOINC",
@@ -625,11 +625,11 @@
       "display": "CMS"
     }
   } ],
-  "version": "0.1.0",
+  "version": "0.5.0",
   "name": "GoalIdentificationMeasure",
   "title": "Person-Centered Goal Identification",
-  "status": "active",
-  "experimental": false,
+  "status": "draft",
+  "experimental": true,
   "date": "2025-02-12T18:05:49+00:00",
   "publisher": "HL7 International / Patient Care",
   "contact": [ {

@@ -26,7 +26,7 @@ Title: "Readiness Assessment Concepts"
 Description: "Code system to types of readiness for change."
 * ^caseSensitive = true
 * ^experimental = false
-* ^status = #active
+* ^status = #draft
 * insert PCOCodeSystemPublisher
 * #readiness-assessment "Readiness assessment"
     "Panel code for readiness scales"
