@@ -46,23 +46,17 @@ The need for the PCO IG was identified as a natural next step from the scope of 
   * [Follow-up GAS Score Answers](ValueSet-gas-score-answers.html)
 * [PROM Target Measure Scores](ValueSet-prom-target-measures.html)
 
-### Relationship with other FHIR IGs
-
-The PCO IG is complementary and may be used in combination with other HL7 FHIR Implementation Guides (IGs) that support other aspects of person-centered, goal-directed care planning. See [Related FHIR IGs](related-fhir-igs.html) for a brief summary about how this PCO IG is related to the scope and usage of other HL7 FHIR IGs.
-
-### Conformance vs Example Content
-
-* Profile and extension definitions in this IG are proposed as **conformance** content.
-* Measure, Library, and Questionnaire resources are **example** instances that illustrate concrete use cases for implementers.
-
 ### How to read this Guide
 
 This IG is divided into several sections that are listed at the top of each page in the menu bar.
 - [Home](index.html): The home page provides the introduction and background information to set context for the use of the HL7® FHIR Person-Centered Outcomes IG.
-- Guidance: These pages provide overall guidance in using the profiles and transactions defined in this guide.
+- Guidance: These pages provide overall guidance in using the profiles defined in this guide.
     - [User Stories](user_stories.html): Brief scenarios from the perspective of individuals using applications based on this IG.
+    - [Goal Attainment Scaling](goal-attainment-scaling.html): Introduction to Goal Attainment Scaling (GAS)
+    - [Related FHIR IGs](related-fhir-igs.html): HL7 FHIR Implementation Guides (IGs) that support other aspects of person-centered, goal-directed care planning.
+- Conformace: These pages provide overall guidance in using the profiles and transactions defined in this guide.
     - [Formal Specification](formal_specification.html): Information about conformance to the IG, including Must Support requirements.
-    - [Underlying Technologies](underlying_technologies.html): Information about the terminologies, notations, and design principles, specific to FHIR, that this specification uses.
+    - [Underlying Technologies](underlying_technologies.html): Information about the terminologies, notations, and design principles, specific to FHIR, 
 - FHIR Artifacts: These sections provide detailed descriptions and formal definitions for FHIR artifacts defined in this IG that define conformance criteria.
     <!-- - [Capability Statement](CapabilityStatement-pco-cap.html): This artifact defines the specific capabilities that different types of systems are expected to have in order to comply with this IG. Systems conforming to this IG are expected to declare conformance with this capability statement. -->
     - [Profiles](artifacts.html#structures-resource-profiles): This section lists the set of Profiles defined in this IG to exchange person-centered information. Each linked Profile page includes a narrative introduction and a formal definition.
@@ -75,3 +69,8 @@ This IG is divided into several sections that are listed at the top of each page
     - [Measures](artifacts.html#knowledge-artifacts-measure): This section lists example FHIR Measure resources for digial quality measures.
     - [CQL Libraries](artifacts.html#knowledge-artifacts-libraries): This section lists example FHIR Library resources containing CQL logic for digial quality measures.
 - [Downloads](downloads.html): This page provides links to downloadable artifacts.
+
+### Cross Version Analysis
+
+{% include cross-version-analysis.xhtml %}
+ 

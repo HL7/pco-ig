@@ -36,11 +36,13 @@ dependencies:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Table of Contents: toc.html
+  # Table of Contents: toc.html
   Guidance:
     User Stories: user_stories.html
     Goal Attainment Scaling: goal-attainment-scaling.html
     Related FHIR IGs: related-fhir-igs.html
+  Conformance:
+    Dependencies: dependencies.html
     Formal Specification: formal_specification.html
     Underlying Technologies: underlying_technologies.html
   FHIR Artifacts:
@@ -65,6 +67,8 @@ pages:
     title: Goal Attainment Scaling (GAS)
   related-fhir-igs.md:
     title: Related FHIR IGs
+  dependencies.md:
+    title: Dependencies
   formal_specification.md:
     title: Formal Specification
   underlying_technologies.md:
