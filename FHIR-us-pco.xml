@@ -12,20 +12,21 @@
 <artifact id="ServiceRequest/pcoWalkOutsideActionStep" key="ServiceRequest-pcoWalkOutsideActionStep" name="Care Plan: Personal action step"/>
 <artifact id="Library/FHIRHelpers" key="Library-FHIRHelpers" name="FHIRHelpers"/>
 <artifact id="ValueSet/gas-score-answers" key="ValueSet-gas-score-answers" name="Follow-Up GAS Score Answers"/>
-<artifact id="Observation/pcoPROMScoreAnxietyExample" key="Observation-pcoPROMScoreAnxietyExample" name="GAD-7 PROM Follow-up Score"/>
+<artifact id="Observation/pcoPROMScoreAnxietyBaseline" key="Observation-pcoPROMScoreAnxietyBaseline" name="GAD-7 PROM Baseline Score"/>
+<artifact id="Observation/pcoPROMScoreAnxietyFollowUp" key="Observation-pcoPROMScoreAnxietyFollowUp" name="GAD-7 PROM Follow-up Score"/>
 <artifact id="Observation/pcoGASScoreBaselineExample" key="Observation-pcoGASScoreBaselineExample" name="GAS Baseline Score"/>
 <artifact id="Questionnaire/69737-5" key="Questionnaire-69737-5" name="Generalized Anxiety Disorder (GAD-7)"/>
 <artifact id="ValueSet/goal-attainment-scaling-score" key="ValueSet-goal-attainment-scaling-score" name="Goal Attainment Scaling (GAS) Score"/>
 <artifact id="StructureDefinition/pco-gas-score-observation" key="StructureDefinition-pco-gas-score-observation" name="Goal Attainment Scaling (GAS) score observation"/>
 <artifact id="StructureDefinition/pco-goal-attainment-scaling" key="StructureDefinition-pco-goal-attainment-scaling" name="Goal Attainment Scaling Extension"/>
+<artifact id="StructureDefinition/pco-goal-barrier" key="StructureDefinition-pco-goal-barrier" name="Goal Barrier"/>
 <artifact id="ValueSet/goal-barrier-codes" key="ValueSet-goal-barrier-codes" name="Goal Barrier Assessment Codes"/>
 <artifact id="ValueSet/pco-goal-barrier-types-example-vs" key="ValueSet-pco-goal-barrier-types-example-vs" name="Goal Barrier Types Example"/>
-<artifact id="Observation/pcoBarrierDiabeticDiet" key="Observation-pcoBarrierDiabeticDiet" name="Goal Barrier: Diabetic diet (other)"/>
-<artifact id="Observation/pcoBarrierUrinaryIncontinence" key="Observation-pcoBarrierUrinaryIncontinence" name="Goal Barrier: Urinary incontinence"/>
-<artifact id="Goal/pcoGoalAnxietyExample" key="Goal-pcoGoalAnxietyExample" name="Goal for GAD-7 PROM Outcome"/>
-<artifact id="Goal/pcoGoalWalkDogExample" key="Goal-pcoGoalWalkDogExample" name="Goal with GAS"/>
-<artifact id="Goal/pcoGoalWalkDogExampleWithoutExtensions" key="Goal-pcoGoalWalkDogExampleWithoutExtensions" name="Goal without GAS Extensions"/>
-<artifact id="Goal/pcoGoalPainLevelExample" key="Goal-pcoGoalPainLevelExample" name="Goal without GAS or PROM"/>
+<artifact id="Observation/pcoBarrierAnxietyCodedValue" key="Observation-pcoBarrierAnxietyCodedValue" name="Goal Barrier: Anxiety in social situations, coded value"/>
+<artifact id="Observation/pcoBarrierFreeTextValue" key="Observation-pcoBarrierFreeTextValue" name="Goal Barrier: Don't like to drive"/>
+<artifact id="Goal/pcoGoalAnxietyExample" key="Goal-pcoGoalAnxietyExample" name="Goal with GAD-7 PROM Outcome"/>
+<artifact id="Goal/pcoGoalSocialConnectionsWithGAS" key="Goal-pcoGoalSocialConnectionsWithGAS" name="Goal with GAS"/>
+<artifact id="Goal/pcoGoalSocialConnectionsWithoutExtensions" key="Goal-pcoGoalSocialConnectionsWithoutExtensions" name="Goal without GAS Extensions"/>
 <artifact id="Library/GoalAttainmentLogic" key="Library-GoalAttainmentLogic" name="GoalAttainmentLogic"/>
 <artifact id="Library/GoalFollowUpMeasure" key="Library-GoalFollowUpMeasure" name="GoalFollowUpMeasure"/>
 <artifact id="Library/GoalIdentificationMeasure" key="Library-GoalIdentificationMeasure" name="GoalIdentificationMeasure"/>
@@ -35,7 +36,6 @@
 <artifact id="Library/PCOCommon" key="Library-PCOCommon" name="PCOCommon"/>
 <artifact id="Questionnaire/44249-1" key="Questionnaire-44249-1" name="PHQ-9 Depression Assessment"/>
 <artifact id="ValueSet/prom-target-measures" key="ValueSet-prom-target-measures" name="PROM Target Measure Scores"/>
-<artifact id="Patient/pcoPatientLopez" key="Patient-pcoPatientLopez" name="Patient Camila Lopez"/>
 <artifact id="Patient/pcoPatientJones" key="Patient-pcoPatientJones" name="Patient Dorothy Jones"/>
 <artifact id="Observation/pcoGASScorePatientFollowupExample" key="Observation-pcoGASScorePatientFollowupExample" name="Patient GAS Follow-up Score"/>
 <artifact id="StructureDefinition/pco-prom-score-observation" key="StructureDefinition-pco-prom-score-observation" name="Patient-Reported Outcome Measure (PROM) score observation"/>
@@ -43,7 +43,6 @@
 <artifact id="ValueSet/pco-categories" key="ValueSet-pco-categories" name="Person-Centered Categories"/>
 <artifact id="StructureDefinition/pco-gas-goal-profile" key="StructureDefinition-pco-gas-goal-profile" name="Person-Centered GAS Goal"/>
 <artifact id="StructureDefinition/pco-goal-profile" key="StructureDefinition-pco-goal-profile" name="Person-Centered Goal"/>
-<artifact id="StructureDefinition/pco-goal-barrier" key="StructureDefinition-pco-goal-barrier" name="Person-Centered Goal Barrier"/>
 <artifact id="Measure/GoalFollowUpMeasure" key="Measure-GoalFollowUpMeasure" name="Person-Centered Goal Follow-Up"/>
 <artifact id="Measure/GoalIdentificationMeasure" key="Measure-GoalIdentificationMeasure" name="Person-Centered Goal Identification"/>
 <artifact id="CodeSystem/pco-concepts-temporary" key="CodeSystem-pco-concepts-temporary" name="Person-Centered Outcome Concepts"/>
@@ -64,16 +63,16 @@
 <artifact id="StructureDefinition/pco-what-matters-assessment" key="StructureDefinition-pco-what-matters-assessment" name="What Matters Assessment"/>
 <artifact id="ValueSet/what-matters-codes-example" key="ValueSet-what-matters-codes-example" name="What Matters Codes Example"/>
 <artifact id="CodeSystem/what-matters-concepts" key="CodeSystem-what-matters-concepts" name="What Matters Concepts"/>
-<artifact id="Observation/pcoWhatMattersFocusAreaExample" key="Observation-pcoWhatMattersFocusAreaExample" name="What Matters Focus: Moving the Body"/>
-<artifact id="Observation/pcoWhatMattersStatementExample" key="Observation-pcoWhatMattersStatementExample" name="What Matters Statement: Family &amp; Friends"/>
+<artifact id="Observation/pcoWhatMattersFocusAreaExample" key="Observation-pcoWhatMattersFocusAreaExample" name="What Matters Focus: Family &amp; Friends"/>
+<artifact id="Observation/pcoWhatMattersStatementExample" key="Observation-pcoWhatMattersStatementExample" name="What Matters Statement as Free-Text"/>
 <artifact id="Observation/pcoWhatMattersRelationshipsExample" key="Observation-pcoWhatMattersRelationshipsExample" name="What Matters: Family &amp; Friends (Panel)"/>
+<artifact id="Observation/pcoWhatMattersRelationshipsExampleFutureChanges" key="Observation-pcoWhatMattersRelationshipsExampleFutureChanges" name="What Matters: Family &amp; Friends, Future Changes"/>
 <artifact id="Observation/pcoWhatMattersRelationshipsExampleFutureRating" key="Observation-pcoWhatMattersRelationshipsExampleFutureRating" name="What Matters: Family &amp; Friends, Future Rating"/>
 <artifact id="Observation/pcoWhatMattersRelationshipsExampleNowRating" key="Observation-pcoWhatMattersRelationshipsExampleNowRating" name="What Matters: Family &amp; Friends, Now Rating"/>
-<artifact id="Observation/pcoWhatMattersBodyExample" key="Observation-pcoWhatMattersBodyExample" name="What Matters: Moving the Body (Panel)"/>
-<artifact id="Observation/pcoWhatMattersRelationshipsExampleFutureChanges" key="Observation-pcoWhatMattersRelationshipsExampleFutureChanges" name="What Matters: Moving the Body, Future Changes"/>
-<artifact id="Observation/pcoWhatMattersBodyExampleFutureRating" key="Observation-pcoWhatMattersBodyExampleFutureRating" name="What Matters: Moving the Body, Future Rating"/>
-<artifact id="Observation/pcoWhatMattersBodyExampleNowRating" key="Observation-pcoWhatMattersBodyExampleNowRating" name="What Matters: Moving the Body, Now Rating"/>
-<artifact id="Observation/pcoWhatMattersBodyExampleNowReasons" key="Observation-pcoWhatMattersBodyExampleNowReasons" name="What Matters: Moving the Body, Now Reasons"/>
+<artifact id="Observation/pcoWhatMattersFoodExample" key="Observation-pcoWhatMattersFoodExample" name="What Matters: Food and Drink (Panel)"/>
+<artifact id="Observation/pcoWhatMattersFoodExampleFutureRating" key="Observation-pcoWhatMattersFoodExampleFutureRating" name="What Matters: Food and Drink, Future Rating"/>
+<artifact id="Observation/pcoWhatMattersFoodExampleNowRating" key="Observation-pcoWhatMattersFoodExampleNowRating" name="What Matters: Food and Drink, Now Rating"/>
+<artifact id="Observation/pcoWhatMattersFoodExampleNowReasons" key="Observation-pcoWhatMattersFoodExampleNowReasons" name="What Matters: Food and Drink, Now Reasons"/>
 <artifact id="Library/WhatMattersLogic" key="Library-WhatMattersLogic" name="WhatMattersLogic"/>
 <artifact id="Device/cqf-tooling" key="Device-cqf-tooling" name="cqf-tooling"/>
 <page key="NA" name="(NA)"/>

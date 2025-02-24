@@ -7,7 +7,7 @@ Usage: #example
 * status = #active
 * intent = #plan
 * subject = Reference(pcoPatientJones)
-* goal = Reference(pcoGoalWalkDogExample)
+* goal = Reference(pcoGoalSocialConnectionsWithGAS)
 * activity[0].reference = Reference(pcoWalkOutsideActionStep)
 * activity[1].reference = Reference(pcoPhysicalTherapyReferral)
 * activity[2].reference = Reference(pcoAntiInflammatoryMedication)
@@ -26,7 +26,7 @@ Usage: #example
 * performer = Reference(pcoPatientJones)
 * code.text = "Walk outside without my dog"
 * patientInstruction = "Start with a short walk to the corner of your block to gain confidence in your walking."
-* extension[pertainsToGoal].valueReference = Reference(pcoGoalWalkDogExample)
+* extension[pertainsToGoal].valueReference = Reference(pcoGoalSocialConnectionsWithGAS)
 * authoredOn = "2024-02-22"
 * occurrenceTiming.repeat.boundsPeriod.start = "2024-02-22"
 * occurrenceTiming.repeat.boundsPeriod.end = "2024-03-07"
@@ -43,7 +43,7 @@ Usage: #example
 * subject = Reference(pcoPatientJones)
 * requester = Reference(pcoPractitionerAnderson)
 * code.coding = $SCT#91251008 "Physical therapy procedure (regime/therapy)"
-* extension[pertainsToGoal].valueReference = Reference(pcoGoalWalkDogExample)
+* extension[pertainsToGoal].valueReference = Reference(pcoGoalSocialConnectionsWithGAS)
 * authoredOn = "2024-02-22"
 * occurrenceTiming.repeat.boundsPeriod.start = "2024-03-01"
 * occurrenceTiming.repeat.boundsPeriod.end = "2024-04-30"

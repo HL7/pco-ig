@@ -10,7 +10,7 @@ Usage: #example
 * name.family = "Jones"
 * name.given[0] = "Dorothy"
 * gender = #female
-* birthDate = "1947-11-25"
+* birthDate = "1975-05-25"
 
 Instance: pcoPractitionerGonzalez
 InstanceOf: USCorePractitionerProfile
@@ -38,21 +38,6 @@ Usage: #example
 * name.text = "John Anderson, MD"
 * gender = #male
 
-Instance: pcoGoalPainLevelExample
-InstanceOf: PCOGoalProfile
-Title: "Goal without GAS or PROM"
-Description: "Person-centered goal without attainment scaling or PROM"
-Usage: #example
-* lifecycleStatus = #active
-* achievementStatus = $GoalAchievement#in-progress
-* category[pco] = PCOConcepts#what-matters "What Matters"
-* category[goal-domain] = PCOGoalDomains#physical-function "Physical Function"
-* subject = Reference(pcoPatientJones)
-* expressedBy = Reference(pcoPatientJones)
-* startDate = "2024-02-15"
-* target.dueDate = "2024-06-30"
-* description.text = "Maintain pain level below 5 while walking"
-
 Instance: pcoReadinessAssessmentPanel
 InstanceOf: PCOReadinessAssessmentProfile
 Title: "Readiness Assessment panel"
@@ -60,7 +45,7 @@ Description: "Readiness assessment with two members"
 Usage: #example
 * status = #final 
 * code = ReadinessConcepts#readiness-assessment "Readiness assessment"
-* focus = Reference(pcoGoalWalkDogExample)
+* focus = Reference(pcoGoalSocialConnectionsWithGAS)
 * subject = Reference(pcoPatientJones)
 * performer = Reference(pcoPatientJones)
 * effectiveDateTime = "2024-04-10T15:05:00Z"
@@ -74,7 +59,7 @@ Description: "Readiness assessment of importance for a goal"
 Usage: #example
 * status = #final 
 * code = ReadinessConcepts#importance "Importance of change"
-* focus = Reference(pcoGoalWalkDogExample)
+* focus = Reference(pcoGoalSocialConnectionsWithGAS)
 * subject = Reference(pcoPatientJones)
 * performer = Reference(pcoPatientJones)
 * effectiveDateTime = "2024-04-10T15:05:00Z"
@@ -88,7 +73,7 @@ Description: "Readiness assessment of confidence to achieve a goal"
 Usage: #example
 * status = #final 
 * code = ReadinessConcepts#confidence "Confidence to change"
-* focus = Reference(pcoGoalWalkDogExample)
+* focus = Reference(pcoGoalSocialConnectionsWithGAS)
 * subject = Reference(pcoPatientJones)
 * performer = Reference(pcoPatientJones)
 * effectiveDateTime = "2024-04-10T15:05:00Z"
