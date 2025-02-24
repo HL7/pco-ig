@@ -19,7 +19,7 @@
   "description": "Example value set containing well-being domains from the VA Circle of Health.",
   "compose": {
     "include": [ {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
       "concept": [ {
         "code": "body",
         "display": "Moving the Body"
@@ -57,39 +57,39 @@
       "valueBoolean": true
     } ],
     "contains": [ {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
       "code": "body",
       "display": "Moving the Body"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
       "code": "mind",
       "display": "Power of the Mind"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
       "code": "nourishment",
       "display": "Food & Drink"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
       "code": "recharge",
       "display": "Recharge"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
       "code": "surroundings",
       "display": "Surroundings"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
       "code": "personal-development",
       "display": "Personal Development"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
       "code": "spirit-and-soul",
       "display": "Spirit & Soul"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
       "code": "relationships",
       "display": "Family, Friends & Co-Workers"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
       "code": "professional-care",
       "display": "Professional Care"
     } ]

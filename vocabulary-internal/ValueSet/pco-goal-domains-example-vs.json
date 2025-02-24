@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "id": "pco-goal-domains-example-vs",
+  "id": "pco-goal-domain-categories",
   "meta": {
     "profile": [ "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset" ]
   },
@@ -11,8 +11,8 @@
     "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
     "valueString": "executable"
   } ],
-  "url": "http://hl7.org/fhir/us/pco/ValueSet/pco-goal-domains-example-vs",
-  "name": "PCOGoalDomainsExample",
+  "url": "http://hl7.org/fhir/us/pco/ValueSet/pco-goal-domain-categories",
+  "name": "PCOGoalDomainCategories",
   "title": "PCO Goal Domain Categories Example",
   "status": "draft",
   "experimental": false,

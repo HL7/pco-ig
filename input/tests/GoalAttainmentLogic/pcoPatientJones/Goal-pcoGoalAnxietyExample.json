@@ -6,7 +6,7 @@
       "coding": [
         {
           "code": "mind",
-          "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+          "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
           "display": "Power of the Mind"
         }
       ]

@@ -60,7 +60,7 @@
     "coding": [
       {
         "code": "body",
-        "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+        "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
         "display": "Moving the Body"
       }
     ]

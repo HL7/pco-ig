@@ -5,7 +5,7 @@ using FHIR version '4.0.1'
 include FHIRHelpers version '4.4.000' called FHIRHelpers
 include PCOCommon version '0.1.0' called PC
 
-codesystem "Well-Being Concepts": 'http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts'
+codesystem "Well-Being Concepts": 'http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts-temporary'
 valueset "Well-Being Categories": 'http://hl7.org/fhir/us/pco/ValueSet/pco-categories'
 valueset "Well-Being Domains": 'http://hl7.org/fhir/us/pco/ValueSet/wellbeing-domains-example'
 

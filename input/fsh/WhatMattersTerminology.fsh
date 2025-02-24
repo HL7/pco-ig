@@ -16,10 +16,10 @@ Description: "Code system to identify observation codes for What Matters."
 * #future-changes "Future Changes"
     "What changes could you make to help you get there?"
 
-CodeSystem: VAWholeHealth
-Id: va-whole-health
-Title: "VA Whole Health Concepts"
-Description: "Code system to identify concepts from the VA Whole Health approach and Circle of Health."
+CodeSystem: PersonalHealthInventory
+Id: personal-health-inventory-temporary
+Title: "Personal Health Inventory Concepts"
+Description: "Code system to identify Personal Health Inventory concepts."
 * ^caseSensitive = true
 * ^experimental = false
 * ^status = #draft
@@ -48,19 +48,19 @@ Description: "Code system to identify concepts from the VA Whole Health approach
 ValueSet: WellBeingDomainValueSet
 Id: wellbeing-domains-example
 Title: "Well-Being Domains Example"
-Description: "Example value set containing well-being domains from the VA Circle of Health."
+Description: "Example value set containing well-being domains from a Personal Health Inventory."
 * ^experimental = false
 // Cannot use "include codes" because cqframework -EnsureExecutableValueSet does not support this expansion
-// * include codes from system VAWholeHealth
-* VAWholeHealth#body "Moving the Body"
-* VAWholeHealth#mind "Power of the Mind"
-* VAWholeHealth#nourishment "Food & Drink"
-* VAWholeHealth#recharge "Recharge"
-* VAWholeHealth#surroundings "Surroundings"
-* VAWholeHealth#personal-development "Personal Development"
-* VAWholeHealth#spirit-and-soul "Spirit & Soul"
-* VAWholeHealth#relationships "Family, Friends & Co-Workers"
-* VAWholeHealth#professional-care "Professional Care"
+// * include codes from system PersonalHealthInventory
+* PersonalHealthInventory#body "Moving the Body"
+* PersonalHealthInventory#mind "Power of the Mind"
+* PersonalHealthInventory#nourishment "Food & Drink"
+* PersonalHealthInventory#recharge "Recharge"
+* PersonalHealthInventory#surroundings "Surroundings"
+* PersonalHealthInventory#personal-development "Personal Development"
+* PersonalHealthInventory#spirit-and-soul "Spirit & Soul"
+* PersonalHealthInventory#relationships "Family, Friends & Co-Workers"
+* PersonalHealthInventory#professional-care "Professional Care"
 
 ValueSet: WhatMattersCodesExample
 Id: what-matters-codes-example
@@ -69,4 +69,4 @@ Description: "Example value set containing codes for What Matters observations."
 * ^experimental = false
 * $SCT#363702006 "Has focus"
 * include codes from system WhatMattersConcepts
-* include codes from system VAWholeHealth
+* include codes from system PersonalHealthInventory

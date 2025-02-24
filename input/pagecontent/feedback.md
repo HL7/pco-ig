@@ -16,7 +16,7 @@ Questions for FHIR Connectathon participants on distinctions needed to select da
 1. **How do we determine that a person has "a complex care need?"**
 
 2. **How do we distiguish a "PCO Goal" from other kinds of FHIR Goals?**
-   * Require a category from [PCO Goal Domain Categories](ValueSet-pco-goal-domains-example-vs.html) value set defined by this IG?
+   * Require a category from [PCO Goal Domain Categories](ValueSet-pco-goal-domain-categories.html) value set defined by this IG?
    * Or, check for Goal.addresses relationship with a [What Matters Assessment](StructureDefinition-pco-what-matters-assessment.html#profile) observation?
    * Or, check that a Goal satisfies either the GAS Goal or PROM Goal criteria listed below?
   

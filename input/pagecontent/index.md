@@ -40,7 +40,7 @@ The need for the PCO IG was identified as a natural next step from the scope of 
   * [Patient-Reported Outcome Measure (PROM) score observation](StructureDefinition-pco-prom-score-observation.html)
 
 #### Terminology support
-* [Goal Domains](ValueSet-pco-goal-domains-example-vs.html)
+* [Goal Domains](ValueSet-pco-goal-domain-categories.html)
 * Goal Attainment Scaling (GAS)
   * [GAS Score type](ValueSet-goal-attainment-scaling-score.html)
   * [Follow-up GAS Score Answers](ValueSet-gas-score-answers.html)

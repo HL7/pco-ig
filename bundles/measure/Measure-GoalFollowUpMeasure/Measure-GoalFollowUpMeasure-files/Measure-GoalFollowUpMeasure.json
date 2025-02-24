@@ -481,7 +481,7 @@
     }, {
       "type": "depends-on",
       "display": "Value set PCO Goal Domain Categories",
-      "resource": "http://hl7.org/fhir/us/pco/ValueSet/pco-goal-domains-example-vs"
+      "resource": "http://hl7.org/fhir/us/pco/ValueSet/pco-goal-domain-categories"
     }, {
       "type": "depends-on",
       "display": "Value set Well-Being Domains",

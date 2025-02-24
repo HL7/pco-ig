@@ -30,7 +30,7 @@
     "coding": [
       {
         "code": "relationships",
-        "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health-example",
+        "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary-example",
         "display": "Family, Friends & Co-Workers"
       }
     ]

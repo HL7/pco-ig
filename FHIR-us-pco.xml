@@ -30,7 +30,7 @@
 <artifact id="Library/GoalFollowUpMeasure" key="Library-GoalFollowUpMeasure" name="GoalFollowUpMeasure"/>
 <artifact id="Library/GoalIdentificationMeasure" key="Library-GoalIdentificationMeasure" name="GoalIdentificationMeasure"/>
 <artifact id="Practitioner/pcoPractitionerGonzalez" key="Practitioner-pcoPractitionerGonzalez" name="Health &amp; Wellness Coach"/>
-<artifact id="ValueSet/pco-goal-domains-example-vs" key="ValueSet-pco-goal-domains-example-vs" name="PCO Goal Domain Categories Example"/>
+<artifact id="ValueSet/pco-goal-domain-categories" key="ValueSet-pco-goal-domain-categories" name="PCO Goal Domain Categories"/>
 <artifact id="CodeSystem/pco-goal-domains-temporary" key="CodeSystem-pco-goal-domains-temporary" name="PCO Goal Domains"/>
 <artifact id="Library/PCOCommon" key="Library-PCOCommon" name="PCOCommon"/>
 <artifact id="Questionnaire/44249-1" key="Questionnaire-44249-1" name="PHQ-9 Depression Assessment"/>
@@ -49,6 +49,7 @@
 <artifact id="CodeSystem/pco-concepts-temporary" key="CodeSystem-pco-concepts-temporary" name="Person-Centered Outcome Concepts"/>
 <artifact id="StructureDefinition/pco-prom-goal-profile" key="StructureDefinition-pco-prom-goal-profile" name="Person-Centered PROM Goal"/>
 <artifact id="Questionnaire/health-inventory-example" key="Questionnaire-health-inventory-example" name="Personal Health Inventory"/>
+<artifact id="CodeSystem/personal-health-inventory-temporary" key="CodeSystem-personal-health-inventory-temporary" name="Personal Health Inventory Concepts"/>
 <artifact id="List/pcoPrioritiesList" key="List-pcoPrioritiesList" name="Personal Priorities List"/>
 <artifact id="StructureDefinition/pco-personal-priorities-organizer" key="StructureDefinition-pco-personal-priorities-organizer" name="Personal Priorities Organizer"/>
 <artifact id="Observation/pcoGASScorePractitionerFollowupExample" key="Observation-pcoGASScorePractitionerFollowupExample" name="Practitioner GAS Follow-up Score"/>
@@ -59,7 +60,6 @@
 <artifact id="Observation/pcoReadinessAssessmentPanel" key="Observation-pcoReadinessAssessmentPanel" name="Readiness Assessment panel"/>
 <artifact id="Observation/pcoReadinessAssessmentConfidence" key="Observation-pcoReadinessAssessmentConfidence" name="Readiness Assessment: Confidence"/>
 <artifact id="Observation/pcoReadinessAssessmentImportance" key="Observation-pcoReadinessAssessmentImportance" name="Readiness Assessment: Importance"/>
-<artifact id="CodeSystem/va-whole-health" key="CodeSystem-va-whole-health" name="VA Whole Health Concepts"/>
 <artifact id="ValueSet/wellbeing-domains-example" key="ValueSet-wellbeing-domains-example" name="Well-Being Domains Example"/>
 <artifact id="StructureDefinition/pco-what-matters-assessment" key="StructureDefinition-pco-what-matters-assessment" name="What Matters Assessment"/>
 <artifact id="ValueSet/what-matters-codes-example" key="ValueSet-what-matters-codes-example" name="What Matters Codes Example"/>

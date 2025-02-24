@@ -356,7 +356,7 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/pco-goal-domains-example-vs"
+          "reference": "ValueSet/pco-goal-domain-categories"
         },
         "name": "PCO Goal Domain Categories Example",
         "description": "Example value set to identify the goal domains category for PCO resources.",
@@ -474,7 +474,7 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/va-whole-health-example"
+          "reference": "CodeSystem/personal-health-inventory-temporary-example"
         },
         "name": "VA Whole Health Concepts",
         "description": "Code system to identify \"What Matters\" concepts from the VA Whole Health appraoch and Circle of Health.",

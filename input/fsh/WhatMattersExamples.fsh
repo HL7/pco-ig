@@ -6,7 +6,7 @@ Description: "What Matters observation added by a Patient to record a free-text 
 Usage: #example
 * status = #final 
 * category[pco] = PCOConcepts#what-matters "What Matters"
-* code = VAWholeHealth#relationships "Family, Friends & Co-Workers"
+* code = PersonalHealthInventory#relationships "Family, Friends & Co-Workers"
 * subject = Reference(pcoPatientJones)
 * performer = Reference(pcoPatientJones)
 * effectiveDateTime = "2024-03-27T14:30:00Z"
@@ -19,7 +19,7 @@ Description: "What Matters assessment observation recorded by a Patient as prepa
 Usage: #example
 * status = #final 
 * category[pco] = PCOConcepts#what-matters "What Matters"
-* code = VAWholeHealth#body "Moving the Body"
+* code = PersonalHealthInventory#body "Moving the Body"
 * subject = Reference(pcoPatientJones)
 * performer = Reference(pcoPatientJones)
 * effectiveDateTime = "2024-03-27T15:10:00Z"
@@ -90,7 +90,7 @@ Title: "What Matters: Family & Friends (Panel)"
 Description: "What Matters assessment observation recorded by a Patient as preparation for creating PCO goals and CarePlan action steps."
 Usage: #example
 * category[pco] = PCOConcepts#what-matters "What Matters"
-* code = VAWholeHealth#relationships "Family, Friends & Co-Workers"
+* code = PersonalHealthInventory#relationships "Family, Friends & Co-Workers"
 * status = #final 
 * subject = Reference(pcoPatientJones)
 * performer = Reference(pcoPatientJones)
@@ -149,7 +149,7 @@ Description: "What Matters assessment observation recorded by a Patient as prepa
 Usage: #example
 * status = #final 
 * category[pco] = PCOConcepts#what-matters "What Matters"
-* code = VAWholeHealth#body "Moving the Body"
+* code = PersonalHealthInventory#body "Moving the Body"
 * subject = Reference(pcoPatientJones)
 * performer = Reference(pcoPatientJones)
 * effectiveDateTime = "2024-03-27T15:10:00Z"
@@ -163,7 +163,7 @@ Title: "What Matters: Family & Friends"
 Description: "What Matters assessment observation recorded by a Patient as preparation for creating PCO goals and CarePlan action steps."
 Usage: #example
 * category[pco] = PCOConcepts#what-matters "What Matters"
-* code = VAWholeHealth#relationships "Family, Friends & Co-Workers"
+* code = PersonalHealthInventory#relationships "Family, Friends & Co-Workers"
 * status = #final 
 * subject = Reference(pcoPatientJones)
 * performer = Reference(pcoPatientJones)

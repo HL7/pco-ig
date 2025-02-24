@@ -30,7 +30,7 @@
     "coding": [
       {
         "code": "body",
-        "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health-example",
+        "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary-example",
         "display": "Moving the Body"
       }
     ]

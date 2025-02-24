@@ -7,7 +7,7 @@ include PCOCommon version '0.1.0' called PC
 include WhatMattersLogic version '0.1.0' called WM
 
 codesystem "LOINC": 'http://loinc.org'
-valueset "PCO Goal Domain Categories": 'http://hl7.org/fhir/us/pco/ValueSet/pco-goal-domains-example-vs'
+valueset "PCO Goal Domain Categories": 'http://hl7.org/fhir/us/pco/ValueSet/pco-goal-domain-categories'
 valueset "Goal Attainment Scaling (GAS) Score": 'http://hl7.org/fhir/us/pco/ValueSet/goal-attainment-scaling-score'
 valueset "Follow-Up GAS Score Answers": 'http://hl7.org/fhir/us/pco/ValueSet/gas-score-answers'
 valueset "PROM Target Measures": 'http://hl7.org/fhir/us/pco/ValueSet/prom-target-measures'

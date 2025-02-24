@@ -16,7 +16,7 @@ RuleSet: GoalDomainCategory
 * category ^slicing.rules = #open
 * category contains
     goal-domain 0..* MS
-* category[goal-domain] from PCOGoalDomainsExample (required) // must be (required) when slicing category to eliminate QA errors
+* category[goal-domain] from PCOGoalDomainCategories (required) // must be (required) when slicing category to eliminate QA errors
   * ^short = "Person-Centered Outcome goal domain category"
   // Include same binding description as in US Core profiles.
 * category[goal-domain]

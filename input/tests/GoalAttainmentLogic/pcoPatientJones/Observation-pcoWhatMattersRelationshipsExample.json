@@ -71,7 +71,7 @@
     "coding": [
       {
         "code": "relationships",
-        "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+        "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
         "display": "Family, Friends & Co-Workers"
       }
     ]

@@ -56,7 +56,7 @@
   "copyright": "Used by permission of HL7 International, all rights reserved Creative Commons License",
   "code": [
     {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
       "code": "health-inventory",
       "display": "Personal Health Inventory"
     }
@@ -90,7 +90,7 @@
           "linkId": "/body",
           "code": [
             {
-              "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+              "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
               "code": "body",
               "display": "Moving the Body"
             }
@@ -156,7 +156,7 @@
           "linkId": "/mind",
           "code": [
             {
-              "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+              "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
               "code": "mind",
               "display": "Power of the Mind"
             }
@@ -222,7 +222,7 @@
           "linkId": "/nourishment",
           "code": [
             {
-              "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+              "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
               "code": "nourishment",
               "display": "Food & Drink"
             }
@@ -288,7 +288,7 @@
           "linkId": "/recharge",
           "code": [
             {
-              "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+              "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
               "code": "recharge",
               "display": "Recharge"
             }
@@ -354,7 +354,7 @@
           "linkId": "/surroundings",
           "code": [
             {
-              "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+              "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
               "code": "surroundings",
               "display": "Surroundings"
             }
@@ -420,7 +420,7 @@
           "linkId": "/personal-development",
           "code": [
             {
-              "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+              "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
               "code": "personal-development",
               "display": "Personal Development"
             }
@@ -486,7 +486,7 @@
           "linkId": "/spirit-and-soul",
           "code": [
             {
-              "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+              "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
               "code": "spirit-and-soul",
               "display": "Spirit & Soul"
             }
@@ -552,7 +552,7 @@
           "linkId": "/relationships",
           "code": [
             {
-              "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+              "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
               "code": "relationships",
               "display": "Family, Friends & Co-Workers"
             }
@@ -618,7 +618,7 @@
           "linkId": "/professional-care",
           "code": [
             {
-              "system": "http://hl7.org/fhir/us/pco/CodeSystem/va-whole-health",
+              "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
               "code": "professional-care",
               "display": "Professional Care"
             }
