@@ -26,7 +26,7 @@ Description: "Code system to identify Personal Health Inventory concepts."
 * insert PCOCodeSystemPublisher
 * #health-inventory "Personal Health Inventory"
     "Personal health inventory panel"
-* #body "Food and Drink"
+* #body "Moving the Body"
     "Our physical, mental, and emotional health are impacted by the amount and kind of movement we do. Moving the body can take many forms such as dancing, walking, gardening, yoga, and exercise."
 * #mind "Power of the Mind"
     "Our thoughts are powerful and can affect our physical, mental, and emotional health. Changing our mindset can aid in healing and coping. Breathing techniques, guided imagery, Tai Chi, yoga, or gratitude can buffer the impact of stress and other emotions."

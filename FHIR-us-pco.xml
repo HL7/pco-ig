@@ -4,17 +4,15 @@
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
-<artifact id="CarePlan/pcoAnxietyCarePlanExample" key="CarePlan-pcoAnxietyCarePlanExample" name="Care Plan for PCO Anxiety Goal"/>
-<artifact id="CarePlan/pcoPhyicalFunctionCarePlanExample" key="CarePlan-pcoPhyicalFunctionCarePlanExample" name="Care Plan for person-centered goal"/>
+<artifact id="CarePlan/pcoSocialConnectionsCarePlanExample" key="CarePlan-pcoSocialConnectionsCarePlanExample" name="Care Plan for person-centered goal"/>
 <artifact id="ServiceRequest/pcoMindfulnessSupportProgram" key="ServiceRequest-pcoMindfulnessSupportProgram" name="Care Plan: Action step for mindfulness program"/>
-<artifact id="MedicationRequest/pcoAntiInflammatoryMedication" key="MedicationRequest-pcoAntiInflammatoryMedication" name="Care Plan: Anti-Inflammatory Medication"/>
-<artifact id="ServiceRequest/pcoPhysicalTherapyReferral" key="ServiceRequest-pcoPhysicalTherapyReferral" name="Care Plan: Clinical action step a patient"/>
-<artifact id="ServiceRequest/pcoWalkOutsideActionStep" key="ServiceRequest-pcoWalkOutsideActionStep" name="Care Plan: Personal action step"/>
 <artifact id="Library/FHIRHelpers" key="Library-FHIRHelpers" name="FHIRHelpers"/>
 <artifact id="ValueSet/gas-score-answers" key="ValueSet-gas-score-answers" name="Follow-Up GAS Score Answers"/>
 <artifact id="Observation/pcoPROMScoreAnxietyBaseline" key="Observation-pcoPROMScoreAnxietyBaseline" name="GAD-7 PROM Baseline Score"/>
 <artifact id="Observation/pcoPROMScoreAnxietyFollowUp" key="Observation-pcoPROMScoreAnxietyFollowUp" name="GAD-7 PROM Follow-up Score"/>
 <artifact id="Observation/pcoGASScoreBaselineExample" key="Observation-pcoGASScoreBaselineExample" name="GAS Baseline Score"/>
+<artifact id="Observation/pcoGASScorePatientFollowupExample" key="Observation-pcoGASScorePatientFollowupExample" name="GAS Patient Follow-up Score"/>
+<artifact id="Observation/pcoGASScorePractitionerFollowupExample" key="Observation-pcoGASScorePractitionerFollowupExample" name="GAS Practitioner Follow-up Score"/>
 <artifact id="Questionnaire/69737-5" key="Questionnaire-69737-5" name="Generalized Anxiety Disorder (GAD-7)"/>
 <artifact id="ValueSet/goal-attainment-scaling-score" key="ValueSet-goal-attainment-scaling-score" name="Goal Attainment Scaling (GAS) Score"/>
 <artifact id="StructureDefinition/pco-gas-score-observation" key="StructureDefinition-pco-gas-score-observation" name="Goal Attainment Scaling (GAS) score observation"/>
@@ -30,14 +28,12 @@
 <artifact id="Library/GoalAttainmentLogic" key="Library-GoalAttainmentLogic" name="GoalAttainmentLogic"/>
 <artifact id="Library/GoalFollowUpMeasure" key="Library-GoalFollowUpMeasure" name="GoalFollowUpMeasure"/>
 <artifact id="Library/GoalIdentificationMeasure" key="Library-GoalIdentificationMeasure" name="GoalIdentificationMeasure"/>
-<artifact id="Practitioner/pcoPractitionerGonzalez" key="Practitioner-pcoPractitionerGonzalez" name="Health &amp; Wellness Coach"/>
 <artifact id="ValueSet/pco-goal-domain-categories" key="ValueSet-pco-goal-domain-categories" name="PCO Goal Domain Categories"/>
 <artifact id="CodeSystem/pco-goal-domains-temporary" key="CodeSystem-pco-goal-domains-temporary" name="PCO Goal Domains"/>
 <artifact id="Library/PCOCommon" key="Library-PCOCommon" name="PCOCommon"/>
 <artifact id="Questionnaire/44249-1" key="Questionnaire-44249-1" name="PHQ-9 Depression Assessment"/>
 <artifact id="ValueSet/prom-target-measures" key="ValueSet-prom-target-measures" name="PROM Target Measure Scores"/>
 <artifact id="Patient/pcoPatientJones" key="Patient-pcoPatientJones" name="Patient Dorothy Jones"/>
-<artifact id="Observation/pcoGASScorePatientFollowupExample" key="Observation-pcoGASScorePatientFollowupExample" name="Patient GAS Follow-up Score"/>
 <artifact id="StructureDefinition/pco-prom-score-observation" key="StructureDefinition-pco-prom-score-observation" name="Patient-Reported Outcome Measure (PROM) score observation"/>
 <artifact id="StructureDefinition/pco-care-plan" key="StructureDefinition-pco-care-plan" name="Person-Centered Care Plan"/>
 <artifact id="ValueSet/pco-categories" key="ValueSet-pco-categories" name="Person-Centered Categories"/>
@@ -51,8 +47,8 @@
 <artifact id="CodeSystem/personal-health-inventory-temporary" key="CodeSystem-personal-health-inventory-temporary" name="Personal Health Inventory Concepts"/>
 <artifact id="List/pcoPrioritiesList" key="List-pcoPrioritiesList" name="Personal Priorities List"/>
 <artifact id="StructureDefinition/pco-personal-priorities-organizer" key="StructureDefinition-pco-personal-priorities-organizer" name="Personal Priorities Organizer"/>
-<artifact id="Observation/pcoGASScorePractitionerFollowupExample" key="Observation-pcoGASScorePractitionerFollowupExample" name="Practitioner GAS Follow-up Score"/>
-<artifact id="Practitioner/pcoPractitionerAnderson" key="Practitioner-pcoPractitionerAnderson" name="Primary Care Physician"/>
+<artifact id="Practitioner/pcoPractitionerGonzalez" key="Practitioner-pcoPractitionerGonzalez" name="Practitioner Health &amp; Wellness Coach"/>
+<artifact id="Practitioner/pcoPractitionerAnderson" key="Practitioner-pcoPractitionerAnderson" name="Practitioner Primary Care Physician"/>
 <artifact id="StructureDefinition/pco-readiness-assessment" key="StructureDefinition-pco-readiness-assessment" name="Readiness Assessment"/>
 <artifact id="ValueSet/readiness-assessment-codes" key="ValueSet-readiness-assessment-codes" name="Readiness Assessment Codes"/>
 <artifact id="CodeSystem/readiness-assessment-concepts" key="CodeSystem-readiness-assessment-concepts" name="Readiness Assessment Concepts"/>

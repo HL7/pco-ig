@@ -5,21 +5,21 @@
     "resourceType": "Library",
     "id": "effective-data-requirements",
     "extension": [ {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode",
       "valueCoding": {
         "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts-temporary",
         "code": "what-matters",
         "display": "What Matters"
       }
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode",
       "valueCoding": {
         "system": "http://loinc.org",
         "code": "107332-9",
         "display": "Goal attainment scale"
       }
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "GoalFollowUpMeasure"
@@ -34,7 +34,7 @@
         "valueInteger": 0
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "GoalFollowUpMeasure"
@@ -49,7 +49,7 @@
         "valueInteger": 1
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "WhatMattersLogic"
@@ -64,7 +64,7 @@
         "valueInteger": 2
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "GoalAttainmentLogic"
@@ -79,7 +79,7 @@
         "valueInteger": 3
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "GoalAttainmentLogic"
@@ -94,7 +94,7 @@
         "valueInteger": 4
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "GoalAttainmentLogic"
@@ -109,7 +109,7 @@
         "valueInteger": 5
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "GoalAttainmentLogic"
@@ -124,7 +124,7 @@
         "valueInteger": 6
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "GoalAttainmentLogic"
@@ -139,7 +139,7 @@
         "valueInteger": 7
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "GoalFollowUpMeasure"
@@ -154,7 +154,7 @@
         "valueInteger": 8
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "GoalFollowUpMeasure"
@@ -169,7 +169,7 @@
         "valueInteger": 9
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "GoalFollowUpMeasure"
@@ -184,7 +184,7 @@
         "valueInteger": 10
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "FHIRHelpers"
@@ -199,7 +199,7 @@
         "valueInteger": 11
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "WhatMattersLogic"
@@ -214,7 +214,7 @@
         "valueInteger": 12
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "FHIRHelpers"
@@ -229,7 +229,7 @@
         "valueInteger": 13
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "PCOCommon"
@@ -244,7 +244,7 @@
         "valueInteger": 14
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "WhatMattersLogic"
@@ -259,7 +259,7 @@
         "valueInteger": 15
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "FHIRHelpers"
@@ -274,7 +274,7 @@
         "valueInteger": 16
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "GoalAttainmentLogic"
@@ -289,7 +289,7 @@
         "valueInteger": 17
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "PCOCommon"
@@ -304,7 +304,7 @@
         "valueInteger": 18
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "GoalAttainmentLogic"
@@ -319,7 +319,7 @@
         "valueInteger": 19
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "GoalAttainmentLogic"
@@ -334,7 +334,7 @@
         "valueInteger": 20
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "PCOCommon"
@@ -349,7 +349,7 @@
         "valueInteger": 21
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "GoalAttainmentLogic"
@@ -364,7 +364,7 @@
         "valueInteger": 22
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "PCOCommon"
@@ -379,7 +379,7 @@
         "valueInteger": 23
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "GoalAttainmentLogic"
@@ -394,7 +394,7 @@
         "valueInteger": 24
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "GoalAttainmentLogic"
@@ -409,7 +409,7 @@
         "valueInteger": 25
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "FHIRHelpers"
@@ -424,7 +424,7 @@
         "valueInteger": 26
       } ]
     }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition",
+      "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",
       "extension": [ {
         "url": "libraryName",
         "valueString": "GoalAttainmentLogic"
@@ -569,62 +569,11 @@
     } ]
   } ],
   "extension": [ {
-    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-softwaresystem",
-    "valueReference": {
-      "reference": "Device/cqf-tooling"
-    }
-  }, {
     "id": "effective-data-requirements",
-    "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-effectiveDataRequirements",
-    "valueReference": {
-      "reference": "#effective-data-requirements"
-    }
+    "url": "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-effectiveDataRequirements",
+    "valueCanonical": "#effective-data-requirements"
   } ],
   "url": "http://hl7.org/fhir/us/pco/Measure/GoalFollowUpMeasure",
-  "identifier": [ {
-    "use": "usual",
-    "type": {
-      "coding": [ {
-        "system": "http://hl7.org/fhir/us/cqfmeasures/CodeSystem/identifier-type",
-        "code": "short-name"
-      } ]
-    },
-    "system": "https://madie.cms.gov/measure/shortName",
-    "value": "PCOMeasure1"
-  }, {
-    "use": "official",
-    "type": {
-      "coding": [ {
-        "system": "http://hl7.org/fhir/us/cqfmeasures/CodeSystem/identifier-type",
-        "code": "version-independent"
-      } ]
-    },
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:uuid:bc80e4cf-d267-47bf-ad0d-4d37f8ae2328"
-  }, {
-    "use": "official",
-    "type": {
-      "coding": [ {
-        "system": "http://hl7.org/fhir/us/cqfmeasures/CodeSystem/identifier-type",
-        "code": "version-specific"
-      } ]
-    },
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:uuid:5c16a2fb-1882-49aa-802b-a0b73ed17c05"
-  }, {
-    "use": "official",
-    "type": {
-      "coding": [ {
-        "system": "http://hl7.org/fhir/us/cqfmeasures/CodeSystem/identifier-type",
-        "code": "publisher"
-      } ]
-    },
-    "system": "https://madie.cms.gov/measure/cmsId",
-    "value": "NA",
-    "assigner": {
-      "display": "CMS"
-    }
-  } ],
   "version": "0.5.0",
   "name": "GoalFollowUpMeasure",
   "title": "Person-Centered Goal Follow-Up",
@@ -666,31 +615,6 @@
   "clinicalRecommendationStatement": "None at this time.",
   "group": [ {
     "id": "64f0d91d56d636294b157d97",
-    "extension": [ {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-populationBasis",
-      "valueCode": "Patient"
-    }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-type",
-      "valueCodeableConcept": {
-        "coding": [ {
-          "system": "http://terminology.hl7.org/CodeSystem/measure-type",
-          "code": "process",
-          "display": "Process"
-        } ]
-      }
-    }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-rateAggregation",
-      "valueString": "None"
-    }, {
-      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-improvementNotation",
-      "valueCodeableConcept": {
-        "coding": [ {
-          "system": "http://terminology.hl7.org/CodeSystem/measure-improvement-notation",
-          "code": "increase",
-          "display": "Increased score indicates improvement"
-        } ]
-      }
-    } ],
     "description": "Content TBD",
     "population": [ {
       "id": "692C6F6B-4153-496F-8582-0839A0816567",

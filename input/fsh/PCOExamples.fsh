@@ -14,7 +14,7 @@ Usage: #example
 
 Instance: pcoPractitionerGonzalez
 InstanceOf: USCorePractitionerProfile
-Title: "Health & Wellness Coach" 
+Title: "Practitioner Health & Wellness Coach" 
 Description: "Maria Gonzalez, NBC-HWC"
 Usage: #example
 * identifier[0].system = "http://hl7.org/fhir/sid/us-npi"
@@ -27,7 +27,7 @@ Usage: #example
 
 Instance: pcoPractitionerAnderson
 InstanceOf: USCorePractitionerProfile
-Title: "Primary Care Physician" 
+Title: "Practitioner Primary Care Physician" 
 Description: "John Anderson, MD"
 Usage: #example
 * identifier[0].system = "http://hl7.org/fhir/sid/us-npi"

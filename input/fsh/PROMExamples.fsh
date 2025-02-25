@@ -26,7 +26,7 @@ Usage: #example
 * expressedBy = Reference(pcoPractitionerAnderson)
 * startDate = "2025-02-15"
 * target.dueDate = "2025-07-31"
-* addresses[1] = Reference(pcoWhatMattersRelationshipsExample) "What Matters: Family & Friends"
+* addresses[0] = Reference(pcoWhatMattersRelationshipsExample) "What Matters: Family & Friends"
 * description.text = "I want to practice being present when interacting with family and friends in an uplifting way at least 3x monthly."
 * target.measure = $LNC#70274-6 "Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]"
 * target.detailQuantity.comparator = #<
@@ -58,6 +58,7 @@ Usage: #example
 * code = $LNC#70274-6 "Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]"
 * valueQuantity = 10 UOM#{score} "score"
 
+/*
 Instance: pcoAnxietyCarePlanExample
 InstanceOf: PCOCarePlan
 Title: "Care Plan for PCO Anxiety Goal"
@@ -71,20 +72,4 @@ Usage: #example
 * period.start = "2025-02-15"
 * period.end = "2025-08-31"
 
-Instance: pcoMindfulnessSupportProgram
-InstanceOf: USCoreServiceRequestProfile
-Title: "Care Plan: Action step for mindfulness program"
-Description: "Care Plan activity: Mindfulness coaching to support anxiety management"
-Usage: #example
-* status = #active
-* intent = #plan
-* subject = Reference(pcoPatientJones)
-* requester = Reference(pcoPractitionerAnderson)
-* code.coding = $SCT#1259023009 "Mindfulness Based Stress Reduction program (regime/therapy)"
-* extension[pertainsToGoal].valueReference = Reference(pcoGoalAnxietyExample)
-* authoredOn = "2025-02-15"
-* occurrenceTiming.repeat.boundsPeriod.start = "2025-02-15"
-* occurrenceTiming.repeat.boundsPeriod.end = "2025-06-30"
-* occurrenceTiming.repeat.frequency = 1
-* occurrenceTiming.repeat.periodUnit = #wk
-* note.text = "Trial of mindfulness coaching to support anxiety management"
+*/

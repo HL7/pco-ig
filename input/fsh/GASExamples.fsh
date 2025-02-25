@@ -12,7 +12,7 @@ Usage: #example
 * expressedBy = Reference(pcoPatientJones)
 * startDate = "2025-02-15"
 * target.dueDate = "2025-07-31"
-* addresses[1] = Reference(pcoWhatMattersRelationshipsExample) "What Matters: Family & Friends"
+* addresses[0] = Reference(pcoWhatMattersRelationshipsExample) "What Matters: Family & Friends"
 * description.text = "I want to practice being present when interacting with family and friends in an uplifting way at least 3x monthly."
 * extension[gas-scaling][0].extension[level].valueCoding = $LNC#LA34479-8 "Much better than expected"
 * extension[gas-scaling][0].extension[text].valueString = "I am practicing being present when interacting with family and friends in an uplifting way at least 5x monthly."
@@ -26,7 +26,7 @@ Usage: #example
 * extension[gas-scaling][4].extension[text].valueString = "I do not interact with family and friends at all each month."
 
 Instance: pcoGoalSocialConnectionsWithoutExtensions
-InstanceOf: PCOGoalAttainmentScaleProfile
+InstanceOf: PCOGoalProfile
 Title: "Goal without GAS Extensions"
 Description: "Person-centered goal with GAS target measure and without GAS extensions"
 Usage: #example
@@ -38,7 +38,7 @@ Usage: #example
 * expressedBy = Reference(pcoPatientJones)
 * startDate = "2025-02-15"
 * target.dueDate = "2025-07-31"
-* addresses[1] = Reference(pcoWhatMattersRelationshipsExample) "What Matters: Family & Friends"
+* addresses[0] = Reference(pcoWhatMattersRelationshipsExample) "What Matters: Family & Friends"
 * description.text = "I want to practice being present when interacting with family and friends in an uplifting way at least 3x monthly."
 * target.measure = $LNC#107332-9 "Goal attainment scale"
 
@@ -103,7 +103,7 @@ Usage: #example
 
 Instance: pcoGASScorePatientFollowupExample
 InstanceOf: PCOGoalAttainmentScoreObservation
-Title: "Patient GAS Follow-up Score"
+Title: "GAS Patient Follow-up Score"
 Description: "Follow-up GAS score observation recorded by a Patient showing goal progress."
 Usage: #example
 * status = #final 
@@ -116,7 +116,7 @@ Usage: #example
 
 Instance: pcoGASScorePractitionerFollowupExample
 InstanceOf: PCOGoalAttainmentScoreObservation
-Title: "Practitioner GAS Follow-up Score"
+Title: "GAS Practitioner Follow-up Score"
 Description: "Follow-up GAS score observation recorded by a Practitioner showing goal progress."
 Usage: #example
 * status = #final 

@@ -74,7 +74,7 @@ Coming Soon!
 
 **☛ See [Profile: Person-Centered Goal using GAS](StructureDefinition-pco-gas-goal-profile.html#profile)**
 
-**☛ See [Example: GAS Goal](Goal-pcoGoalWalkDogExample.html#root)**
+**☛ See [Example: GAS Goal](Goal-pcoGoalSocialConnectionsWithGAS.html#root)**
 
 **☛ See [Profile: Person-Centered Goal using PROM](StructureDefinition-pco-prom-goal-profile.html#profile)**
 
@@ -88,4 +88,4 @@ Coming Soon!
 
 **☛ See [Profile: PROM progress score](StructureDefinition-pco-prom-score-observation.html#profile)**
 
-**☛ See [Example: PROM score by patient](Observation-pcoPROMScoreAnxietyExample.html#root)**
+**☛ See [Example: PROM score by patient](Observation-pcoPROMScoreAnxietyFollowUp.html#root)**

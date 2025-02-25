@@ -15,7 +15,7 @@ Usage: #example
 Instance: pcoWhatMattersFoodExample
 InstanceOf: WhatMattersAssessment
 Title: "What Matters: Food and Drink (Panel)"
-Description: "What Matters assessment observation recorded by a Patient as preparation for creating PCO goals and CarePlan action steps."
+Description: "What Matters assessment observation panel."
 Usage: #example
 * status = #final 
 * category[pco] = PCOConcepts#what-matters "What Matters"
@@ -31,7 +31,7 @@ Usage: #example
 Instance: pcoWhatMattersFoodExampleNowRating
 InstanceOf: WhatMattersAssessment
 Title: "What Matters: Food and Drink, Now Rating"
-Description: "What Matters assessment observation recorded by a Patient as preparation for creating PCO goals and CarePlan action steps."
+Description: "What Matters assessment observation for now rating."
 Usage: #example
 * status = #final 
 * category[pco] = PCOConcepts#what-matters "What Matters"
@@ -45,7 +45,7 @@ Usage: #example
 Instance: pcoWhatMattersFoodExampleNowReasons
 InstanceOf: WhatMattersAssessment
 Title: "What Matters: Food and Drink, Now Reasons"
-Description: "What Matters assessment observation recorded by a Patient as preparation for creating PCO goals and CarePlan action steps."
+Description: "What Matters assessment observation for now reasons description."
 Usage: #example
 * status = #final 
 * category[pco] = PCOConcepts#what-matters "What Matters"
@@ -59,7 +59,7 @@ Usage: #example
 Instance: pcoWhatMattersFoodExampleFutureRating
 InstanceOf: WhatMattersAssessment
 Title: "What Matters: Food and Drink, Future Rating"
-Description: "What Matters assessment observation recorded by a Patient as preparation for creating PCO goals and CarePlan action steps."
+Description: "What Matters assessment observation for future rating."
 Usage: #example
 * status = #final 
 * category[pco] = PCOConcepts#what-matters "What Matters"
@@ -73,7 +73,7 @@ Usage: #example
 Instance: pcoWhatMattersRelationshipsExample
 InstanceOf: WhatMattersAssessment
 Title: "What Matters: Family & Friends (Panel)"
-Description: "What Matters assessment observation recorded by a Patient as preparation for creating PCO goals and CarePlan action steps."
+Description: "What Matters assessment observation panel."
 Usage: #example
 * category[pco] = PCOConcepts#what-matters "What Matters"
 * code = PersonalHealthInventory#relationships "Family, Friends & Co-Workers"
@@ -89,7 +89,7 @@ Usage: #example
 Instance: pcoWhatMattersRelationshipsExampleNowRating
 InstanceOf: WhatMattersAssessment
 Title: "What Matters: Family & Friends, Now Rating"
-Description: "What Matters assessment observation recorded by a Patient as preparation for creating PCO goals and CarePlan action steps."
+Description: "What Matters assessment observation for now rating."
 Usage: #example
 * status = #final 
 * category[pco] = PCOConcepts#what-matters "What Matters"
@@ -103,7 +103,7 @@ Usage: #example
 Instance: pcoWhatMattersRelationshipsExampleFutureRating
 InstanceOf: WhatMattersAssessment
 Title: "What Matters: Family & Friends, Future Rating"
-Description: "What Matters assessment observation recorded by a Patient as preparation for creating PCO goals and CarePlan action steps."
+Description: "What Matters assessment observation for future rating."
 Usage: #example
 * status = #final 
 * category[pco] = PCOConcepts#what-matters "What Matters"
@@ -117,7 +117,7 @@ Usage: #example
 Instance: pcoWhatMattersRelationshipsExampleFutureChanges
 InstanceOf: WhatMattersAssessment
 Title: "What Matters: Family & Friends, Future Changes"
-Description: "What Matters assessment observation recorded by a Patient as preparation for creating PCO goals and CarePlan action steps."
+Description: "What Matters assessment observation for future changes description."
 Usage: #example
 * status = #final 
 * category[pco] = PCOConcepts#what-matters "What Matters"
