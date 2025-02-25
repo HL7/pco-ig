@@ -70,7 +70,6 @@
 <artifact id="Observation/pcoWhatMattersFoodExampleNowRating" key="Observation-pcoWhatMattersFoodExampleNowRating" name="What Matters: Food and Drink, Now Rating"/>
 <artifact id="Observation/pcoWhatMattersFoodExampleNowReasons" key="Observation-pcoWhatMattersFoodExampleNowReasons" name="What Matters: Food and Drink, Now Reasons"/>
 <artifact id="Library/WhatMattersLogic" key="Library-WhatMattersLogic" name="WhatMattersLogic"/>
-<artifact id="Device/cqf-tooling" key="Device-cqf-tooling" name="cqf-tooling"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>
