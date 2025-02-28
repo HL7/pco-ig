@@ -52,7 +52,6 @@ This IG is divided into several sections that are listed at the top of each page
 - [Home](index.html): The home page provides the introduction and background information to set context for the use of the HL7® FHIR Person-Centered Outcomes IG.
 - Guidance: These pages provide overall guidance in using the profiles defined in this guide.
     - [User Stories](user_stories.html): Brief scenarios from the perspective of individuals using applications based on this IG.
-    - [Goal Attainment Scaling](goal-attainment-scaling.html): Introduction to Goal Attainment Scaling (GAS)
     - [Related FHIR IGs](related-fhir-igs.html): HL7 FHIR Implementation Guides (IGs) that support other aspects of person-centered, goal-directed care planning.
 - Conformace: These pages provide overall guidance in using the profiles and transactions defined in this guide.
     - [Formal Specification](formal_specification.html): Information about conformance to the IG, including Must Support requirements.

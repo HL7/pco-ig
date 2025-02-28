@@ -44,7 +44,7 @@ menu:
   # Table of Contents: toc.html
   Guidance:
     User Stories: user_stories.html
-    Goal Attainment Scaling: goal-attainment-scaling.html
+    # Goal Attainment Scaling: goal-attainment-scaling.html
     Related FHIR IGs: related-fhir-igs.html
   Conformance:
     Dependencies: dependencies.html
@@ -68,8 +68,8 @@ pages:
     title: Home
   user_stories.md:
     title: User Stories
-  goal-attainment-scaling.md:
-    title: Goal Attainment Scaling (GAS)
+  # goal-attainment-scaling.md:
+  #   title: Goal Attainment Scaling (GAS)
   related-fhir-igs.md:
     title: Related FHIR IGs
   dependencies.md:
