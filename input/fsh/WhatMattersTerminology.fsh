@@ -1,8 +1,8 @@
 
 CodeSystem: WhatMattersConcepts
-Id: what-matters-concepts
+Id: what-matters-concepts-temporary
 Title: "What Matters Concepts"
-Description: "Code system to identify observation codes for What Matters."
+Description: "Code system to identify observation codes for What Matters assessment."
 * ^caseSensitive = true
 * ^experimental = false
 * ^status = #draft

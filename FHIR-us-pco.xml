@@ -51,14 +51,14 @@
 <artifact id="Practitioner/pcoPractitionerAnderson" key="Practitioner-pcoPractitionerAnderson" name="Practitioner Primary Care Physician"/>
 <artifact id="StructureDefinition/pco-readiness-assessment" key="StructureDefinition-pco-readiness-assessment" name="Readiness Assessment"/>
 <artifact id="ValueSet/readiness-assessment-codes" key="ValueSet-readiness-assessment-codes" name="Readiness Assessment Codes"/>
-<artifact id="CodeSystem/readiness-assessment-concepts" key="CodeSystem-readiness-assessment-concepts" name="Readiness Assessment Concepts"/>
+<artifact id="CodeSystem/readiness-assessment-concepts-temporary" key="CodeSystem-readiness-assessment-concepts-temporary" name="Readiness Assessment Concepts"/>
 <artifact id="Observation/pcoReadinessAssessmentPanel" key="Observation-pcoReadinessAssessmentPanel" name="Readiness Assessment panel"/>
 <artifact id="Observation/pcoReadinessAssessmentConfidence" key="Observation-pcoReadinessAssessmentConfidence" name="Readiness Assessment: Confidence"/>
 <artifact id="Observation/pcoReadinessAssessmentImportance" key="Observation-pcoReadinessAssessmentImportance" name="Readiness Assessment: Importance"/>
 <artifact id="ValueSet/wellbeing-domains-example" key="ValueSet-wellbeing-domains-example" name="Well-Being Domains Example"/>
 <artifact id="StructureDefinition/pco-what-matters-assessment" key="StructureDefinition-pco-what-matters-assessment" name="What Matters Assessment"/>
 <artifact id="ValueSet/what-matters-codes-example" key="ValueSet-what-matters-codes-example" name="What Matters Codes Example"/>
-<artifact id="CodeSystem/what-matters-concepts" key="CodeSystem-what-matters-concepts" name="What Matters Concepts"/>
+<artifact id="CodeSystem/what-matters-concepts-temporary" key="CodeSystem-what-matters-concepts-temporary" name="What Matters Concepts"/>
 <artifact id="Observation/pcoWhatMattersFocusAreaExample" key="Observation-pcoWhatMattersFocusAreaExample" name="What Matters Focus: Family &amp; Friends"/>
 <artifact id="Observation/pcoWhatMattersStatementExample" key="Observation-pcoWhatMattersStatementExample" name="What Matters Statement as Free-Text"/>
 <artifact id="Observation/pcoWhatMattersRelationshipsExample" key="Observation-pcoWhatMattersRelationshipsExample" name="What Matters: Family &amp; Friends (Panel)"/>

@@ -21,7 +21,7 @@ Description: "Assessment of a person's readiness for change including importance
   * ^short = "Related Observation(s) or other resource the observation is made from"
 
 CodeSystem: ReadinessConcepts
-Id: readiness-assessment-concepts
+Id: readiness-assessment-concepts-temporary
 Title: "Readiness Assessment Concepts"
 Description: "Code system to types of readiness for change."
 * ^caseSensitive = true

@@ -14,7 +14,7 @@
   } ],
   "code": {
     "coding": [ {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts-temporary",
       "code": "readiness-assessment",
       "display": "Readiness assessment"
     } ]
