@@ -76,7 +76,6 @@
 <page key="dependencies" name="Dependencies"/>
 <page key="downloads" name="Downloads"/>
 <page key="formal_specification" name="Formal Specification"/>
-<page key="goal-attainment-scaling" name="Goal Attainment Scaling (GAS)"/>
 <page key="index" name="Home"/>
 <page key="related-fhir-igs" name="Related FHIR IGs"/>
 <page key="toc" name="Table of Contents"/>

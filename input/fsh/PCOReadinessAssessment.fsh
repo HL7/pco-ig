@@ -25,7 +25,7 @@ Id: readiness-assessment-concepts-temporary
 Title: "Readiness Assessment Concepts"
 Description: "Code system to types of readiness for change."
 * ^caseSensitive = true
-* ^experimental = false
+* ^experimental = true
 * ^status = #draft
 * insert PCOCodeSystemPublisher
 * #readiness-assessment "Readiness assessment"
