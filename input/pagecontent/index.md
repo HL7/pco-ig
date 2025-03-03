@@ -1,4 +1,4 @@
-The Person-Centered Outcomes (PCO) HL7® FHIR® Implementation Guide (IG) supports the exchange of information related to a person's goal-directed care guided by a person-centered outcomes approach, which includes the identification and tracking of health outcome goals that matter most to patients using either [Goal Attainment Scaling (GAS)](goal-attainment-scaling.html) or patient-reported outcome measures (PROM).
+The Person-Centered Outcomes (PCO) HL7® FHIR® Implementation Guide (IG) supports the exchange of information related to a person's goal-directed care guided by a person-centered outcomes approach, which includes the identification and tracking of health outcome goals that matter most to patients using either Goal Attainment Scaling (GAS) or patient-reported outcome measures (PROM).
 
 The PCO IG includes profiles for interoperable GAS Goals, support for GAS Goal editing tools, and PCO measures. GAS in healthcare, measures the extent to which individuals achieve specific goals or objectives. It allows for the quantification and evaluation of progress toward individualized goals, particularly in areas where traditional outcome measures may be insufficient. GAS involves collaboratively setting goals with the individual and assigning numerical scales to each goal to represent different levels of achievement. This approach provides a more nuanced and tailored way to assess progress and outcomes, taking into account the unique circumstances and aspirations of the individual. 
 
@@ -11,6 +11,12 @@ Goal-directed care in healthcare centers on setting and achieving specific, pers
 [The Person-Centered Outcomes (PCO) approach](https://www.ncqa.org/wp-content/uploads/NCQA-Person-Centered-Outcomes-Approach-Toolkit_2024.pdf) focuses on setting and achieving specific, personalized, measurable goals that prioritize an individual's well-being and "What Matters Most" to each person. Rather than just treating symptoms, this approach involves close collaboration between patients, caregivers, and healthcare providers to identify individual goals related to health outcomes, functional improvement, or symptom management. After goals are established, tailored care plans are developed, incorporating various treatments, therapies, and lifestyle adjustments to meet the individual's needs and preferences. Continual monitoring and adjustment ensure alignment with evolving priorities, fostering patient engagement and satisfaction while enhancing overall healthcare effectiveness. Clinicians throughout the care continuum—from primary care to specialty care, to home and community-based services—can use this approach to identify what is important to a person (e.g., feeling well enough to visit grandchildren). This approach and its coordinating measures can help support and assess the quality of goal-directed care being implemented. 
 
 The need for the PCO IG was identified as a natural next step from the scope of the [MCC eCare Plan FHIR IG STU1](http://hl7.org/fhir/us/mcc/ImplementationGuide/hl7.fhir.us.mcc) which provided high-level guidance for Goals and measuring outcomes. As goal-directed care is growing in use and being incorporated into payment programs, the need for data standards around implementation and reporting are necessary. This IG supports implementers, researchers, and evaluators of goal-directed care planning to improve health outcomes.
+
+### User Stories
+
+Several user storires are included in this guide that align with steps in the following process flow diagram. The stories are written to support user-centered design of systems from the point-of-view of patients, health coaches, and clinicians.
+
+* **[PCO User Stories](user_stories.html)**
 
 ### Person-Centered Outcomes Process Flow
 
