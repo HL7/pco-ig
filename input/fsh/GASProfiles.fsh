@@ -19,20 +19,20 @@ Profile: PCOGoalAttainmentScaleProfile
 Parent: PCOGoalProfile
 Id: pco-gas-goal-profile
 Title: "Person-Centered GAS Goal"
-Description: "Person-centered goal with goal attainment scaling."
+Description: "Person-centered goal using Goal Attainment Scaling (GAS) to measure its progress and achievement."
 * extension contains
     PCOGoalAttainmentScaling named gas-scaling 0..5 MS
-* target 0..1 MS
-  * measure = $LNC#107332-9 "Goal attainment scale"
+* target 0..*
+  * ^short = "(USCDI) Target outcome for the goal"
+  * measure 0..1 MS
+  * measure = $LNC#107332-9
+    * ^short = "Goal attainment scale - Reported"
 
 Profile: PCOGoalAttainmentScoreObservation
 Parent: USCoreSimpleObservationProfile
 Id: pco-gas-score-observation
 Title: "Goal Attainment Scaling (GAS) score observation"
-Description: "The follow-up score indicates how a patient, caregiver, or practitioner rated progress on goal attainment scaling."
-// Satisfies US Core required binding for category
-* category[us-core] 1..* MS
-* category[us-core] = OBSCAT#survey
+Description: "The follow-up score indicates how a patient, caregiver, or practitioner rated goal progress using goal attainment scaling."
 * effectiveDateTime 1..1 MS
   * ^short = "When the score was assessed"
 * code from GoalAttainmentScalingScore (extensible)
@@ -43,3 +43,4 @@ Description: "The follow-up score indicates how a patient, caregiver, or practit
 * value[x] 1..1 MS
 * value[x] only CodeableConcept
 * valueCodeableConcept from GASScoreAnswers (required)
+  * ^short = "GAS Score Answers"

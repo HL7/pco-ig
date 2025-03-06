@@ -1,19 +1,19 @@
 == Suppressed Messages ==
 
-# {score} is a valid UCOM code
+# {score} is a valid UCUM code
 %UCUM Codes that contain human readable annotations like {score} can be misleading%
 
 # These warnings will be eliminated when US Core is updated.
 SD_PATH_SLICING_DEPRECATED
 
-# Ignore information messages about Questionnaire SDC extensions; used only for examples in this IG.
+# Ignore information messages about valid use of Questionnaire minValue/maxValue extensions; Questionnaires are used only for examples in this IG.
 %This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire%
 
 # Suppress information messages on use of draft code systems from THO
 %Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|1.0.0
 %Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/list-order|1.0.0
 
-# Suppress information messages on use of draft, experimental code systems
+# Suppress information messages on use of draft, experimental code systems from PCO
 %Reference to draft CodeSystem http://hl7.org/fhir/us/pco/CodeSystem%
 %Reference to experimental CodeSystem http://hl7.org/fhir/us/pco/CodeSystem%
 

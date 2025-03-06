@@ -7,7 +7,6 @@
 <artifact id="CarePlan/pcoSocialConnectionsCarePlanExample" key="CarePlan-pcoSocialConnectionsCarePlanExample" name="Care Plan for person-centered goal"/>
 <artifact id="ServiceRequest/pcoMindfulnessSupportProgram" key="ServiceRequest-pcoMindfulnessSupportProgram" name="Care Plan: Action step for mindfulness program"/>
 <artifact id="Library/FHIRHelpers" key="Library-FHIRHelpers" name="FHIRHelpers"/>
-<artifact id="ValueSet/gas-score-answers" key="ValueSet-gas-score-answers" name="Follow-Up GAS Score Answers"/>
 <artifact id="Observation/pcoPROMScoreAnxietyBaseline" key="Observation-pcoPROMScoreAnxietyBaseline" name="GAD-7 PROM Baseline Score"/>
 <artifact id="Observation/pcoPROMScoreAnxietyFollowUp" key="Observation-pcoPROMScoreAnxietyFollowUp" name="GAD-7 PROM Follow-up Score"/>
 <artifact id="Observation/pcoGASScoreBaselineExample" key="Observation-pcoGASScoreBaselineExample" name="GAS Baseline Score"/>

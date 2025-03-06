@@ -40,7 +40,7 @@ Usage: #example
 * target.dueDate = "2025-07-31"
 * addresses[0] = Reference(pcoWhatMattersRelationshipsExample) "What Matters: Family & Friends"
 * description.text = "I want to practice being present when interacting with family and friends in an uplifting way at least 3x monthly."
-* target.measure = $LNC#107332-9 "Goal attainment scale"
+* target.measure = $LNC#107332-9 "Goal attainment scale - Reported"
 
 Instance: pcoBarrierAnxietyCodedValue
 InstanceOf: PCOGoalBarrierProfile
@@ -93,11 +93,12 @@ InstanceOf: PCOGoalAttainmentScoreObservation
 Title: "GAS Baseline Score"
 Description: "Baseline GAS score observation at start of goal."
 Usage: #example
-* status = #final 
+* status = #final
+* category[us-core] = OBSCAT#survey "Survey"
 * subject = Reference(pcoPatientJones)
 * performer = Reference(pcoPractitionerGonzalez)
 * effectiveDateTime = "2025-02-15T15:15:00Z"
-* code = $LNC#107332-9 "Goal attainment scale"
+* code = $LNC#107332-9 "Goal attainment scale - Reported"
 * focus = Reference(pcoGoalSocialConnectionsWithGAS)
 * valueCodeableConcept = $LNC#LA34483-0 "Less than expected"
 
@@ -107,6 +108,7 @@ Title: "GAS Patient Follow-up Score"
 Description: "Follow-up GAS score observation recorded by a Patient showing goal progress."
 Usage: #example
 * status = #final 
+* category[us-core] = OBSCAT#survey "Survey"
 * subject = Reference(pcoPatientJones)
 * performer = Reference(pcoPatientJones)
 * effectiveDateTime = "2025-03-10T10:15:00Z"
@@ -120,7 +122,8 @@ Title: "GAS Practitioner Follow-up Score"
 Description: "Follow-up GAS score observation recorded by a Practitioner showing goal progress."
 Usage: #example
 * status = #final 
-* category = USCORECAT#functional-status "Functional Status"
+* category[us-core][0] = OBSCAT#survey "Survey"
+* category[us-core][1] = USCORECAT#functional-status "Functional Status"
 * subject = Reference(pcoPatientJones)
 * performer = Reference(pcoPractitionerGonzalez)
 * effectiveDateTime = "2025-04-17T10:15:00Z"

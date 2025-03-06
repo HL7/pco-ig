@@ -26,7 +26,7 @@ Profile: PCOGoalProfile
 Parent: USCoreGoalProfile
 Id: pco-goal-profile
 Title: "Person-Centered Goal"
-Description: "Person-centered goal focused on an individual's well-being. A Person-centered goal SHALL include either a PCO category, or address a What Matters assessment."
+Description: "A person-centered goal is based on a values conversation with a patient to address what matters most to them."
 * insert PCOCategory
 * insert GoalDomainCategory
 * expressedBy 0..1 MS
@@ -41,8 +41,6 @@ Description: "Person-centered goal focused on an individual's well-being. A Pers
 * addresses[SupportedAddresses] only Reference(WhatMattersAssessment)
   * ^short = "What Matters Assessment or Priority"
   * ^requirements = "When a goal addresses What Matters observations, Goal.addresses should reference instances that comply with the PCO What Matters Assessment of Priority profiles. However, references to other instance types are also possible."
-
-// TODO: add a constraint that either Goal.category from GoalDomainCategory or Goal.addresses WhatMattersAssessment SHALL be present
 
 Profile: PCOCarePlan
 Parent: USCoreCarePlanProfile

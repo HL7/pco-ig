@@ -2,7 +2,7 @@ Profile: PCOGoalOutcomeMeasureProfile
 Parent: PCOGoalProfile
 Id: pco-prom-goal-profile
 Title: "Person-Centered PROM Goal"
-Description: "Person-centered goal with a Patient-Reported Outcome Measure (PROM) score target."
+Description: "Person-centered goal using a Patient-Reported Outcome Measure (PROM) score to measure its progress and achievement."
 * target 1..1
   * measure 1..1 MS
     * ^short = "Target score for evaluating PCO Goal using PROMs"

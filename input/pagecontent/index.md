@@ -49,7 +49,7 @@ Several user storires are included in this guide that align with steps in the fo
 * [Goal Domains](ValueSet-pco-goal-domain-categories.html)
 * Goal Attainment Scaling (GAS)
   * [GAS Score type](ValueSet-goal-attainment-scaling-score.html)
-  * [Follow-up GAS Score Answers](ValueSet-gas-score-answers.html)
+  * [Follow-up GAS Score Answers](http://loinc.org/vs/LL6900-6)
 * [PROM Target Measure Scores](ValueSet-prom-target-measures.html)
 
 ### How to read this Guide
