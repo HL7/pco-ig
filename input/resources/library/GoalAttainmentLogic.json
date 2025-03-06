@@ -102,7 +102,7 @@
   }, {
     "type": "depends-on",
     "display": "Value set Follow-Up GAS Score Answers",
-    "resource": "http://loinc.org/vs/LL6900-6|2.80"
+    "resource": "http://loinc.org/vs/LL6900-6"
   }, {
     "type": "depends-on",
     "display": "Value set PROM Target Measures",

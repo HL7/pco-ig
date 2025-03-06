@@ -16,7 +16,7 @@
       "valueCoding": {
         "system": "http://loinc.org",
         "code": "107332-9",
-        "display": "Goal attainment scale"
+        "display": "Goal attainment scale - Reported"
       }
     }, {
       "url": "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition",

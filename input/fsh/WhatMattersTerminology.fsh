@@ -67,6 +67,7 @@ Id: what-matters-codes-example
 Title: "What Matters Codes Example"
 Description: "Example value set containing codes for What Matters observations."
 * ^experimental = false
+* insert SNOMEDCopyrightNotice
 * $SCT#363702006 "Has focus"
 * include codes from system WhatMattersConcepts
 * include codes from system PersonalHealthInventory

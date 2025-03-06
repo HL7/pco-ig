@@ -12,7 +12,7 @@ Description: "The score indicates how a patient, caregiver, or practitioner rate
 
 // LOINC ValueSets
 
-Alias: GASScoreAnswers = http://loinc.org/vs/LL6900-6|2.80
+Alias: GASScoreAnswers = http://loinc.org/vs/LL6900-6
 
 /*
 ValueSet: GASScoreAnswers

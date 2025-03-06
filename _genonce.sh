@@ -20,6 +20,7 @@ export _JAVA_OPTIONS="$JAVA_TOOL_OPTIONS -Xmx5120m"
 publisher=$input_cache_path/$publisher_jar
 if test -f "$publisher"; then
 	java -jar $publisher -ig . $txoption $*
+	# java -jar $publisher -ig . $txoption -resetTx $*
 
 else
 	publisher=../$publisher_jar
