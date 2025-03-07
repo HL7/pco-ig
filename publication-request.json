@@ -1,0 +1,17 @@
+{
+    "package-id" : "hl7.fhir.us.pco",
+    "version" : "1.0.0-ballot",
+    "path" : "http://hl7.org/fhir/us/pco/2025May",
+    "mode" : "working",
+    "status" : "ballot",
+    "sequence" : "Releases",
+    "desc" : "Ballot version for STU1",
+    "descmd" : "Ballot version for STU1",
+    "changes" : "",
+    "first" : true,
+    "title" : "Person-Centered Outcomes (PCO) Implementation Guide",
+    "ci-build" : "https://build.fhir.org/ig/HL7/pco-ig",
+    "category" : "Care Management",
+    "introduction" : "A person-centered, goal-directed approach to healthcare focuses on setting and achieving personalized goals that prioritize an individual's well-being and What Matters Most. Instead of just treating symptoms, it fosters collaboration among patients, caregivers, and providers to define goals related to health outcomes, functional improvement, or symptom management. The PCO IG defines profiles for interoperable goals, leveraging Goal Attainment Scaling (GAS) or Patient-Reported Outcome Measures (PROMs) to track progress. GAS involves collaboratively setting goals with numerical scales to assess achievement levels, offering a nuanced and individualized measure of progress. PROMs, selected based on goal focus or barriers, provide structured patient-reported data to quantify outcomes where traditional measures fall short.",
+    "replacement" : ""
+  }
