@@ -33,8 +33,9 @@ Parent: USCoreSimpleObservationProfile
 Id: pco-gas-score-observation
 Title: "Goal Attainment Scaling (GAS) score observation"
 Description: "A GAS score indicates how a patient, caregiver, or practitioner rated goal progress using goal attainment scaling."
-* effectiveDateTime 1..1 MS
+* effective[x] 1..1 MS
   * ^short = "When the score was assessed"
+* effective[x] only dateTime or Period
 * code from GoalAttainmentScalingScore (extensible)
   * ^short = "Code for Goal Attainment Scaling (GAS) score observation"
 * focus 0..1 MS

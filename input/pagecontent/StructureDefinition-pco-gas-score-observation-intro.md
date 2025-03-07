@@ -22,7 +22,7 @@ The following data elements must always be present or must be supported if the d
 **Each GAS Score Observation must support:**
 
 1. additional categories that further specify the assessment or screening
-1. a time indicating when the assessment was taken
+1. a time or period indicating when the assessment was taken
 1. who answered the questions
 1. a focus referring to a Goal that was assessed for progress
 1. a codeable concept value containing the LOINC code for the GAS score

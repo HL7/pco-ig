@@ -15,8 +15,9 @@ Parent: USCoreObservationScreeningAssessmentProfile
 Id: pco-prom-score-observation
 Title: "Patient-Reported Outcome Measure (PROM) score observation"
 Description: "This observation records how a patient's progress is rated using a PROM assessment score."
-* effectiveDateTime 1..1 MS
+* effective[x] 1..1 MS
   * ^short = "When the score was assessed"
+* effective[x] only dateTime or Period
 * code from PROMTargetMeasures (extensible)
   * ^short = "Code for PROM score observation"
 * focus 0..1 MS
