@@ -4,8 +4,6 @@ Id: pco-personal-priorities-organizer
 Title: "Personal Priorities Organizer"
 Description: "Personal Priorities Organizer is used to represent a set of person-centered goals, what matters assessment, or barriers in a preferred ranked order."
 
-// * title 1..1 // Should this be required or MS?
-
 * code 1..1
 * code = $LNC#81340-2
   * ^short = "Goals AndOr preferences in order of priority"
