@@ -1,10 +1,13 @@
 == Suppressed Messages ==
 
-# {score} is a valid UCUM code
-%UCUM Codes that contain human readable annotations like {score} can be misleading%
+# Based on US Core 6.1.0 for compatibility with current EHR system requirements and capabilities.
+WARNING: ImplementationGuide/hl7.fhir.us.pco: ImplementationGuide.dependsOn[1]: The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent version is 8.0.0-ballot. This reference is getting old and the more recent version should be considered
 
 # These warnings will be eliminated when US Core is updated.
 SD_PATH_SLICING_DEPRECATED
+
+# {score} is a valid UCUM code
+%UCUM Codes that contain human readable annotations like {score} can be misleading%
 
 # Ignore information messages about valid use of Questionnaire minValue/maxValue extensions; Questionnaires are used only for examples in this IG.
 %This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire%

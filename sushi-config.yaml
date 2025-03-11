@@ -31,7 +31,7 @@ extension:
 dependencies:
   hl7.terminology.r4: 6.2.0
   hl7.fhir.us.core: 6.1.0
-  hl7.fhir.uv.extensions.r4: 5.1.0
+  hl7.fhir.uv.extensions.r4: 5.2.0
   hl7.fhir.us.cqfmeasures: 5.0.0
   # hl7.fhir.uv.cpg: 2.0.0
   # fhir.cqf.common: 4.0.1
