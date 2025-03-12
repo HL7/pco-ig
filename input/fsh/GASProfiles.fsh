@@ -29,7 +29,7 @@ Description: "A person-centered goal using Goal Attainment Scaling (GAS) to meas
     * ^short = "Goal attainment scale - Reported"
 
 Profile: PCOGoalAttainmentScoreObservation
-Parent: USCoreSimpleObservationProfile
+Parent: USCoreObservationScreeningAssessmentProfile
 Id: pco-gas-score-observation
 Title: "Goal Attainment Scaling (GAS) score observation"
 Description: "A GAS score indicates how a patient, caregiver, or practitioner rated goal progress using goal attainment scaling."

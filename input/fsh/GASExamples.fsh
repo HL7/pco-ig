@@ -94,7 +94,6 @@ Title: "GAS Baseline Score"
 Description: "Baseline GAS score observation at start of goal."
 Usage: #example
 * status = #final
-* category[us-core] = OBSCAT#survey "Survey"
 * subject = Reference(pcoPatientJones)
 * performer = Reference(pcoPractitionerGonzalez)
 * effectiveDateTime = "2025-02-15T15:15:00Z"
@@ -108,7 +107,6 @@ Title: "GAS Patient Follow-up Score"
 Description: "Follow-up GAS score observation recorded by a Patient showing goal progress."
 Usage: #example
 * status = #final 
-* category[us-core] = OBSCAT#survey "Survey"
 * subject = Reference(pcoPatientJones)
 * performer = Reference(pcoPatientJones)
 * effectiveDateTime = "2025-03-10T10:15:00Z"
@@ -122,8 +120,7 @@ Title: "GAS Practitioner Follow-up Score"
 Description: "Follow-up GAS score observation recorded by a Practitioner showing goal progress."
 Usage: #example
 * status = #final 
-* category[us-core][0] = OBSCAT#survey "Survey"
-* category[us-core][1] = USCORECAT#functional-status "Functional Status"
+* category = USCORECAT#functional-status "Functional Status"
 * subject = Reference(pcoPatientJones)
 * performer = Reference(pcoPractitionerGonzalez)
 * effectiveDateTime = "2025-04-17T10:15:00Z"

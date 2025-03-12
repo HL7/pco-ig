@@ -1,18 +1,3 @@
-/*
-Instance: pcoPatientLopez
-InstanceOf: USCorePatientProfile
-Title: "Patient Camila Lopez" 
-Description: "Camila Lopez"
-Usage: #example
-* identifier[0].use = #official
-* identifier[0].system = "http://example.org"
-* identifier[0].value = "ee8d4ac0-545c-4501-8d7e-646bfbda1ge3"
-* name.family = "Lopez"
-* name.given[0] = "Camila"
-* gender = #female
-* birthDate = "1959-07-16"
-
-*/
 
 Instance: pcoGoalAnxietyExample
 InstanceOf: PCOGoalOutcomeMeasureProfile
@@ -30,7 +15,7 @@ Usage: #example
 * description.text = "I want to practice being present when interacting with family and friends in an uplifting way at least 3x monthly."
 * target.measure = $LNC#70274-6 "Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]"
 * target.detailQuantity.comparator = #<
-* target.detailQuantity = 10 UOM#{score} "score"
+* target.detailQuantity = 10 UOM#1 "score"
 
 Instance: pcoPROMScoreAnxietyBaseline
 InstanceOf: PCOPatientReportedOutcomeScore
@@ -43,7 +28,7 @@ Usage: #example
 * effectiveDateTime = "2025-02-15T13:15:00Z"
 * focus = Reference(pcoGoalAnxietyExample)
 * code = $LNC#70274-6 "Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]"
-* valueQuantity = 15 UOM#{score} "score"
+* valueQuantity = 15 UOM#1 "score"
 
 Instance: pcoPROMScoreAnxietyFollowUp
 InstanceOf: PCOPatientReportedOutcomeScore
@@ -56,20 +41,4 @@ Usage: #example
 * effectiveDateTime = "2025-04-01T13:15:00Z"
 * focus = Reference(pcoGoalAnxietyExample)
 * code = $LNC#70274-6 "Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]"
-* valueQuantity = 10 UOM#{score} "score"
-
-/*
-Instance: pcoAnxietyCarePlanExample
-InstanceOf: PCOCarePlan
-Title: "Care Plan for PCO Anxiety Goal"
-Description: "Care Plan for a person-centered goal using a PROM score measure."
-Usage: #example
-* status = #active
-* intent = #plan
-* subject = Reference(pcoPatientJones)
-* goal = Reference(pcoGoalAnxietyExample)
-* activity[0].reference = Reference(pcoMindfulnessSupportProgram)
-* period.start = "2025-02-15"
-* period.end = "2025-08-31"
-
-*/
+* valueQuantity = 10 UOM#1 "score"

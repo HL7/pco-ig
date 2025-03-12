@@ -1,6 +1,6 @@
 The Goal Attainment Scaling (GAS) score observation records a LOINC coded score that indicates progress on a goal and also states whether that progress assessment was made by a patient, practitioner, or caregiver.
 
-This profile inherits from the [US Core Simple Observation Profile](https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-simple-observation.html); refer to it for scope and usage guidance. The US Core profile is meant to capture any “simple” observations that are not otherwise covered by other US Core Observation profiles. It promotes interoperability and adoption through common implementation by setting minimum expectations for the Observation resource to record, search, and retrieve observations by providing the floor for standards development for specific use cases.
+The standardized approach for capturing assessment results is well documented in the US Core implementation guide. This GAS score observation profile inherits from the [US Core Observation Screening Assessment Profile](http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-screening-assessment.html); refer to it for scope and usage guidance. The US Core profile meets the requirements of the U.S. Core Data for Interoperability (USCDI) Health Status Assessments Data Class. It sets the minimum expectations for the Observation Resource to record, search, and fetch observations representing the questions and responses to surveys and screening and assessment tools.
 
 **Example Usage Scenarios:**
 
@@ -15,7 +15,7 @@ The following data elements must always be present or must be supported if the d
 **Each GAS Score Observation must have:**
 
 1. a status
-1. a category code, preferably "survey", but others can be used from the US Core value set.
+1. a category code of "survey"
 1. a code identifying the type GAS assessment
 1. a patient
 
