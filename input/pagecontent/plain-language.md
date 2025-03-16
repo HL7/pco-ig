@@ -59,11 +59,11 @@
       policymakers make sure care is truly centered on what each person wants and needs.</p>
 
     <h4>How does it work?</h4>
-    <p>Goal-directed care is about working together to set and reach health goals. It includes:</p>
+    <p>Goal-directed care is about working together to set and reach personal goals. It includes:</p>
     <ol>
       <li><strong>Identifying What Matters Most:</strong> Patients, with support from caregivers and their providers,
-        create personal health goals.</li>
-      <li><strong>Creating a Plan:</strong> A care plan is made based on these goals, including treatments, therapy, or
+        create personal goals.</li>
+      <li><strong>Creating a Plan:</strong> A plan is made based on these goals, including treatments, therapy, or
         lifestyle changes.</li>
       <li><strong>Tracking Progress:</strong> Patients and providers use tools to measure how well a person is reaching
         their goals and adjust care if needed.</li>

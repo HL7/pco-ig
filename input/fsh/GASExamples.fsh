@@ -2,7 +2,7 @@
 Instance: pcoGoalSocialConnectionsWithGAS
 InstanceOf: PCOGoalAttainmentScaleProfile
 Title: "Goal with GAS"
-Description: "Person-centered goal with attainment scaling extensions"
+Description: "Person-centered goal with GAS extensions"
 Usage: #example
 * lifecycleStatus = #active
 * achievementStatus = $GoalAchievement#in-progress
@@ -15,15 +15,15 @@ Usage: #example
 * addresses[0] = Reference(pcoWhatMattersRelationshipsExample) "What Matters: Family & Friends"
 * description.text = "I want to practice being present when interacting with family and friends in an uplifting way at least 3x monthly."
 * extension[gas-scaling][0].extension[level].valueCoding = $LNC#LA34479-8 "Much better than expected"
-* extension[gas-scaling][0].extension[text].valueString = "I am practicing being present when interacting with family and friends in an uplifting way at least 5x monthly."
+* extension[gas-scaling][0].extension[progressText].valueString = "I am practicing being present when interacting with family and friends in an uplifting way at least 5x monthly."
 * extension[gas-scaling][1].extension[level].valueCoding = $LNC#LA34480-6 "Better than expected"
-* extension[gas-scaling][1].extension[text].valueString = "I am practicing being present when interacting with family and friends in an uplifting way at least 4x monthly."
+* extension[gas-scaling][1].extension[progressText].valueString = "I am practicing being present when interacting with family and friends in an uplifting way at least 4x monthly."
 * extension[gas-scaling][2].extension[level].valueCoding = $LNC#LA34481-4 "Expected outcome"
-* extension[gas-scaling][2].extension[text].valueString = "I am practicing being present when interacting with family and friends in an uplifting way at least 3x monthly."
+* extension[gas-scaling][2].extension[progressText].valueString = "I am practicing being present when interacting with family and friends in an uplifting way at least 3x monthly."
 * extension[gas-scaling][3].extension[level].valueCoding = $LNC#LA34483-0 "Less than expected"
-* extension[gas-scaling][3].extension[text].valueString = "I am practicing being present when interacting with family and friends in an uplifting way 1-2x per month."
+* extension[gas-scaling][3].extension[progressText].valueString = "I am practicing being present when interacting with family and friends in an uplifting way 1-2x per month."
 * extension[gas-scaling][4].extension[level].valueCoding = $LNC#LA34484-8 "Much less than expected"
-* extension[gas-scaling][4].extension[text].valueString = "I do not interact with family and friends at all each month."
+* extension[gas-scaling][4].extension[progressText].valueString = "I do not interact with family and friends at all each month."
 
 Instance: pcoGoalSocialConnectionsWithoutExtensions
 InstanceOf: PCOGoalProfile

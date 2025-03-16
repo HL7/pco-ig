@@ -6,14 +6,15 @@ Description: "Goal Attainment Scaling (GAS) is an extension used to specify five
 * ^context.expression = "Goal"
 * extension contains 
   level 0..1 MS and 
-  text 1..1 MS
+  progressText 1..1 MS
 * extension[level] ^short = "Code indicating GAS level"
 * extension[level].value[x] only Coding
 * extension[level].valueCoding 1..1
 * extension[level].valueCoding from GASScoreAnswers (required)
-* extension[text] ^short = "GAS text"
-* extension[text].value[x] only string
-* extension[text].valueString 1..1
+* extension[progressText] ^short = "Description of GAS level"
+* extension[progressText].value[x] only string
+* extension[progressText].valueString 1..1
+  * ^short = "Free-text description of GAS progress level"
 
 Profile: PCOGoalAttainmentScaleProfile
 Parent: PCOGoalProfile

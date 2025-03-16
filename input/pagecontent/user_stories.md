@@ -6,7 +6,6 @@ The following user stories align with steps in the Person-Centered Outcomes Proc
    * [Follow-up on PCO Goal Using GAS](#follow-up-on-pco-goal-using-gas)
 1. [Measure a PCO Goal using Patient-Reported Outcome Measures (PROMs)](#measure-a-pco-goal-using-prom---baseline-visit)
    * [Follow-up on PCO Goal Using a PROM](#follow-up-on-pco-goal-using-a-prom)
-1. [Execute Digital Quality Measures (dQMs)](#execute-digital-quality-measures-dqms)
 
 1. [Supporting FHIR Profiles](#supporting-fhir-profiles)
 1. [Notes about user stories](#notes-about-user-stories)
@@ -19,7 +18,7 @@ Two areas of her personal assessment stand out: Dorothy rated Friends & Family a
 
 ### Document a PCO Goal
 
-Dorothy’s health coach uses motivational interviewing techniques to ask open-ended questions that identify Dorothy’s initial personal goal to be more present when interacting with family and friends. By asking refining questions to rephrase the person-centered outcome goal as a SMART goal (Specific, Measurable, Achievable, Relevant and Time-bound), Dorothy arrives at a personal goal that focuses on what matters most to her:
+Dorothy’s health coach uses motivational interviewing techniques to ask open-ended questions that identify Dorothy’s initial person-centered outcome goal to be more present when interacting with family and friends. By asking refining questions to rephrase the person-centered outcome goal as a SMART goal (Specific, Measurable, Achievable, Relevant and Time-bound), Dorothy arrives at a goal that focuses on what matters most to her:
 
 **Person-Centered Outcome Goal:** I want to practice being present when interacting with family and friends in an uplifting way at least 3x monthly.
 
@@ -198,14 +197,10 @@ At her two month follow-up visit, Dorothy retakes the GAD-7 and gets a score of 
 3. Revise the goal to be more realistic for Dorothy to achieve.  
 4. The goal and PROM can stay the same, but they can adapt the action steps in the care plan to better support Dorothy in achieving her goal. 
 
-### Execute Digital Quality Measures (dQMs)
-
-Coming Soon!
-
 ### Supporting FHIR Profiles
 
 1. Identify What Matters
-   * [Well-Being Assessment](StructureDefinition-pco-what-matters-assessment.html)
+   * [What Matters Assessment](StructureDefinition-pco-what-matters-assessment.html)
 1. Document a PCO Goal
    * [Readiness Assessment](StructureDefinition-pco-readiness-assessment.html)
    * [Goal Barrier](StructureDefinition-pco-goal-barrier.html)
