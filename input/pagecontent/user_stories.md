@@ -215,6 +215,8 @@ At her two month follow-up visit, Dorothy retakes the GAD-7 and gets a score of 
 
 ☛ Many alternative tools have been developed and are in use that enable individuals to reflect on What Matters Most for their health & well-being. One example is the U.S. Department of Veterans Affairs [Whole Health approach to care](https://va.gov/wholehealth) that includes a [Circle of Health](https://www.va.gov/WHOLEHEALTH/circle-of-health/index.asp) and [Personal Health Inventory](https://www.va.gov/WHOLEHEALTH/docs/PHI_Jan2022_Final_508.pdf). The examples in this FHIR IG are based on VA's approach, but can be adapted to other assessments used by different organizations or for targeted patient populations.
 
+☛ [Sensitivity to change and minimal clinically important difference of the 7-item Generalized Anxiety Disorder Questionnaire (GAD-7) - ScienceDirect.](https://www.sciencedirect.com/science/article/abs/pii/S0165032719313643?via%3Dihub)
+
 ☛ GAD-7: See Preferred vocabulary bound to value set represented by [LOINC 69737-5 Generalized anxiety disorder 7 item (GAD-7)](https://loinc.org/69737-5)
 
 <!-- 
