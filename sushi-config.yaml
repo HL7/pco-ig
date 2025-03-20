@@ -6,7 +6,7 @@
 id: hl7.fhir.us.pco
 canonical: http://hl7.org/fhir/us/pco
 name: PCO
-title: Person-Centered Outcomes
+title: Person-Centered Outcomes (PCO) Implementation Guide
 description: Person-Centered Outcomes (PCO) FHIR Implementation Guide
 status: draft # draft | active | retired | unknown
 version: 1.0.0-ballot
