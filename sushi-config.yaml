@@ -13,7 +13,8 @@ version: 1.0.0-ballot
 fhirVersion: 4.0.1
 FSHOnly: false
 copyrightYear: 2024+
-releaseLabel: ballot # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+# releaseLabel: ballot # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: STU 1 Ballot
 license: CC0-1.0
 jurisdiction: urn:iso:std:iso:3166#US "United States of America"
 publisher:
