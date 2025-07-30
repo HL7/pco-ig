@@ -1,7 +1,7 @@
 == Suppressed Messages ==
 
 # Based on US Core 6.1.0 for compatibility with current EHR system requirements and capabilities.
-WARNING: ImplementationGuide/hl7.fhir.us.pco: ImplementationGuide.dependsOn[1]: The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 7.0.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/hl7.fhir.us.pco: ImplementationGuide.dependsOn[1]: The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 8.0.0. This reference is getting old and the more recent version should be considered
 
 # Suppress deprecation message from extension used in snapshot
 INFORMATION: StructureDefinition/pco-care-plan: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
