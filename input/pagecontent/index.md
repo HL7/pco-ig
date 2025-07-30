@@ -2,8 +2,6 @@ The Person-Centered Outcomes (PCO) HL7® FHIR® Implementation Guide (IG) suppor
 
 The PCO IG includes profiles for interoperable [GAS Goals](StructureDefinition-pco-gas-goal-profile.html), support for goal editing tools, and PCO measures. GAS in healthcare measures the extent to which individuals achieve specific goals or objectives. It allows for the quantification and evaluation of progress toward individualized goals, particularly in areas where traditional outcome measures may be insufficient. GAS involves collaboratively setting goals with the individual and assigning numerical scales to each goal to represent different levels of achievement. This approach provides a more nuanced and tailored way to assess progress and outcomes, taking into account the unique circumstances and aspirations of the individual. 
 
-{% include plain-language.md %}
-
 ### Background
 
 Everyone deserves fair and just access to high-quality healthcare that addresses their unique needs, reflects their diverse background and culture, and is designed to deliver the outcomes they want. This is particularly true for people with complex healthcare needs, many of whom are older adults who often receive care that may be misaligned with their needs and goals. Nearly 30% of Medicare beneficiaries have complex healthcare needs, and more than 14 million people in the U.S. need long-term services and supports. [These numbers are growing every year](https://www.aarp.org/content/dam/aarp/ppi/2019/08/long-term-services-and-supports.doi.10.26419-2Fppi.00079.001.pdf).
