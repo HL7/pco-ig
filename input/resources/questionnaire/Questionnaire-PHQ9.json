@@ -3,8 +3,7 @@
     "id": "44249-1",
     "meta": {
         "versionId": "6",
-        "lastUpdated": "2023-02-22T21:38:07.178+00:00",
-        "source": "#8nce0Ag7t7lkl7Rp"
+        "lastUpdated": "2023-02-22T21:38:07.178+00:00"
     },
     "url": "http://hl7.org/fhir/us/pco/Questionnaire/44249-1",
     "name": "PHQ_quick_depression_assessment_panel",

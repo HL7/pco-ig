@@ -74,7 +74,7 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://hl7.org/fhir/us/pco/Library/FHIRHelpers|4.4.000"
+    "resource": "http://fhir.org/guides/cqf/common/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library PC",

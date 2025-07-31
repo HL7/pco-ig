@@ -13,18 +13,3 @@ Description: "The score indicates how a patient, caregiver, or practitioner rate
 // LOINC ValueSets
 
 Alias: GASScoreAnswers = http://loinc.org/vs/LL6900-6
-
-/*
-ValueSet: GASScoreAnswers
-Id: gas-score-answers
-Title: "Follow-Up GAS Score Answers"
-Description: "The progress rating on goal attainment scaling."
-* ^experimental = false
-* insert LOINCCopyrightNotice
-* $LNC#LA34479-8 "Much better than expected"
-* $LNC#LA34480-6 "Better than expected"
-* $LNC#LA34481-4 "Expected outcome"
-* $LNC#LA34483-0 "Less than expected"
-* $LNC#LA34484-8 "Much less than expected"
-
-*/
