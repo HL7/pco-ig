@@ -1,4 +1,17 @@
 
+Instance: pcoWhatMattersPurposeExample
+InstanceOf: WhatMattersAssessment
+Title: "What Matters Purpose Statement"
+Description: "What Matters observation added by a Patient to record a free-text statement about their sense of purpose."
+Usage: #example
+* status = #final 
+* category[pco] = PCOConcepts#what-matters "What Matters"
+* code = $SCT#247751003 "Sense of purpose"
+* subject = Reference(pcoPatientJones)
+* performer = Reference(pcoPatientJones)
+* effectiveDateTime = "2025-07-30T10:35:00Z"
+* valueString = "I want to remain healthy and active so that I can travel with my sister and play with my grandchildren."
+
 Instance: pcoWhatMattersStatementExample
 InstanceOf: WhatMattersAssessment
 Title: "What Matters Statement as Free-Text"

@@ -50,17 +50,17 @@ Id: wellbeing-domains-example
 Title: "Well-Being Domains Example"
 Description: "Example value set containing well-being domains from a Personal Health Inventory."
 * ^experimental = false
+* include codes from system PersonalHealthInventory
 // Cannot use "include codes" because cqframework -EnsureExecutableValueSet does not support this expansion
-// * include codes from system PersonalHealthInventory
-* PersonalHealthInventory#body "Food and Drink"
-* PersonalHealthInventory#mind "Power of the Mind"
-* PersonalHealthInventory#nourishment "Food & Drink"
-* PersonalHealthInventory#recharge "Recharge"
-* PersonalHealthInventory#surroundings "Surroundings"
-* PersonalHealthInventory#personal-development "Personal Development"
-* PersonalHealthInventory#spirit-and-soul "Spirit & Soul"
-* PersonalHealthInventory#relationships "Family, Friends & Co-Workers"
-* PersonalHealthInventory#professional-care "Professional Care"
+// * PersonalHealthInventory#body "Food and Drink"
+// * PersonalHealthInventory#mind "Power of the Mind"
+// * PersonalHealthInventory#nourishment "Food & Drink"
+// * PersonalHealthInventory#recharge "Recharge"
+// * PersonalHealthInventory#surroundings "Surroundings"
+// * PersonalHealthInventory#personal-development "Personal Development"
+// * PersonalHealthInventory#spirit-and-soul "Spirit & Soul"
+// * PersonalHealthInventory#relationships "Family, Friends & Co-Workers"
+// * PersonalHealthInventory#professional-care "Professional Care"
 
 ValueSet: WhatMattersCodesExample
 Id: what-matters-codes-example
@@ -68,6 +68,7 @@ Title: "What Matters Codes Example"
 Description: "Example value set containing codes for What Matters observations."
 * ^experimental = false
 * insert SNOMEDCopyrightNotice
+* $SCT#247751003 "Sense of purpose"
 * $SCT#363702006 "Has focus"
 * include codes from system WhatMattersConcepts
 * include codes from system PersonalHealthInventory
