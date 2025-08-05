@@ -26,6 +26,8 @@ The following data elements must always be present or must be supported if the d
 1. who established the goal
 1. addresses What Matters Assessment observation(s)
 
+*see guidance below that clarifies use of multiple categories
+
 **Profile Specific Implementation Guidance:**
 
 * *Although Goal 'pco' and 'goal-domain' categories are both marked as Must Support, the server system is not required to support both, but SHALL support at least one of these elements. A client application SHALL support both elements. These categories enable quality measures and other applications to determine which patient goals are person-centered.
