@@ -2,7 +2,7 @@ library WhatMattersLogic version '0.1.0'
 
 using FHIR version '4.0.1'
 
-include FHIRHelpers version '4.4.000' called FHIRHelpers
+include FHIRHelpers version '4.0.1'
 include PCOCommon version '0.1.0' called PC
 
 codesystem "Well-Being Concepts": 'http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts-temporary'
