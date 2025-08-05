@@ -66,7 +66,7 @@ Usage: #example
 * subject = Reference(pcoPatientJones)
 * performer = Reference(pcoPatientJones)
 * effectiveDateTime = "2025-02-14T15:10:00Z"
-* valueString = "I keep snacking on jumk food all day"
+* valueString = "I keep snacking on junk food all day"
 * derivedFrom = Reference(pcoWhatMattersFoodExample)
 
 Instance: pcoWhatMattersFoodExampleFutureRating
