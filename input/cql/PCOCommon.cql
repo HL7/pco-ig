@@ -2,6 +2,7 @@ library PCOCommon version '0.1.0'
 
 using FHIR version '4.0.1'
 
+// include hl7.fhir.uv.cql.FHIRCommon version '2.0.0'
 include FHIRHelpers version '4.0.1'
 
 parameter "Measurement Period" Interval<DateTime>
@@ -28,57 +29,78 @@ define fluent function dueDate(goal Goal):
 // Returns a list of Conditions that this Goal addresses.
 define fluent function addressesConditions(goal Goal):
   flatten( goal.addresses GA
-      return [Condition] obs
-        where obs.id = GA.reference.getId()
+      return [Condition] cond
+        where GA.references(cond.id)
+        // where cond.id = GA.reference.getId()
   )
 
 // Returns a list of Observations that this Goal addresses.
 define fluent function addressesObservations(goal Goal):
   flatten( goal.addresses GA
       return [Observation] obs
-        where obs.id = GA.reference.getId()
+        where GA.references(obs.id)
+        // where obs.id = GA.reference.getId()
   )
 
 // Returns a list of Goals that address this Observation
 define fluent function addressedByGoals(obs Observation):
   [Goal] goal
     where exists ( goal.addresses GA
-        where obs.id = GA.reference.getId()
+        where GA.references(obs.id)
+        // where obs.id = GA.reference.getId()
     )
 
 // Returns a list of CarePlan that support this Goal.
 define fluent function carePlans(goal Goal):
   [CarePlan] carePlan
     where exists ( carePlan.goal goalRef
-        where goal.id = goalRef.reference.getId()
+        where goalRef.references(goal.id)
+        // where goal.id = goalRef.reference.getId()
     )
 
 define fluent function resolvePatients(references List<Reference>):
   flatten( references ref
     return [Patient] resource
-      where resource.id = ref.reference.getId()
+        where ref.references(resource.id)
+      // where resource.id = ref.reference.getId()
   )
 
 define fluent function resolvePractitioners(references List<Reference>):
   flatten( references ref
     return [Practitioner] resource
-      where resource.id = ref.reference.getId()
+        where ref.references(resource.id)
+      // where resource.id = ref.reference.getId()
   )
 
 define fluent function resolveRelatedPersons(references List<Reference>):
   flatten( references ref
     return [RelatedPerson] resource
-      where resource.id = ref.reference.getId()
+        where ref.references(resource.id)
+      // where resource.id = ref.reference.getId()
   )
 
 define fluent function resolveGoals(references List<Reference>):
   flatten( references ref
     return [Goal] resource
-      where resource.id = ref.reference.getId()
+        where ref.references(resource.id)
+      // where resource.id = ref.reference.getId()
   )
 
-define fluent function getId(uri String):
-  Last(Split(uri, '/'))
+// define fluent function getId(uri String):
+//   Last(Split(uri, '/'))
+
+/****
+ * The following functions are copied from hl7.fhir.uv.cql.FHIRCommon version '2.0.0'
+ * until this package and namespace can be imported into VS Code for execution.
+****/
+
+/*
+@description: Returns true if the given reference is to the given resourceId
+@comment: Returns true if the `resourceId` parameter exactly equals the tail of the given reference.
+NOTE: This function assumes resources from the same source server.
+*/
+define fluent function references(reference FHIR.Reference, resourceId String):
+  resourceId = Last(Split(reference.reference, '/'))
 
 /*
 @description: Returns any extensions defined on the given resource with the specified url.

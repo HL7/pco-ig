@@ -75,6 +75,10 @@
     "type": "depends-on",
     "display": "Library FHIRHelpers",
     "resource": "http://hl7.org/fhir/uv/cql/Library/FHIRHelpers|4.0.1"
+  }, {
+    "type": "depends-on",
+    "display": "Library FHIRCommon",
+    "resource": "http://hl7.org/fhir/uv/cql/Library/FHIRCommon|2.0.0"
   } ],
   "parameter": [ {
     "name": "Measurement Period",
