@@ -142,7 +142,8 @@ define fluent function promScores(goal Goal):
 define fluent function pcoGoals(carePlan CarePlan):
   flatten( carePlan.goal goalRef
       return [Goal] goal
-        where goal.id = goalRef.reference.getId()
+        where goalRef.references(goal.id)
+        // where goal.id = goalRef.reference.getId()
           and "PCO Goals" contains goal
   )
 

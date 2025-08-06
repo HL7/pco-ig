@@ -28,7 +28,8 @@ define "Well-Being Observations":
 define fluent function whatMattersObservations(goal Goal):
   flatten( goal.addresses GA
       return [Observation] obs
-        where obs.id = GA.reference.getId()
+        where GA.references(obs.id)
+        // where obs.id = GA.reference.getId()
           and obs.isWhatMatters()
   )
 
