@@ -13,13 +13,13 @@
   } ],
   "url": "http://hl7.org/fhir/us/pco/ValueSet/pco-goal-domain-categories",
   "name": "PCOGoalDomainCategories",
-  "title": "PCO Goal Domain Categories Example",
+  "title": "PCO Goal Domain Categories",
   "status": "draft",
   "experimental": false,
-  "description": "Example value set to identify the goal domains category for PCO resources.",
+  "description": "Value set to identify the goal domain category for PCO resources.",
   "compose": {
     "include": [ {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains-temporary",
       "concept": [ {
         "code": "housing",
         "display": "Housing"
@@ -60,57 +60,57 @@
     } ]
   },
   "expansion": {
-    "timestamp": "2025-02-12T07:22:41-07:00",
+    "timestamp": "2025-08-12T08:57:32-04:00",
     "parameter": [ {
       "name": "naive",
       "valueBoolean": true
     } ],
     "contains": [ {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains-temporary",
       "code": "housing",
       "display": "Housing"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains-temporary",
       "code": "access-to-services",
       "display": "Access To Services"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains-temporary",
       "code": "caregiver-needs",
       "display": "Caregiver Needs"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains-temporary",
       "code": "end-of-life",
       "display": "End Of Life"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains-temporary",
       "code": "independence",
       "display": "Independence"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains-temporary",
       "code": "legal",
       "display": "Legal"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains-temporary",
       "code": "managing-conditions",
       "display": "Managing Conditions"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains-temporary",
       "code": "medication-management",
       "display": "Medication Management"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains-temporary",
       "code": "improving-health-and-wellness",
       "display": "Improving Health And Wellness"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains-temporary",
       "code": "physical-function",
       "display": "Physical Function"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains-temporary",
       "code": "social-functioning",
       "display": "Social Functioning"
     }, {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains-temporary",
       "code": "emotional-and-mental-health",
       "display": "Emotional And Mental Health"
     } ]

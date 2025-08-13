@@ -13,14 +13,14 @@
     } ]
   }, {
     "coding": [ {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts-temporary",
       "code": "what-matters",
       "display": "What Matters"
     } ]
   } ],
   "code": {
     "coding": [ {
-      "system": "http://mtnlotus.com/fhir/mlw/CodeSystem/wellbeing-concepts",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
       "code": "mind",
       "display": "Healthy Mind"
     } ]
@@ -40,7 +40,7 @@
   "component": [ {
     "code": {
       "coding": [ {
-        "system": "http://hl7.org/fhir/us/pco/CodeSystem/wellbeing-concepts",
+        "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
         "code": "now-rating",
         "display": "Now Rating"
       } ]
@@ -49,7 +49,7 @@
   }, {
     "code": {
       "coding": [ {
-        "system": "http://hl7.org/fhir/us/pco/CodeSystem/wellbeing-concepts",
+        "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
         "code": "future-rating",
         "display": "Future Rating"
       } ]

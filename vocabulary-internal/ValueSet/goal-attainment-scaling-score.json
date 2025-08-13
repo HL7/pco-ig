@@ -23,7 +23,7 @@
       "system": "http://loinc.org",
       "concept": [ {
         "code": "107332-9",
-        "display": "Goal attainment scale"
+        "display": "Goal attainment scale - Reported"
       }, {
         "code": "107333-7",
         "display": "Practitioner follow-up goal attainment scaling score"
@@ -37,7 +37,7 @@
     } ]
   },
   "expansion": {
-    "timestamp": "2025-02-12T07:22:41-07:00",
+    "timestamp": "2025-08-12T08:57:32-04:00",
     "parameter": [ {
       "name": "naive",
       "valueBoolean": true
@@ -45,7 +45,7 @@
     "contains": [ {
       "system": "http://loinc.org",
       "code": "107332-9",
-      "display": "Goal attainment scale"
+      "display": "Goal attainment scale - Reported"
     }, {
       "system": "http://loinc.org",
       "code": "107333-7",

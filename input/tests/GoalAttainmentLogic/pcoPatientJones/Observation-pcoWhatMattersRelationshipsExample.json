@@ -12,7 +12,7 @@
         "coding": [
           {
             "code": "now-rating",
-            "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-rating"
+            "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts-temporary"
           }
         ]
       },
@@ -23,7 +23,7 @@
         "coding": [
           {
             "code": "now-reasons",
-            "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-rating"
+            "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts-temporary"
           }
         ]
       },
@@ -34,7 +34,7 @@
         "coding": [
           {
             "code": "future-rating",
-            "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-rating"
+            "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts-temporary"
           }
         ]
       },
@@ -45,7 +45,7 @@
         "coding": [
           {
             "code": "future-changes",
-            "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-rating"
+            "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts-temporary"
           }
         ]
       },

@@ -6,7 +6,7 @@
       "coding": [
         {
           "code": "what-matters",
-          "system": "http://hl7.org/fhir/us/pco/CodeSystem/wellbeing-concepts",
+          "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
           "display": "What Matters Most"
         }
       ]
@@ -15,7 +15,7 @@
       "coding": [
         {
           "code": "physical-function",
-          "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains",
+          "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains-temporary",
           "display": "Physical Function"
         }
       ]

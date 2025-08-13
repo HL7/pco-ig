@@ -15,13 +15,13 @@
   },
   "category": [ {
     "coding": [ {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts-temporary",
       "code": "person-centered",
       "display": "Person-Centered"
     } ]
   }, {
     "coding": [ {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains-temporary",
       "code": "physical-function",
       "display": "Physical Function"
     } ]

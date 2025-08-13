@@ -6,7 +6,7 @@
       "coding": [
         {
           "code": "what-matters",
-          "system": "http://hl7.org/fhir/us/pco/CodeSystem/wellbeing-concepts",
+          "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
           "display": "What Matters Most"
         }
       ]

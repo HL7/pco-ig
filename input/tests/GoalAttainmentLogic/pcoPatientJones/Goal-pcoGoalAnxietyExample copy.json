@@ -6,7 +6,7 @@
       "coding": [
         {
           "code": "emotional-and-mental-health",
-          "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains",
+          "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains-temporary",
           "display": "Emotional And Mental Health"
         }
       ]

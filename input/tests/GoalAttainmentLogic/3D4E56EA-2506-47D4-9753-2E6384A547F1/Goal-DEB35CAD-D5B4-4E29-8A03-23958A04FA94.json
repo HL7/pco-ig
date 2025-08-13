@@ -15,7 +15,7 @@
   },
   "category": [ {
     "coding": [ {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts-temporary",
       "code": "person-centered",
       "display": "Person-Centered"
     } ]
@@ -40,7 +40,7 @@
     "display": "Physical Function"
   } ],
   "note": [ {
-    "time": "2024-07-12T12:42:35-07:00",
+    "time": "2025-07-12T12:42:35-07:00",
     "text": "Too hot to walk \n"
   } ]
 }

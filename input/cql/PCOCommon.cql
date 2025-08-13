@@ -2,6 +2,7 @@ library PCOCommon version '0.1.0'
 
 using FHIR version '4.0.1'
 
+// This include is not yet supported by VS Code CQL extension
 // include hl7.fhir.uv.cql.FHIRCommon version '2.0.0'
 include FHIRHelpers version '4.0.1'
 
@@ -31,7 +32,6 @@ define fluent function addressesConditions(goal Goal):
   flatten( goal.addresses GA
       return [Condition] cond
         where GA.references(cond.id)
-        // where cond.id = GA.reference.getId()
   )
 
 // Returns a list of Observations that this Goal addresses.
@@ -39,7 +39,6 @@ define fluent function addressesObservations(goal Goal):
   flatten( goal.addresses GA
       return [Observation] obs
         where GA.references(obs.id)
-        // where obs.id = GA.reference.getId()
   )
 
 // Returns a list of Goals that address this Observation
@@ -47,7 +46,6 @@ define fluent function addressedByGoals(obs Observation):
   [Goal] goal
     where exists ( goal.addresses GA
         where GA.references(obs.id)
-        // where obs.id = GA.reference.getId()
     )
 
 // Returns a list of CarePlan that support this Goal.
@@ -55,39 +53,47 @@ define fluent function carePlans(goal Goal):
   [CarePlan] carePlan
     where exists ( carePlan.goal goalRef
         where goalRef.references(goal.id)
-        // where goal.id = goalRef.reference.getId()
     )
 
+/**
+Use this function to resolve Patient resource from a list of references, e.g. from Goal.expressedBy or Observation.performer
+Returns null if a Patient resource is not included in the reference list.
+*/
 define fluent function resolvePatients(references List<Reference>):
   flatten( references ref
     return [Patient] resource
         where ref.references(resource.id)
-      // where resource.id = ref.reference.getId()
   )
 
+/**
+Use this function to resolve Pracitioner resource from a list of references, e.g. from Goal.expressedBy or Observation.performer
+Returns null if a Pracitioner resource is not included in the reference list.
+*/
 define fluent function resolvePractitioners(references List<Reference>):
   flatten( references ref
     return [Practitioner] resource
         where ref.references(resource.id)
-      // where resource.id = ref.reference.getId()
   )
 
+/**
+Use this function to resolve RelatedPerson resource from a list of references, e.g. from Goal.expressedBy or Observation.performer
+Returns null if a RelatedPerson resource is not included in the reference list.
+*/
 define fluent function resolveRelatedPersons(references List<Reference>):
   flatten( references ref
     return [RelatedPerson] resource
         where ref.references(resource.id)
-      // where resource.id = ref.reference.getId()
   )
 
+/**
+Use this function to resolve Goal resource from a list of references, e.g. from CarePlan.goal
+Returns null if a Goal resource is not included in the reference list.
+*/
 define fluent function resolveGoals(references List<Reference>):
   flatten( references ref
     return [Goal] resource
         where ref.references(resource.id)
-      // where resource.id = ref.reference.getId()
   )
-
-// define fluent function getId(uri String):
-//   Last(Split(uri, '/'))
 
 /****
  * The following functions are copied from hl7.fhir.uv.cql.FHIRCommon version '2.0.0'

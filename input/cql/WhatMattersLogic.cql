@@ -29,7 +29,6 @@ define fluent function whatMattersObservations(goal Goal):
   flatten( goal.addresses GA
       return [Observation] obs
         where GA.references(obs.id)
-        // where obs.id = GA.reference.getId()
           and obs.isWhatMatters()
   )
 

@@ -13,14 +13,14 @@
     } ]
   }, {
     "coding": [ {
-      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts-temporary",
       "code": "what-matters",
       "display": "What Matters"
     } ]
   } ],
   "code": {
     "coding": [ {
-      "system": "http://mtnlotus.com/fhir/mlw/CodeSystem/wellbeing-concepts",
+      "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
       "code": "body",
       "display": "Healthy Body"
     } ]

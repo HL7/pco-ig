@@ -50,17 +50,18 @@ Id: wellbeing-domains-example
 Title: "Well-Being Domains Example"
 Description: "Example value set containing well-being domains from a Personal Health Inventory."
 * ^experimental = false
-* include codes from system PersonalHealthInventory
+// * include codes from system PersonalHealthInventory
 // Cannot use "include codes" because cqframework -EnsureExecutableValueSet does not support this expansion
-// * PersonalHealthInventory#body "Food and Drink"
-// * PersonalHealthInventory#mind "Power of the Mind"
-// * PersonalHealthInventory#nourishment "Food & Drink"
-// * PersonalHealthInventory#recharge "Recharge"
-// * PersonalHealthInventory#surroundings "Surroundings"
-// * PersonalHealthInventory#personal-development "Personal Development"
-// * PersonalHealthInventory#spirit-and-soul "Spirit & Soul"
-// * PersonalHealthInventory#relationships "Family, Friends & Co-Workers"
-// * PersonalHealthInventory#professional-care "Professional Care"
+* PersonalHealthInventory#health-inventory "Personal Health Inventory"
+* PersonalHealthInventory#body "Food and Drink"
+* PersonalHealthInventory#mind "Power of the Mind"
+* PersonalHealthInventory#nourishment "Food & Drink"
+* PersonalHealthInventory#recharge "Recharge"
+* PersonalHealthInventory#surroundings "Surroundings"
+* PersonalHealthInventory#personal-development "Personal Development"
+* PersonalHealthInventory#spirit-and-soul "Spirit & Soul"
+* PersonalHealthInventory#relationships "Family, Friends & Co-Workers"
+* PersonalHealthInventory#professional-care "Professional Care"
 
 ValueSet: WhatMattersCodesExample
 Id: what-matters-codes-example

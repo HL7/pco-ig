@@ -6,7 +6,7 @@
       "coding": [
         {
           "code": "what-matters",
-          "system": "http://hl7.org/fhir/us/pco/CodeSystem/wellbeing-concepts",
+          "system": "http://hl7.org/fhir/us/pco/CodeSystem/personal-health-inventory-temporary",
           "display": "What Matters Most"
         }
       ]
@@ -31,7 +31,7 @@
         "coding": [
           {
             "code": "now-rating",
-            "system": "http://hl7.org/fhir/us/pco/CodeSystem/wellbeing-concepts"
+            "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts-temporary"
           }
         ]
       },
@@ -42,7 +42,7 @@
         "coding": [
           {
             "code": "now-reasons",
-            "system": "http://hl7.org/fhir/us/pco/CodeSystem/wellbeing-concepts"
+            "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts-temporary"
           }
         ]
       },
@@ -53,7 +53,7 @@
         "coding": [
           {
             "code": "future-rating",
-            "system": "http://hl7.org/fhir/us/pco/CodeSystem/wellbeing-concepts"
+            "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts-temporary"
           }
         ]
       },
@@ -64,7 +64,7 @@
         "coding": [
           {
             "code": "future-changes",
-            "system": "http://hl7.org/fhir/us/pco/CodeSystem/wellbeing-concepts"
+            "system": "http://hl7.org/fhir/us/pco/CodeSystem/what-matters-concepts-temporary"
           }
         ]
       },

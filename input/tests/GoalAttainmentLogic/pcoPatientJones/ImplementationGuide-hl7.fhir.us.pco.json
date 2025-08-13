@@ -364,7 +364,7 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/pco-goal-domains"
+          "reference": "CodeSystem/pco-goal-domains-temporary"
         },
         "name": "PCO Goal Domains",
         "description": "Goal domain codes used to identify the category for PCO resources.",
@@ -490,7 +490,7 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/wellbeing-concepts"
+          "reference": "CodeSystem/personal-health-inventory-temporary"
         },
         "name": "Well-Being Concepts",
         "description": "Code system to identify resource codes and category domains for \"What Matters\".",

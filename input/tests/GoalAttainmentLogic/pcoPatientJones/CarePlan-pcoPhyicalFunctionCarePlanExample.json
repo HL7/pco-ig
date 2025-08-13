@@ -6,7 +6,7 @@
       "coding": [
         {
           "code": "physical-function",
-          "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains",
+          "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains-temporary",
           "display": "Physical Function"
         }
       ]
@@ -15,7 +15,7 @@
       "coding": [
         {
           "code": "independence",
-          "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains",
+          "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-goal-domains-temporary",
           "display": "Independence"
         }
       ]
