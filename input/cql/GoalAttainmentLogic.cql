@@ -2,7 +2,8 @@ library GoalAttainmentLogic version '0.1.0'
 
 using FHIR version '4.0.1'
 
-include FHIRHelpers version '4.0.1'
+include hl7.fhir.uv.cql.FHIRCommon version '2.0.0'
+include hl7.fhir.uv.cql.FHIRHelpers version '4.0.1'
 include PCOCommon version '0.1.0' called PC
 include WhatMattersLogic version '0.1.0' called WM
 
@@ -110,7 +111,7 @@ define "GAS Caregiver Scores":
     // where exists obs.performer.resolveRelatedPersons()
 
 define fluent function hasGAS(goal Goal):
-  exists goal.extensions('http://hl7.org/fhir/us/pco/StructureDefinition/pco-goal-attainment-scaling')
+  exists goal.exts('http://hl7.org/fhir/us/pco/StructureDefinition/pco-goal-attainment-scaling')
     or exists (goal.target target
       where target.measure = "Goal attainment scale"
     )

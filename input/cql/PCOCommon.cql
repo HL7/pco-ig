@@ -2,9 +2,8 @@ library PCOCommon version '0.1.0'
 
 using FHIR version '4.0.1'
 
-// This include is not yet supported by VS Code CQL extension
-// include hl7.fhir.uv.cql.FHIRCommon version '2.0.0'
-include FHIRHelpers version '4.0.1'
+include hl7.fhir.uv.cql.FHIRCommon version '2.0.0'
+include hl7.fhir.uv.cql.FHIRHelpers version '4.0.1'
 
 parameter "Measurement Period" Interval<DateTime>
 
@@ -94,35 +93,3 @@ define fluent function resolveGoals(references List<Reference>):
     return [Goal] resource
         where ref.references(resource.id)
   )
-
-/****
- * The following functions are copied from hl7.fhir.uv.cql.FHIRCommon version '2.0.0'
- * until this package and namespace can be imported into VS Code for execution.
-****/
-
-/*
-@description: Returns true if the given reference is to the given resourceId
-@comment: Returns true if the `resourceId` parameter exactly equals the tail of the given reference.
-NOTE: This function assumes resources from the same source server.
-*/
-define fluent function references(reference FHIR.Reference, resourceId String):
-  resourceId = Last(Split(reference.reference, '/'))
-
-/*
-@description: Returns any extensions defined on the given resource with the specified url.
-@comment: NOTE: Extensions are not the preferred approach, but are used as a way to access
-content that is defined by extensions but not yet surfaced in the
-CQL model info.
-*/
-define fluent function extensions(domainResource DomainResource, url String):
-  domainResource.extension E
-	  where E.url = url
-		return E
-
-/*
-@description: Returns the single extension (if present) on the given resource with the specified url.
-@comment: This function uses singleton from to ensure that a run-time exception is thrown if there
-is more than one extension on the given resource with the specified url.
-*/
-define fluent function extension(domainResource DomainResource, url String):
-  singleton from domainResource.extensions(url)
