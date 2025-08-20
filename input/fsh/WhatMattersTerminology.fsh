@@ -2,7 +2,7 @@
 CodeSystem: WhatMattersConcepts
 Id: what-matters-concepts-temporary
 Title: "What Matters Concepts"
-Description: "Code system to identify observation codes for What Matters assessment."
+Description: "Code system to identify observation codes for What Matters assessment. Temporary codes are provided for non-production use while new standard terminology codes are submitted."
 * ^caseSensitive = true
 * ^experimental = true
 * ^status = #draft
@@ -19,7 +19,7 @@ Description: "Code system to identify observation codes for What Matters assessm
 CodeSystem: PersonalHealthInventory
 Id: personal-health-inventory-temporary
 Title: "Personal Health Inventory Concepts"
-Description: "Code system to identify Personal Health Inventory concepts."
+Description: "Code system to identify Personal Health Inventory concepts. Temporary codes are provided for non-production use while new standard terminology codes are submitted."
 * ^caseSensitive = true
 * ^experimental = true
 * ^status = #draft

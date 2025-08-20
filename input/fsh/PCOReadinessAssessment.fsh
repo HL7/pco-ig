@@ -23,7 +23,7 @@ Description: "Assessment of a person's readiness for change including importance
 CodeSystem: ReadinessConcepts
 Id: readiness-assessment-concepts-temporary
 Title: "Readiness Assessment Concepts"
-Description: "Code system to types of readiness for change."
+Description: "Code system to types of readiness for change. Temporary codes are provided for non-production use while new standard terminology codes are submitted."
 * ^caseSensitive = true
 * ^experimental = true
 * ^status = #draft

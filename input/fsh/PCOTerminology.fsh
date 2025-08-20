@@ -21,7 +21,7 @@ Alias: YesNoUnknownValueSet = http://loinc.org/vs/LL3044-6
 CodeSystem: PCOConcepts
 Id: pco-concepts-temporary
 Title: "Person-Centered Outcome Concepts"
-Description: "Code system to identify resource codes and category codes for Person-Centered Outcomes."
+Description: "Code system to identify resource codes and category codes for Person-Centered Outcomes. Temporary codes are provided for non-production use while new standard terminology codes are submitted."
 * ^caseSensitive = true
 * ^experimental = true
 * ^status = #draft
@@ -55,7 +55,7 @@ Description: "Categories for person-centered assessment or goals."
 CodeSystem: PCOGoalDomains
 Id: pco-goal-domains-temporary
 Title: "PCO Goal Domains"
-Description: "Goal domain codes used to identify the category for PCO resources."
+Description: "Goal domain codes used to identify the category for PCO resources. Temporary codes are provided for non-production use while new standard terminology codes are submitted."
 * ^caseSensitive = true
 * ^experimental = true
 * ^status = #draft
