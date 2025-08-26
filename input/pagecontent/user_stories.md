@@ -12,30 +12,30 @@ The following user stories align with steps in the Person-Centered Outcomes Proc
 
 ### Identify What Matters
 
-Dorothy’s primary care physician refers her to a Board Certified Health & Wellness Coach to identify and document Dorothy’s values and priorities for improving her health and well-being. Her coach asks Dorothy to complete a Personal Health Inventory with nine lifestyle areas including Moving the Body, Food & Drink, Family & Friends, Power of the Mind, and more. For each area, Dorothy rates herself with a number between 1 (low) and 5 (high) that best represents where she is now, and where she wants to be.
+Dorothy’s primary care physician refers her to a Board Certified Health & Wellness Coach to identify and document Dorothy’s values and priorities for improving her health and well-being. They start by documenting her sense of purpose, sometimes referred to as a "Why Statement". Her coach records [Dorothy's purpose statement](Observation-pcoWhatMattersPurposeExample.html) as: "I want to remain healthy and active so that I can travel with my sister and play with my grandchildren."
 
-Two areas of her personal assessment stand out: Dorothy rated Friends & Family at 1 now with a desire to reach 4\. She also rates Food & Drink at 2 now with a desire to reach 5\. At the conclusion of this first health coaching session, their objective is to identify what matters most to Dorothy based on her personal values and priorities. Dorothy selects **Family & Friends** as what matters most to her at this time. She feels that making progress in this area will enable her to focus next on improving her diet by reducing stress eating.
+Dorothy's coach also asks her to complete a [Personal Health Inventory](https://www.va.gov/WHOLEHEALTH/docs/PHI_Jan2022_Final_508.pdf) with nine lifestyle areas including Moving the Body, Food & Drink, Family & Friends, Power of the Mind, and more. For each area, Dorothy rates herself with a number between 1 (low) and 5 (high) that best represents where she is now, and where she wants to be. Two areas of her personal assessment stand out: [Dorothy rated Friends & Family](https://build.fhir.org/ig/HL7/pco-ig/Observation-pcoWhatMattersRelationshipsExample.html) at 1 now with a desire to reach 4\. She also rates Food & Drink at 2 now with a desire to reach 5\. At the conclusion of this first health coaching session, their objective is to identify what matters most to Dorothy based on her personal values and priorities. Dorothy selects **Family & Friends** as what matters most to her at this time. She feels that making progress in this area will enable her to focus next on improving her diet by reducing stress eating.
 
 ### Document a PCO Goal
 
-Dorothy’s health coach uses motivational interviewing techniques to ask open-ended questions that identify Dorothy’s initial person-centered outcome goal to be more present when interacting with family and friends. By asking refining questions to rephrase the person-centered outcome goal as a SMART goal (Specific, Measurable, Achievable, Relevant and Time-bound), Dorothy arrives at a goal that focuses on what matters most to her:
+Dorothy’s health coach uses motivational interviewing techniques to ask open-ended questions that identify Dorothy’s initial [person-centered outcome goal](StructureDefinition-pco-goal-profile.html) to be more present when interacting with family and friends. By asking refining questions to rephrase the person-centered outcome goal as a SMART goal (Specific, Measurable, Achievable, Relevant and Time-bound), Dorothy arrives at a goal that focuses on what matters most to her:
 
 **Person-Centered Outcome Goal:** I want to practice being present when interacting with family and friends in an uplifting way at least 3x monthly.
 
-Dorothy’s health coach uses an additional motivational interviewing technique by asking her two questions about her readiness to pursue this goal:
+Dorothy’s health coach uses an additional motivational interviewing technique by asking her two questions about her [readiness to pursue this goal](StructureDefinition-pco-readiness-assessment.html):
 
 * On a scale of 1 to 10, how important is it for you to… (your goal)?    
 * On a scale of 1 to 10, how confident are you that you will be able to… (your goal)? 
 
-Dorothy responds with scores of 8 and 3; important but not confident. Her coach asks what barriers or difficulties might be causing her to have low confidence, and Dorothy responds that she has a lot of anxiety in social situations.
+Dorothy responds with scores of 8 and 3; important but not confident. Her coach asks what [barriers or difficulties](StructureDefinition-pco-goal-barrier.html) might be causing her to have low confidence, and Dorothy responds that she has a lot of anxiety in social situations.
 
 Dorothy explains that her anxiety is causing substantial distress and interference with daily life activities. Dorothy is beginning to develop a fear of gathering with friends and family. She has declined many invitations to gatherings and recently her friends have stopped inviting her. Her worrying is causing a deterioration in family and friend connections, and she wants to overcome the fear of gathering with family and friends.
 
-Together, they document all of these responses in a care planning system so that Dorothy’s choice of what matters most, her personal goal, her readiness ratings, and barriers are available to other members of her extended care team so that they all can help Dorothy to be successful.
+Together, they document all of these responses in a care planning system so that Dorothy’s choice of [what matters most](StructureDefinition-pco-what-matters-assessment.html), her [personal goal](StructureDefinition-pco-goal-profile.html), her [readiness ratings](StructureDefinition-pco-readiness-assessment.html), and [barriers](StructureDefinition-pco-goal-barrier.html) are available to other members of her extended care team so that they all can help Dorothy to be successful.
 
 ### Measure a PCO Goal using GAS \- Baseline Visit
 
-Dorothy and her Board Certified Health & Wellness Coach choose goal attainment scaling as the method to document and track her person-centered outcome goal progress over time. They first put her person-centered outcome goal that they identified in the *Realistic Goal (0)* box of the scale. 
+Dorothy and her Board Certified Health & Wellness Coach choose goal attainment scaling as the method to document and track her [person-centered outcome goal](StructureDefinition-pco-gas-goal-profile.html) progress over time. They first put her person-centered outcome goal that they identified in the *Realistic Goal (0)* box of the scale. 
 
 <table style="table-layout: fixed ; width:100%">
     <thead>
@@ -131,7 +131,7 @@ The coach shares the scale with Dorothy and confirms that she agrees with each b
 
 #### Follow-up on PCO Goal Using GAS
 
-Two months later, Dorothy meets with her coach to discuss her progress on her person-centered outcome goal. Her coach takes out the goal attainment scale that they completed at her initial (baseline) visit to see where she is on her progress. 
+Two months later, Dorothy meets with her coach to discuss her [progress on her person-centered outcome goal](StructureDefinition-pco-gas-score-observation.html). Her coach takes out the goal attainment scale that they completed at her initial (baseline) visit to see where she is on her progress. 
 
 For goal attainment scaling, to achieve a goal, the patient must have achieved their *Realistic Goal (0)* or better \[*Better Than Expected (+1)* or *Much Better Than Expected(+2)*\] by their follow-up visit.
 
@@ -172,7 +172,7 @@ Dorothy decides to keep the goal and scale as is and will follow-up with her coa
 
 ### Measure a PCO Goal using PROM \- Baseline Visit
 
-Dorothy returns to see her primary care doctor (PCP), Dr. Anderson, to review her person-centered outcome goal and create a care plan to achieve it. Dr. Anderson notes the identified barrier related to anxiety and chooses a patient-reported outcome measure (PROM) as the method to document and track her person-centered outcome goal progress over time. Due to Dorothy’s severe anxiety, her PCP chooses the GAD-7 as the PROM to use to track goal progress. The GAD-7 tool indicates whether Dorothy has generalized anxiety disorder (GAD) and will help Dorothy and her health coach understand and address her anxiety.
+Dorothy returns to see her primary care doctor (PCP), Dr. Anderson, to review her person-centered outcome goal and create a care plan to achieve it. Dr. Anderson notes the identified barrier related to anxiety and chooses a patient-reported outcome measure (PROM) as the method to document and [track her person-centered outcome goal progress](StructureDefinition-pco-prom-score-observation.html) over time. Due to Dorothy’s severe anxiety, her PCP chooses the GAD-7 as the PROM to use to track goal progress. The GAD-7 tool indicates whether Dorothy has generalized anxiety disorder (GAD) and will help Dorothy and her health coach understand and address her anxiety.
 
 Dorothy’s first GAD-7 assessment yields a total score of 15 which will be her baseline score. For the GAD-7, a score from 0-4 means minimal anxiety, 5-9 indicates mild anxiety, 10-14 implies moderate anxiety, and a score from 15-21 carries a sign of severe anxiety. 
 
@@ -218,17 +218,3 @@ At her two month follow-up visit, Dorothy retakes the GAD-7 and gets a score of 
 ☛ [Sensitivity to change and minimal clinically important difference of the 7-item Generalized Anxiety Disorder Questionnaire (GAD-7) - ScienceDirect.](https://www.sciencedirect.com/science/article/abs/pii/S0165032719313643?via%3Dihub)
 
 ☛ GAD-7: See Preferred vocabulary bound to value set represented by [LOINC 69737-5 Generalized anxiety disorder 7 item (GAD-7)](https://loinc.org/69737-5)
-
-<!-- 
-**☛ See [Example: Assessment Observation](Observation-pcoWhatMattersRelationshipsExample.html#root)**
-
-**☛ See [Example: GAS Goal](Goal-pcoGoalSocialConnectionsWithGAS.html#root)**
-
-**☛ See [Example: PROM Goal for Anxiety](Goal-pcoGoalAnxietyExample.html#root)**
-
-**☛ See [Example: GAS score by patient](Observation-pcoGASScorePatientFollowupExample.html#root)**
-
-**☛ See [Example: GAS score by a practitioner](Observation-pcoGASScorePractitionerFollowupExample.html#root)**
-
-**☛ See [Example: PROM score by patient](Observation-pcoPROMScoreAnxietyFollowUp.html#root)**
- -->
