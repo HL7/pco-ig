@@ -10,7 +10,7 @@ Alias: DAR = http://terminology.hl7.org/CodeSystem/data-absent-reason
 Alias: Hl7FhirAdminGender  = http://hl7.org/fhir/administrative-gender
 Alias: NUCC = http://nucc.org/provider-taxonomy
 Alias: USCORECAT = http://hl7.org/fhir/us/core/CodeSystem/us-core-category
-Alias: OBSCAT = http://terminology.hl7.org/CodeSystem/observation-category|1.0.0
+Alias: OBSCAT = http://terminology.hl7.org/CodeSystem/observation-category
 
 // ValueSet and CodeSystem URIs
 // NOTE: use a value set (not code system) when binding a field

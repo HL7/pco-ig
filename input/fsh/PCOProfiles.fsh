@@ -46,7 +46,7 @@ Profile: PCOCarePlan
 Parent: USCoreCarePlanProfile
 Id: pco-care-plan
 Title: "Person-Centered Care Plan"
-Description: "A person-centered care plan SHALL reference a person-centered goal and SHALL include action steps that support progress toward achievement of the plan's goals and desired outcomes. A plan SHOULD address the person's stated priorities for what matters most to them. Action steps may include both treatment procedures and self-care steps identified by the person."
+Description: "§A person-centered care plan SHALL reference a person-centered goal and SHALL include action steps that support progress toward achievement of the plan's goals and desired outcomes. A plan SHOULD address the person's stated priorities for what matters most to them. Action steps may include both treatment procedures and self-care steps identified by the person.§"
 * insert PCOCategory
 * goal 1..* MS
 * goal ^slicing.discriminator.type = #profile

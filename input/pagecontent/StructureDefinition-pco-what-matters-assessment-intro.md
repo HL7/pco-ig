@@ -2,7 +2,7 @@ The What Matters Assessment Observation inherits from the [US Core Observation S
 
 * See the [US Core Screening and Assessments](https://hl7.org/fhir/us/core/STU6.1/screening-and-assessments.html) guidance page for how this profile represents surveys, screenings, and assessments.
   * Each response to individual questions and each answer to a multi-select or “check all that apply” question is a separate US Core Screening and Assessments Observation. The question is communicated in Observation.code, and the answer is in Observation.value.
-  * Multi-question screenings and assessments use the US Core Screening and Assessments Observation to represent a “panel” or grouping. The multi-question surveys or assessments Observation.code is an overarching assessment or screening code, and the Observation.value element SHOULD be empty. Observation.hasMember references US Core Screening and Assessments Observations that represent the responses to each question in the screening or assessment.
+  * §Multi-question screenings and assessments use the US Core Screening and Assessments Observation to represent a “panel” or grouping. The multi-question surveys or assessments Observation.code is an overarching assessment or screening code, and the Observation.value element SHOULD be empty. Observation.hasMember references US Core Screening and Assessments Observations that represent the responses to each question in the screening or assessment.§
 
 **Example Usage Scenarios:**
 

@@ -32,4 +32,4 @@ Title: "Goal Barrier Assessment Codes"
 Description: "Terminology codes for goal barrier assessment"
 * ^experimental = false
 * insert SNOMEDCopyrightNotice
-* $SCT#452341000124107 "Assessment of barriers to meet care plan goals performed"
+* $SCT#811791000000103 "Identifying barriers to goal achievement"

@@ -28,12 +28,10 @@ extension:
     valueCode: draft
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
     valueInteger: 2
-#
 dependencies:
   hl7.fhir.us.core: 6.1.0
   hl7.fhir.uv.extensions.r4: 5.2.0
   hl7.fhir.us.cqfmeasures: 5.0.0
-  # hl7.fhir.uv.cqm: 1.0.0-ballot
   hl7.fhir.uv.cql: 2.0.0
   fhir.cqf.common: 4.0.1
 
@@ -88,7 +86,7 @@ pages:
 # http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
 #
 parameters:
-  path-expansion-params: '../../input/_resources/terminology-settings.json'  # for using US ed of SNOMED
+  path-expansion-params: '../../input/_resources/terminology-settings.json' # for using US ed of SNOMED
   show-inherited-invariants: false
   apply-jurisdiction: true
   apply-publisher: true

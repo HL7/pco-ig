@@ -53,7 +53,7 @@ Description: "Example value set containing well-being domains from a Personal He
 // * include codes from system PersonalHealthInventory
 // Cannot use "include codes" because cqframework -EnsureExecutableValueSet does not support this expansion
 * PersonalHealthInventory#health-inventory "Personal Health Inventory"
-* PersonalHealthInventory#body "Food and Drink"
+* PersonalHealthInventory#body "Moving the Body"
 * PersonalHealthInventory#mind "Power of the Mind"
 * PersonalHealthInventory#nourishment "Food & Drink"
 * PersonalHealthInventory#recharge "Recharge"

@@ -1,0 +1,36 @@
+{
+  "resourceType" : "Requirements",
+  "id" : "fromNarrative",
+  "url" : "http://hl7.org/fhir/us/pco/Requirements/fromNarrative",
+  "name" : "FromNarrative",
+  "title" : "Narrative Conformance Statements",
+  "status" : "active",
+  "experimental" : false,
+  "description" : "Conformance statements found throughout the narrative of the IG consolidated into this computable resource for traceability purposes",
+  "statement" : [{
+    "key" : "1",
+    "conformance" : ["SHALL",
+    "SHOULD"],
+    "requirement" : "A person-centered care plan SHALL reference a person-centered goal and SHALL include action steps that support progress toward achievement of the plan's goals and desired outcomes. A plan SHOULD address the person's stated priorities for what matters most to them. Action steps may include both treatment procedures and self-care steps identified by the person."
+  },
+  {
+    "key" : "2",
+    "conformance" : ["SHALL"],
+    "requirement" : "Although the extensions and target measure are both marked as Must Support, the server system is not required to support both, but SHALL support at least one of these elements. A client application SHALL support both elements. These elements enable quality measures and other applications to determine that this Goal should have its progress and achievement tracked using GAS."
+  },
+  {
+    "key" : "3",
+    "conformance" : ["SHALL"],
+    "requirement" : "Although Goal 'pco' and 'goal-domain' categories are both marked as Must Support, the server system is not required to support both, but SHALL support at least one of these elements. A client application SHALL support both elements. These categories enable quality measures and other applications to determine which patient goals are person-centered."
+  },
+  {
+    "key" : "4",
+    "conformance" : ["SHOULD"],
+    "requirement" : "Multi-question screenings and assessments use the US Core Screening and Assessments Observation to represent a “panel” or grouping. The multi-question surveys or assessments Observation.code is an overarching assessment or screening code, and the Observation.value element SHOULD be empty. Observation.hasMember references US Core Screening and Assessments Observations that represent the responses to each question in the screening or assessment."
+  },
+  {
+    "key" : "5",
+    "conformance" : ["SHOULD"],
+    "requirement" : "Multi-question screenings and assessments use the US Core Screening and Assessments Observation to represent a “panel” or grouping. The multi-question surveys or assessments Observation.code is an overarching assessment or screening code, and the Observation.value element SHOULD be empty. Observation.hasMember references US Core Screening and Assessments Observations that represent the responses to each question in the screening or assessment."
+  }]
+}

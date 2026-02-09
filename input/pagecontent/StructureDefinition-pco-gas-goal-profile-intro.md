@@ -36,4 +36,4 @@ This Person-Centered GAS Goal Profile inherits shared definitions from the [PCO 
 
 **Profile Specific Implementation Guidance:**
 
-* *Although the extensions and target measure are both marked as Must Support, the server system is not required to support both, but SHALL support at least one of these elements. A client application SHALL support both elements. These elements enable quality measures and other applications to determine that this Goal should have its progress and achievement tracked using GAS.
+* §Although the extensions and target measure are both marked as Must Support, the server system is not required to support both, but SHALL support at least one of these elements. A client application SHALL support both elements. These elements enable quality measures and other applications to determine that this Goal should have its progress and achievement tracked using GAS.§

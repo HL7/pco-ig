@@ -48,7 +48,7 @@ Title: "Goal Barrier: Anxiety in social situations, coded value"
 Description: "Barrier for goal achievement"
 Usage: #example
 * status = #final 
-* code = $SCT#452341000124107 "Assessment of barriers to meet care plan goals performed"
+* code = $SCT#811791000000103 "Identifying barriers to goal achievement"
 * focus = Reference(pcoGoalSocialConnectionsWithGAS)
 * subject = Reference(pcoPatientJones)
 * performer = Reference(pcoPatientJones)
@@ -61,7 +61,7 @@ Title: "Goal Barrier: Don't like to drive"
 Description: "Barrier with a free-text description"
 Usage: #example
 * status = #final 
-* code = $SCT#452341000124107 "Assessment of barriers to meet care plan goals performed"
+* code = $SCT#811791000000103 "Identifying barriers to goal achievement"
 * focus = Reference(pcoGoalSocialConnectionsWithGAS)
 * subject = Reference(pcoPatientJones)
 * performer = Reference(pcoPatientJones)
