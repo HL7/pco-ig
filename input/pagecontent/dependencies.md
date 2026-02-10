@@ -1,10 +1,9 @@
 
 ### Package Dependencies
-{% include dependency-table.xhtml %}
+{% lang-fragment dependency-table.xhtml %}
  
 ### Intellectual Property Considerations
-{% include ip-statements.xhtml %}
+{% lang-fragment ip-statements.xhtml %}
  
 ### Globals Profiles
-{% include globals-table.xhtml %}
- 
+{% lang-fragment globals-table.xhtml %}
