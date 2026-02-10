@@ -11,3 +11,4 @@ This Person-Centered Care Plan Profile inherits from the [US Core Care Plan Prof
 1. required elements from [US Core Care Plan Profile](http://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-careplan.html)
 1. a Person-Centered Goal, either GAS or PROM goal
 1. at least one activity
+
