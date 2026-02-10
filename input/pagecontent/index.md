@@ -78,5 +78,5 @@ This IG is divided into several sections that are listed at the top of each page
 
 ### Cross Version Analysis
 
-{% include cross-version-analysis.xhtml %}
+{% lang-fragment cross-version-analysis.xhtml %}
  
