@@ -24,8 +24,7 @@ SD_PATH_SLICING_DEPRECATED
 # WARNING: StructureDefinition/pco-care-plan: StructureDefinition.snapshot.element[9].comment: The markdown contains content that appears to be an embedded HTML tag starting at 'Th'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
 
 # Suppress warnings on informative Measure resources that do not include library artifacts in this IG
-WARNING: /Users/dcarlson/git/HL7/pco-ig/input/resources/measure/Measure-GoalFollowUpMeasure.json: Artifact library could not be found so no data requirements were inferred.
-WARNING: /Users/dcarlson/git/HL7/pco-ig/input/resources/measure/Measure-GoalIdentificationMeasure.json: Artifact library could not be found so no data requirements were inferred.
+% Artifact library could not be found so no data requirements were inferred.
 
 # Suppress information messages on LOINC code display names for PROM Target Measure Scores
 %Wrong Display Name 'PROMIS%
