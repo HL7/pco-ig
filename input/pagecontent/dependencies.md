@@ -7,3 +7,6 @@
  
 ### Globals Profiles
 {% lang-fragment globals-table.xhtml %}
+
+### Expansion Parameters
+{% lang-fragment expansion-params.xhtml %}
