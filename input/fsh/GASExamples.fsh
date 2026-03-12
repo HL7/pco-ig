@@ -97,7 +97,7 @@ Usage: #example
 * subject = Reference(pcoPatientJones)
 * performer = Reference(pcoPractitionerGonzalez)
 * effectiveDateTime = "2025-02-15T15:15:00Z"
-* code = $LNC#107332-9 "Goal attainment scale - Reported"
+* code = $LNC#112296-9 "Goal attainment scale GAS baseline"
 * focus = Reference(pcoGoalSocialConnectionsWithGAS)
 * valueCodeableConcept = $LNC#LA34483-0 "Less than expected"
 
