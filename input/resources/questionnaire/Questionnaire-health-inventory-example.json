@@ -11,7 +11,7 @@
   "name": "PersonalHealthInventory",
   "title": "Personal Health Inventory",
   "description": "A Questionnaire for a person's assessment of what matters most in their health and well-being.",
-  "status": "draft",
+  "status": "active",
   "experimental": true,
   "date": "2025-02-05",
   "publisher": "HL7 International / Patient Care",

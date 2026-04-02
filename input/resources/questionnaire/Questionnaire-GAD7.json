@@ -9,7 +9,7 @@
   "name": "Generalized_anxiety_disorder_item",
   "title": "Generalized Anxiety Disorder (GAD-7)",
   "description": "Generalized anxiety disorder 7-item assessment",
-  "status": "draft",
+  "status": "active",
   "subjectType": [
     "Patient"
   ],

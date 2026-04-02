@@ -14,7 +14,7 @@
   "url": "http://hl7.org/fhir/us/pco/ValueSet/goal-attainment-scaling-score",
   "name": "GoalAttainmentScalingScore",
   "title": "Goal Attainment Scaling (GAS) Score",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "description": "The score indicates how a patient, caregiver, or practitioner rated progress on goal attainment scaling.",
   "copyright": "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc",
@@ -23,7 +23,7 @@
       "system": "http://loinc.org",
       "concept": [ {
         "code": "107332-9",
-        "display": "Goal attainment scale - Reported"
+        "display": "Goal attainment scale GAS follow-up assessment - Reported"
       }, {
         "code": "107333-7",
         "display": "Practitioner follow-up goal attainment scaling score"
@@ -45,7 +45,7 @@
     "contains": [ {
       "system": "http://loinc.org",
       "code": "107332-9",
-      "display": "Goal attainment scale - Reported"
+      "display": "Goal attainment scale GAS follow-up assessment - Reported"
     }, {
       "system": "http://loinc.org",
       "code": "107333-7",

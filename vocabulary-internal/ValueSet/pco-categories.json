@@ -14,7 +14,7 @@
   "url": "http://hl7.org/fhir/us/pco/ValueSet/pco-categories",
   "name": "PCOCategories",
   "title": "Person-Centered Categories",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "description": "Categories for person-centered assessment or goals.",
   "compose": {

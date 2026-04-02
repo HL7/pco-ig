@@ -14,7 +14,7 @@
   "url": "http://hl7.org/fhir/us/pco/ValueSet/wellbeing-domains-example",
   "name": "WellBeingDomainValueSet",
   "title": "Well-Being Domains Example",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "description": "Example value set containing well-being domains from a Personal Health Inventory.",
   "compose": {

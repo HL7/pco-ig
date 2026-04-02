@@ -26,7 +26,7 @@ Title: "Readiness Assessment Concepts"
 Description: "Code system to types of readiness for change. Temporary codes are provided for non-production use while new standard terminology codes are submitted."
 * ^caseSensitive = true
 * ^experimental = true
-* ^status = #draft
+* ^status = #active
 * insert PCOCodeSystemPublisher
 * #readiness-assessment "Readiness assessment"
     "Panel code for readiness scales"

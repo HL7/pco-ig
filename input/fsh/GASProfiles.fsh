@@ -27,7 +27,7 @@ Description: "A person-centered goal using Goal Attainment Scaling (GAS) to meas
   * ^short = "(USCDI) Target outcome for the goal"
   * measure 0..1 MS
   * measure = $LNC#107332-9
-    * ^short = "Goal attainment scale - Reported"
+    * ^short = "Goal attainment scale GAS follow-up assessment - Reported"
 
 Profile: PCOGoalAttainmentScoreObservation
 Parent: USCoreObservationScreeningAssessmentProfile

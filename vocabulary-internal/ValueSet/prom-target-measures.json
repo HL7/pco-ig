@@ -14,7 +14,7 @@
   "url": "http://hl7.org/fhir/us/pco/ValueSet/prom-target-measures",
   "name": "PROMTargetMeasures",
   "title": "PROM Target Measure Scores",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "description": "Target measure score codes used to track progress on patient-reported outcome measures (PROMs).",
   "copyright": "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc",

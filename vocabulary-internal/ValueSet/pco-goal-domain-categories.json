@@ -14,7 +14,7 @@
   "url": "http://hl7.org/fhir/us/pco/ValueSet/pco-goal-domain-categories",
   "name": "PCOGoalDomainCategories",
   "title": "PCO Goal Domain Categories",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "description": "Value set to identify the goal domain category for PCO resources.",
   "compose": {

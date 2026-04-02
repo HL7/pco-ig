@@ -9,7 +9,7 @@
     "name": "PHQ_quick_depression_assessment_panel",
     "title": "PHQ-9 Depression Assessment",
     "description": "Depression assessment 9-item panel",
-    "status": "draft",
+    "status": "active",
     "subjectType": [
         "Patient"
     ],

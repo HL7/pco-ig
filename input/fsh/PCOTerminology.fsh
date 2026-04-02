@@ -24,7 +24,7 @@ Title: "Person-Centered Outcome Concepts"
 Description: "Code system to identify resource codes and category codes for Person-Centered Outcomes. Temporary codes are provided for non-production use while new standard terminology codes are submitted."
 * ^caseSensitive = true
 * ^experimental = true
-* ^status = #draft
+* ^status = #active
 * ^hierarchyMeaning = #is-a
 * insert PCOCodeSystemPublisher
 * #person-centered "Person-Centered"
@@ -58,7 +58,7 @@ Title: "PCO Goal Domains"
 Description: "Goal domain codes used to identify the category for PCO resources. Temporary codes are provided for non-production use while new standard terminology codes are submitted."
 * ^caseSensitive = true
 * ^experimental = true
-* ^status = #draft
+* ^status = #active
 * insert PCOCodeSystemPublisher
 * #housing "Housing"
     "Having acceptable housing that is appropriate for a person's needs."

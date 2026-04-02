@@ -40,7 +40,7 @@ Usage: #example
 * target.dueDate = "2025-07-31"
 * addresses[0] = Reference(pcoWhatMattersRelationshipsExample) "What Matters: Family & Friends"
 * description.text = "I want to practice being present when interacting with family and friends in an uplifting way at least 3x monthly."
-* target.measure = $LNC#107332-9 "Goal attainment scale - Reported"
+* target.measure = $LNC#107332-9 "Goal attainment scale GAS follow-up assessment - Reported"
 
 Instance: pcoBarrierAnxietyCodedValue
 InstanceOf: PCOGoalBarrierProfile

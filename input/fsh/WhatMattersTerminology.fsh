@@ -5,7 +5,7 @@ Title: "What Matters Concepts"
 Description: "Code system to identify observation codes for What Matters assessment. Temporary codes are provided for non-production use while new standard terminology codes are submitted."
 * ^caseSensitive = true
 * ^experimental = true
-* ^status = #draft
+* ^status = #active
 * insert PCOCodeSystemPublisher
 * #now-rating "Now Rating"
     "Where are you now?"
@@ -22,7 +22,7 @@ Title: "Personal Health Inventory Concepts"
 Description: "Code system to identify Personal Health Inventory concepts. Temporary codes are provided for non-production use while new standard terminology codes are submitted."
 * ^caseSensitive = true
 * ^experimental = true
-* ^status = #draft
+* ^status = #active
 * insert PCOCodeSystemPublisher
 * #health-inventory "Personal Health Inventory"
     "Personal health inventory panel"
