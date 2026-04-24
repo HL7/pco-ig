@@ -3,6 +3,17 @@
 # Supress information message for use of SHALL in IG overview about reading a formal_specification
 INFORMATION: en/formal_specification.html: The html source contains the word 'SHALL' but it is not in a text phrase marked as a conformance clause: 'This section defines additional requirements and guidance relevant to this IG as a whole. The FHIR Conformance Rules define the conformance verbs - SHALL, SHOULD, MAY - used in this IG.'
 
+# Suppress information messages from latest publisher on example instances; category bindings are unmodifed from derived US Core profile
+%Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1)%
+
+# Suppress warning messages from latest publisher; LOINC value set URLs are resolvable
+WARNING: StructureDefinition/pco-gas-score-observation: StructureDefinition.differential.element[4].binding: The valueSet reference http://loinc.org/vs/LL6900-6 on element Observation.value[x] could not be resolved
+WARNING: StructureDefinition/pco-gas-score-observation: StructureDefinition.snapshot.element[23].binding: The valueSet reference http://loinc.org/vs/LL6900-6 on element Observation.value[x] could not be resolved
+WARNING: StructureDefinition/pco-goal-attainment-scaling: StructureDefinition.differential.element[5].binding: The valueSet reference http://loinc.org/vs/LL6900-6 on element Extension.extension.value[x] could not be resolved
+WARNING: StructureDefinition/pco-goal-attainment-scaling: StructureDefinition.snapshot.element[7].binding: The valueSet reference http://loinc.org/vs/LL6900-6 on element Extension.extension.value[x] could not be resolved
+WARNING: StructureDefinition/pco-readiness-assessment: StructureDefinition.snapshot.element[23].binding: The valueSet reference http://loinc.org/vs/LL2335-9 on element Observation.value[x] could not be resolved
+WARNING: StructureDefinition/pco-readiness-assessment: StructureDefinition.differential.element[3].binding: The valueSet reference http://loinc.org/vs/LL2335-9 on element Observation.value[x] could not be resolved
+
 # Based on US Core 6.1.0 for compatibility with current EHR system requirements and capabilities.
 WARNING: ImplementationGuide/hl7.fhir.us.pco: ImplementationGuide.dependsOn[1]: The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 8.0.1. This reference is getting old and the more recent version should be considered
 %Observation.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0
