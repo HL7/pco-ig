@@ -15,7 +15,7 @@ WARNING: StructureDefinition/pco-readiness-assessment: StructureDefinition.snaps
 WARNING: StructureDefinition/pco-readiness-assessment: StructureDefinition.differential.element[3].binding: The valueSet reference http://loinc.org/vs/LL2335-9 on element Observation.value[x] could not be resolved
 
 # Based on US Core 6.1.0 for compatibility with current EHR system requirements and capabilities.
-WARNING: ImplementationGuide/hl7.fhir.us.pco: ImplementationGuide.dependsOn[1]: The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 8.0.1. This reference is getting old and the more recent version should be considered
+WWARNING: ImplementationGuide/hl7.fhir.us.pco: ImplementationGuide.dependsOn[1]: The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 9.0.0. This reference is getting old and the more recent version should be considered
 %Observation.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0
 
 # Suppress deprecation message from extension used in snapshot

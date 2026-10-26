@@ -6,7 +6,7 @@ Description: "Person-centered goal with a PROM outcome target for GAD-7 score."
 Usage: #example
 * lifecycleStatus = #active
 * achievementStatus = $GoalAchievement#in-progress
-* category[goal-domain] = PCOGoalDomains#social-functioning "Social Functioning"
+* category[goal-domain] = $SCT#1031541000124100 "Social and role functioning goal domain"
 * subject = Reference(pcoPatientJones)
 * expressedBy = Reference(pcoPractitionerAnderson)
 * startDate = "2025-02-15"

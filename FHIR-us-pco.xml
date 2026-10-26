@@ -30,7 +30,7 @@
 <artifact id="Library/GoalFollowUpMeasure" key="Library-GoalFollowUpMeasure" name="GoalFollowUpMeasure"/>
 <artifact id="Library/GoalIdentificationMeasure" key="Library-GoalIdentificationMeasure" name="GoalIdentificationMeasure"/>
 <artifact id="ValueSet/pco-goal-domain-categories" key="ValueSet-pco-goal-domain-categories" name="PCO Goal Domain Categories"/>
-<artifact id="CodeSystem/pco-goal-domains-temporary" key="CodeSystem-pco-goal-domains-temporary" name="PCO Goal Domains"/>
+<artifact deprecated="true" id="CodeSystem/pco-goal-domains-temporary" key="CodeSystem-pco-goal-domains-temporary" name="PCO Goal Domains"/>
 <artifact id="Library/PCOCommon" key="Library-PCOCommon" name="PCOCommon"/>
 <artifact id="Questionnaire/44249-1" key="Questionnaire-44249-1" name="PHQ-9 Depression Assessment"/>
 <artifact id="ValueSet/prom-target-measures" key="ValueSet-prom-target-measures" name="PROM Target Measure Scores"/>

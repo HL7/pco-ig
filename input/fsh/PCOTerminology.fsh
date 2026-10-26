@@ -52,55 +52,55 @@ Description: "Categories for person-centered assessment or goals."
 // * PCOConcepts#mobility "Mobility"
 // * PCOConcepts#medication "Medication"
 
-CodeSystem: PCOGoalDomains
-Id: pco-goal-domains-temporary
-Title: "PCO Goal Domains"
-Description: "Goal domain codes used to identify the category for PCO resources. Temporary codes are provided for non-production use while new standard terminology codes are submitted."
-* ^caseSensitive = true
-* ^experimental = true
-* ^status = #active
-* insert PCOCodeSystemPublisher
-* #housing "Housing"
-    "Having acceptable housing that is appropriate for a person's needs."
-* #access-to-services "Access To Services"
-    "Ability to access, afford, and utilize appropriate health and community resources. Includes access to transportation, stable food resources, and assistance with financial concerns."
-* #caregiver-needs "Caregiver Needs"
-    "Supporing the needs of a person's caregiver"
-* #end-of-life "End Of Life"
-    "Planning for end-of-life care and desires to reduce burden on family or others."
-* #independence "Independence"
-    "Ability to live independently without help or assistance from others."
-* #legal "Legal"
-    "Having adequate support for legal issues such as child custody, medical power of attorney, etc."
-* #managing-conditions "Managing Conditions"
-    "Satisfaction with health care received or desired, and experiences with providers and the health care system."
-* #medication-management "Medication Management"
-    "Satisfaction with ability to manage medications."
-* #improving-health-and-wellness "Improving Health And Wellness"
-    "Ability to develop, improve and maintain positive health and wellness habits."
-* #physical-function "Physical Function"
-    "Ability to manage physical functioning, physical symptoms or conditions, and improve or maintain ability to participate in physical activities."
-* #social-functioning "Social Functioning"
-    "Ability to engage in social activities."
-* #emotional-and-mental-health "Emotional And Mental Health"
-    "Having a positive outlook on life."
+// CodeSystem: PCOGoalDomains
+// Id: pco-goal-domains-temporary
+// Title: "PCO Goal Domains"
+// Description: "Goal domain codes used to identify the category for PCO resources. Temporary codes are provided for non-production use while new standard terminology codes are submitted."
+// * ^caseSensitive = true
+// * ^experimental = true
+// * ^status = #active
+// * insert PCOCodeSystemPublisher
+// * #housing "Housing"
+//     "Having acceptable housing that is appropriate for a person's needs."
+// * #access-to-services "Access To Services"
+//     "Ability to access, afford, and utilize appropriate health and community resources. Includes access to transportation, stable food resources, and assistance with financial concerns."
+// * #caregiver-needs "Caregiver Needs"
+//     "Supporing the needs of a person's caregiver"
+// * #end-of-life "End Of Life"
+//     "Planning for end-of-life care and desires to reduce burden on family or others."
+// * #independence "Independence"
+//     "Ability to live independently without help or assistance from others."
+// * #legal "Legal"
+//     "Having adequate support for legal issues such as child custody, medical power of attorney, etc."
+// * #managing-conditions "Managing Conditions"
+//     "Satisfaction with health care received or desired, and experiences with providers and the health care system."
+// * #medication-management "Medication Management"
+//     "Satisfaction with ability to manage medications."
+// * #improving-health-and-wellness "Improving Health And Wellness"
+//     "Ability to develop, improve and maintain positive health and wellness habits."
+// * #physical-function "Physical Function"
+//     "Ability to manage physical functioning, physical symptoms or conditions, and improve or maintain ability to participate in physical activities."
+// * #social-functioning "Social Functioning"
+//     "Ability to engage in social activities."
+// * #emotional-and-mental-health "Emotional And Mental Health"
+//     "Having a positive outlook on life."
 
 ValueSet: PCOGoalDomainCategories
 Id: pco-goal-domain-categories
 Title: "PCO Goal Domain Categories"
 Description: "Value set to identify the goal domain category for PCO resources."
 * ^experimental = false
-// * include codes from system PCOGoalDomains
-// Cannot use "include codes" because cqframework -EnsureExecutableValueSet does not support this expansion
-* PCOGoalDomains#housing "Housing"
-* PCOGoalDomains#access-to-services "Access To Services"
-* PCOGoalDomains#caregiver-needs "Caregiver Needs"
-* PCOGoalDomains#end-of-life "End Of Life"
-* PCOGoalDomains#independence "Independence"
-* PCOGoalDomains#legal "Legal"
-* PCOGoalDomains#managing-conditions "Managing Conditions"
-* PCOGoalDomains#medication-management "Medication Management"
-* PCOGoalDomains#improving-health-and-wellness "Improving Health And Wellness"
-* PCOGoalDomains#physical-function "Physical Function"
-* PCOGoalDomains#social-functioning "Social Functioning"
-* PCOGoalDomains#emotional-and-mental-health "Emotional And Mental Health"
+// * include codes from system $SCTUS where concept descendant-of #1031431000124106
+// * include codes from system $SCT where concept descendant-of #1031431000124106
+* $SCT#1031441000124101 "Housing goal domain"
+* $SCT#1031451000124104 "Access to services and supports goal domain"
+* $SCT#1031461000124102 "Caregiver needs and concerns goal domain"
+* $SCT#1031471000124109 "End of life goal domain"
+* $SCT#1031481000124107 "Independence goal domain"
+* $SCT#1031491000124105 "Legal goal domain"
+* $SCT#1031501000124102 "Managing conditions and symptoms goal domain"
+* $SCT#1031511000124104 "Medication management goal domain"
+* $SCT#1031521000124107 "Improving health and wellness goal domain"
+* $SCT#1031531000124105 "Physical function goal domain"
+* $SCT#1031541000124100 "Social and role functioning goal domain"
+* $SCT#1031551000124103 "Emotional and mental health goal domain"

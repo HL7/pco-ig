@@ -2,6 +2,7 @@
 // NOTE: use a code system (not value set) in instances
 Alias: $LNC = http://loinc.org
 Alias: $SCT = http://snomed.info/sct
+Alias: $SCTUS = http://snomed.info/sct/731000124108
 Alias: $rxNorm = http://www.nlm.nih.gov/research/umls/rxnorm
 
 Alias: CAT = http://terminology.hl7.org/CodeSystem/observation-category

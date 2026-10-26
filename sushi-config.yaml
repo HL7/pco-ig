@@ -9,12 +9,13 @@ name: PCO
 title: Person-Centered Outcomes (PCO) Implementation Guide
 description: Person-Centered Outcomes (PCO) FHIR Implementation Guide
 status: active # draft | active | retired | unknown
-version: 1.0.0
+version: 1.1.0
 fhirVersion: 4.0.1
 FSHOnly: false
 copyrightYear: 2024+
 # releaseLabel: ballot # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
-releaseLabel: STU 1
+# releaseLabel: STU 1
+releaseLabel: ci-build
 license: CC0-1.0
 jurisdiction: urn:iso:std:iso:3166#US "United States of America"
 publisher:
@@ -30,7 +31,7 @@ extension:
     valueInteger: 2
 dependencies:
   hl7.fhir.us.core: 6.1.0
-  hl7.fhir.uv.extensions.r4: 5.2.0
+  hl7.fhir.uv.extensions.r4: 5.3.0
   hl7.fhir.us.cqfmeasures: 5.0.0
   hl7.fhir.uv.cql: 2.0.0
   fhir.cqf.common: 4.0.1
@@ -50,16 +51,15 @@ menu:
     Formal Specification: formal_specification.html
     Underlying Technologies: underlying_technologies.html
   FHIR Artifacts:
-    Profiles: artifacts.html#structures-resource-profiles
-    Extensions: artifacts.html#structures-extension-definitions
-    Value Sets: artifacts.html#terminology-value-sets
-    Code Systems: artifacts.html#terminology-code-systems
-    # Other Artifacts: artifacts.html#other
+    Profiles: artifacts.html#-str-profile
+    Extensions: artifacts.html#-str-extension
+    Value Sets: artifacts.html#-term-valueset
+    Code Systems: artifacts.html#-term-codesystem
   Examples:
-    Example Instances: artifacts.html#example-example-instances
-    Questionnaires: artifacts.html#structures-questionnaires
-    Measures: artifacts.html#knowledge-artifacts-measure
-    CQL Libraries: artifacts.html#knowledge-artifacts-libraries
+    Example Instances: artifacts.html#-ex-example
+    Questionnaires: artifacts.html#-str-questionnaire
+    Measures: artifacts.html#-ka-measure
+    CQL Libraries: artifacts.html#-ka-library
   Downloads: downloads.html
 
 pages:
