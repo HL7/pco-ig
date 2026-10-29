@@ -2,7 +2,9 @@
 // NOTE: use a code system (not value set) in instances
 Alias: $LNC = http://loinc.org
 Alias: $SCT = http://snomed.info/sct
-Alias: $SCTUS = http://snomed.info/sct/731000124108
+Alias: $SCTUS = http://snomed.info/sct
+// include the version until the US Edition is updated to the 2026-09-01 version in HL7 terminology server
+// Alias: $SCTUS = http://snomed.info/sct/731000124108/version/20260901
 Alias: $rxNorm = http://www.nlm.nih.gov/research/umls/rxnorm
 
 Alias: CAT = http://terminology.hl7.org/CodeSystem/observation-category

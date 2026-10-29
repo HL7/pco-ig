@@ -51,6 +51,10 @@ menu:
     Formal Specification: formal_specification.html
     Underlying Technologies: underlying_technologies.html
   FHIR Artifacts:
+    # Profiles: artifacts.html#structures-resource-profiles
+    # Extensions: artifacts.html#structures-extension-definitions
+    # Value Sets: artifacts.html#terminology-value-sets
+    # Code Systems: artifacts.html#terminology-code-systems
     Profiles: artifacts.html#-str-profile
     Extensions: artifacts.html#-str-extension
     Value Sets: artifacts.html#-term-valueset
@@ -86,6 +90,7 @@ pages:
 # http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
 #
 parameters:
+  auto-oid-root: 2.16.840.1.113883.4.642.40.103
   path-expansion-params: '../../input/_resources/terminology-settings.json' # for using US ed of SNOMED
   show-inherited-invariants: false
   apply-jurisdiction: true

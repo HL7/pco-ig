@@ -7,7 +7,7 @@ Usage: #example
 * lifecycleStatus = #active
 * achievementStatus = $GoalAchievement#in-progress
 * category[pco] = PCOConcepts#what-matters "What Matters"
-* category[goal-domain] = $SCT#1031541000124100 "Social and role functioning goal domain"
+* category[goal-domain] = $SCTUS#1031541000124100 "Social and role functioning goal domain"
 * subject = Reference(pcoPatientJones)
 * expressedBy = Reference(pcoPatientJones)
 * startDate = "2025-02-15"
@@ -33,7 +33,7 @@ Usage: #example
 * lifecycleStatus = #active
 * achievementStatus = $GoalAchievement#in-progress
 * category[pco] = PCOConcepts#what-matters "What Matters"
-* category[goal-domain] = $SCT#1031541000124100 "Social and role functioning goal domain"
+* category[goal-domain] = $SCTUS#1031541000124100 "Social and role functioning goal domain"
 * subject = Reference(pcoPatientJones)
 * expressedBy = Reference(pcoPatientJones)
 * startDate = "2025-02-15"
