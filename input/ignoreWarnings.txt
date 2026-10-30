@@ -6,20 +6,12 @@ INFORMATION: en/formal_specification.html: The html source contains the word 'SH
 # Suppress information messages from latest publisher on example instances; category bindings are unmodifed from derived US Core profile
 %Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1)%
 
-# Suppress warning messages from latest publisher; LOINC value set URLs are resolvable
-WARNING: StructureDefinition/pco-gas-score-observation: StructureDefinition.differential.element[4].binding: The valueSet reference http://loinc.org/vs/LL6900-6 on element Observation.value[x] could not be resolved
-WARNING: StructureDefinition/pco-gas-score-observation: StructureDefinition.snapshot.element[23].binding: The valueSet reference http://loinc.org/vs/LL6900-6 on element Observation.value[x] could not be resolved
-WARNING: StructureDefinition/pco-goal-attainment-scaling: StructureDefinition.differential.element[5].binding: The valueSet reference http://loinc.org/vs/LL6900-6 on element Extension.extension.value[x] could not be resolved
-WARNING: StructureDefinition/pco-goal-attainment-scaling: StructureDefinition.snapshot.element[7].binding: The valueSet reference http://loinc.org/vs/LL6900-6 on element Extension.extension.value[x] could not be resolved
-WARNING: StructureDefinition/pco-readiness-assessment: StructureDefinition.snapshot.element[23].binding: The valueSet reference http://loinc.org/vs/LL2335-9 on element Observation.value[x] could not be resolved
-WARNING: StructureDefinition/pco-readiness-assessment: StructureDefinition.differential.element[3].binding: The valueSet reference http://loinc.org/vs/LL2335-9 on element Observation.value[x] could not be resolved
-
 # Based on US Core 6.1.0 for compatibility with current EHR system requirements and capabilities.
-WWARNING: ImplementationGuide/hl7.fhir.us.pco: ImplementationGuide.dependsOn[1]: The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 9.0.0. This reference is getting old and the more recent version should be considered
-%Observation.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0
+WARNING: ImplementationGuide/hl7.fhir.us.pco: ImplementationGuide.dependsOn[1]: The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 9.0.0. This reference is getting old and the more recent version should be considered
+%Observation.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|0.1.0 from active ValueSet http://hl7.org/fhir/us/core/ValueSet/us-core-simple-observation-category|6.1.0
 
 # Suppress deprecation message from extension used in snapshot
-INFORMATION: StructureDefinition/pco-care-plan: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+INFORMATION: StructureDefinition/pco-care-plan: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.4.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
 
 # These warnings will be eliminated when US Core is updated.
 SD_PATH_SLICING_DEPRECATED
@@ -34,7 +26,6 @@ SD_PATH_SLICING_DEPRECATED
 # Suppress information messages on use of experimental PCO code systems with -temporary identifiers, per Terminology Playbook guidance
 %Reference to experimental CodeSystem http://hl7.org/fhir/us/pco/CodeSystem%
 INFORMATION: CodeSystem/pco-concepts-temporary: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
-INFORMATION: CodeSystem/pco-goal-domains-temporary: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 INFORMATION: CodeSystem/personal-health-inventory-temporary: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 INFORMATION: CodeSystem/readiness-assessment-concepts-temporary: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 INFORMATION: CodeSystem/what-matters-concepts-temporary: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
@@ -51,4 +42,4 @@ INFORMATION: CodeSystem/what-matters-concepts-temporary: CodeSystem: Most code s
 %Wrong Display Name 'Patient health questionnaire 9 item (PHQ-9) total score'%
 
 # Supress this reference generated by the HL7 publisher tooling
-%CarePlan.text.status: Reference to draft CodeSystem http://hl7.org/fhir/narrative-status|4.0.1
+%CarePlan.text.status: Reference to draft CodeSystem http://hl7.org/fhir/narrative-status|4.0.1 from active ValueSet http://hl7.org/fhir/us/core/ValueSet/us-core-narrative-status|6.1.0

@@ -31,7 +31,7 @@ extension:
     valueInteger: 2
 dependencies:
   hl7.fhir.us.core: 6.1.0
-  hl7.fhir.uv.extensions.r4: 5.3.0
+  hl7.fhir.uv.extensions.r4: 5.4.0
   hl7.fhir.us.cqfmeasures: 5.0.0
   hl7.fhir.uv.cql: 2.0.0
   fhir.cqf.common: 4.0.1
@@ -50,20 +50,25 @@ menu:
     Dependencies: dependencies.html
     Formal Specification: formal_specification.html
     Underlying Technologies: underlying_technologies.html
-  FHIR Artifacts:
-    # Profiles: artifacts.html#structures-resource-profiles
-    # Extensions: artifacts.html#structures-extension-definitions
-    # Value Sets: artifacts.html#terminology-value-sets
-    # Code Systems: artifacts.html#terminology-code-systems
-    Profiles: artifacts.html#-str-profile
-    Extensions: artifacts.html#-str-extension
-    Value Sets: artifacts.html#-term-valueset
-    Code Systems: artifacts.html#-term-codesystem
+  Artifacts:
+    Artifacts Summary: artifacts.html
+    Profiles: artifacts.html#artifacts-table
+    Extensions: artifacts.html#artifacts-table
+    Value Sets: artifacts.html#artifacts-table
+    Code Systems: artifacts.html#artifacts-table
+    # Profiles: artifacts.html#-str-profile
+    # Extensions: artifacts.html#-str-extension
+    # Value Sets: artifacts.html#-term-valueset
+    # Code Systems: artifacts.html#-term-codesystem
   Examples:
-    Example Instances: artifacts.html#-ex-example
-    Questionnaires: artifacts.html#-str-questionnaire
-    Measures: artifacts.html#-ka-measure
-    CQL Libraries: artifacts.html#-ka-library
+    Example Instances: artifacts.html#artifacts-table
+    Questionnaires: artifacts.html#artifacts-table
+    Measures: artifacts.html#artifacts-table
+    CQL Libraries: artifacts.html#artifacts-table
+    # Example Instances: artifacts.html#-ex-example
+    # Questionnaires: artifacts.html#-str-questionnaire
+    # Measures: artifacts.html#-ka-measure
+    # CQL Libraries: artifacts.html#-ka-library
   Downloads: downloads.html
 
 pages:
@@ -91,6 +96,7 @@ pages:
 #
 parameters:
   auto-oid-root: 2.16.840.1.113883.4.642.40.103
+  shownav: 'true'
   path-expansion-params: '../../input/_resources/terminology-settings.json' # for using US ed of SNOMED
   show-inherited-invariants: false
   apply-jurisdiction: true
